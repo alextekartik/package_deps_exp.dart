@@ -1,0 +1,64 @@
+name: all_projects_dart2
+description: A starting point for Dart libraries or applications.
+version: 1.0.0
+publish_to: none
+
+environment:
+  sdk: '>=2.14.4 <3.0.0'
+
+dependencies:
+  tekartik_firebase_firestore_rest:
+    git:
+      url: git://github.com/tekartik/firebase_firestore.dart
+      path: firestore_rest
+      ref: dart2
+    version: '>=0.1.0'
+  tekartik_firebase_storage_rest:
+    git:
+      url: git://github.com/tekartik/firebase_storage.dart
+      path: storage_rest
+      ref: dart2
+    version: '>=0.1.0'
+  tekartik_tone_js:
+    git:
+      url: git://github.com/tekartik/tone_js.dart
+      ref: dart2
+    version: '>=0.1.1'
+  tekartik_fs_test:
+    git:
+      url: git://github.com/tekartik/fs_shim.dart
+      path: fs_test
+      ref: dart2
+    version: '>=0.1.0'
+  tekartik_build_utils:
+    git:
+      url: git://github.com/tekartik/build_utils.dart
+      ref: dart2
+    version: '>=0.7.9'
+  tekartik_bluetooth:
+    git:
+      url: git://github.com/tekartik/bluetooth.dart
+      path: bluetooth
+      ref: dart2
+_tmp:
+  sqflite_common_test:
+    git:
+      url: https://github.com/tekartik/sqflite
+      ref: develop
+      path: sqflite_common_test
+    version: '>=0.3.0'
+  sqflite_common_porter:
+    git:
+      url: git://github.com/tekartik/sqflite_more
+      ref: dart2
+      path: sqflite_common_porter
+    version: '>=0.2.0'
+  tekartik_firebase_firestore_sim_io:
+    git:
+      url: git://github.com/tekartik/firebase.dart
+      path: firebase_sim_io
+      ref: dart2
+    version: '>=0.8.0'
+dev_dependencies:
+  lints: ^1.0.0
+  test: ^1.16.0
