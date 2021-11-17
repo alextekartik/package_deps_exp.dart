@@ -31,7 +31,7 @@ dependencies:
     sdk: flutter
   tekartik_app_flutter_sembast:
     git:
-      url: git://github.com/tekartik/app_flutter_utils.dart
+      url: https://github.com/tekartik/app_flutter_utils.dart
       ref: dart2_3
       path: app_sembast
     version: '>=0.1.0'
@@ -47,6 +47,24 @@ dependencies:
       path: packages/app_pick_crop_image_flutter
       ref: dart2_3
     version: '>=0.1.0'
+  tekartik_notepad_sqflite_app:
+    git:
+      url: https://github.com/alextekartik/flutter_app_example
+      path: notepad_sqflite
+      ref: dart2_3
+      version: '>=0.1.0'
+  tekartik_notepad_sembast_app:
+    git:
+      url: https://github.com/alextekartik/flutter_app_example
+      path: notepad_sembast
+      ref: dart2_3
+      version: '>=0.1.0'
+  tekartik_notepad_idb_app:
+    git:
+      url: https://github.com/alextekartik/flutter_app_example
+      path: notepad_idb
+      ref: dart2_3
+      version: '>=0.1.0'
   tekartik_qrscan_flutter_web:
     git:
       url: https://github.com/tekartik/app_camera.dart
@@ -58,7 +76,7 @@ dependencies:
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
-  cupertino_icons: ^1.0.2
+  cupertino_icons:
 
 dev_dependencies:
   flutter_test:

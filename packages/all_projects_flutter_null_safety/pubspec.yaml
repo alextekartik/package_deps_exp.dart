@@ -59,12 +59,30 @@ dependencies:
       path: qrscan_flutter_web
       ref: null_safety
     version: '>=0.1.0'
+  tekartik_notepad_sqflite_app:
+    git:
+      url: git://github.com/alextekartik/flutter_app_example
+      path: notepad_sqflite
+      ref: null_safety
+      version: '>=0.1.0'
+  tekartik_notepad_sembast_app:
+    git:
+      url: git://github.com/alextekartik/flutter_app_example
+      path: notepad_sembast
+      ref: null_safety
+      version: '>=0.1.0'
+  tekartik_notepad_app:
+    git:
+      url: git://github.com/alextekartik/flutter_app_example
+      path: notepad_idb
+      ref: null_safety
+      version: '>=0.1.0'
   all_projects_null_safety:
     path: ../all_projects_null_safety
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
-  cupertino_icons: ^1.0.2
+  cupertino_icons:
 
 dev_dependencies:
   flutter_test:
