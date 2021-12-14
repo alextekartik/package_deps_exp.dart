@@ -58,6 +58,24 @@ dependencies:
       url: https://github.com/tekartik/bluetooth.dart
       path: bluetooth
       ref: dart2_3
+  tekartik_http_io:
+    git:
+      url: https://github.com/tekartik/http.dart
+      path: http_io
+      ref: dart2_3
+    version: '>=0.2.0+2'
+  tekartik_build_menu_flutter:
+    git:
+      url: https://github.com/tekartik/build_flutter.dart
+      ref: dart2_3
+      path: packages/build_menu_flutter
+    version: '>=0.1.0'
+  tekartik_bluetooth_bluez:
+    git:
+      url: https://github.com/tekartik/bluetooth.dart
+      path: bluetooth_bluez
+      ref: dart2_3
+    version: '>=0.0.1'
 _tmp:
   tekartik_firebase_firestore_sim_io:
     git:
@@ -65,6 +83,7 @@ _tmp:
       path: firebase_sim_io
       ref: dart2_3
     version: '>=0.8.0'
+
 dev_dependencies:
   lints: ^1.0.0
   test: ^1.16.0
