@@ -39,7 +39,7 @@ dependencies:
   sqflite_common_test:
     git:
       url: https://github.com/tekartik/sqflite
-      ref: develop
+      ref: dart2_3
       path: sqflite_common_test
     version: '>=0.3.0'
   sqflite_common_porter:
