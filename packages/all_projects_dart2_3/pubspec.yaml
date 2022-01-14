@@ -76,6 +76,10 @@ dependencies:
       path: bluetooth_bluez
       ref: dart2_3
     version: '>=0.0.1'
+  tekartik_midi:
+    git:
+      url: https://github.com/tekartik/midi.dart
+      ref: dart2_3
 _tmp:
   tekartik_firebase_firestore_sim_io:
     git:
