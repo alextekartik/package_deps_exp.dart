@@ -122,6 +122,13 @@ dependencies:
       path: common/tablestore_universal
       ref: dart3a
     version: '>=0.1.0'
+  sembast_sqflite_common_test:
+    git:
+      url: https://github.com/tekartik/sembast_sqflite
+      path: sembast_sqflite_common_test
+      ref: dart3a
+    version: '>=0.1.0'
+
 _tmp:
   tekartik_firebase_firestore_sim_io:
     git:

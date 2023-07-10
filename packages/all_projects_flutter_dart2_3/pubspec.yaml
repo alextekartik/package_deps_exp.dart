@@ -71,6 +71,12 @@ dependencies:
       path: qrscan_flutter_web
       ref: dart2_3
     version: '>=0.1.0'
+  sembast_cloud_firestore_type_adapters:
+    git:
+      url: https://github.com/tekartik/sembast_flutter_more.dart
+      path: cloud_firestore_type_adapters
+      ref: dart2_3
+    version: '>=0.1.0'
   all_projects_dart2_3:
     path: ../all_projects_dart2_3
 
