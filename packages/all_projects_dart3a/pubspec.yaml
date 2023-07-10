@@ -80,6 +80,48 @@ dependencies:
     git:
       url: https://github.com/tekartik/midi.dart
       ref: dart3a
+  tekartik_mustache_cli:
+    git:
+      url: https://github.com/tekartik/mustache.dart
+      path: mustache_cli
+      ref: dart3a
+    version: '>=0.2.2'
+  idb_test:
+    git:
+      url: https://github.com/tekartik/idb_shim.dart
+      path: idb_test
+      ref: dart3a
+    version: '>=0.3.3'
+  idb_sqflite_common_test:
+    git:
+      url: https://github.com/tekartik/idb_sqflite
+      path: idb_sqflite_common_test
+      ref: dart3a
+    version: '>=0.2.0'
+  tekartik_aliyun_tablestore_node:
+    git:
+      url: https://github.com/tekartik/aliyun.dart
+      path: node/tablestore_node
+      ref: dart3a
+    version: '>=0.1.0'
+  tekartik_aliyun_oss_universal:
+    git:
+      url: https://github.com/tekartik/aliyun.dart
+      path: common/oss_universal
+      ref: dart3a
+    version: '>=0.1.0'
+  tekartik_aliyun_fc_universal:
+    git:
+      url: https://github.com/tekartik/aliyun.dart
+      path: common/fc_universal
+      ref: dart3a
+    version: '>=0.1.0'
+  tekartik_aliyun_tablestore_universal:
+    git:
+      url: https://github.com/tekartik/aliyun.dart
+      path: common/tablestore_universal
+      ref: dart3a
+    version: '>=0.1.0'
 _tmp:
   tekartik_firebase_firestore_sim_io:
     git:

@@ -80,6 +80,24 @@ dependencies:
     git:
       url: https://github.com/tekartik/midi.dart
       ref: dart2_3
+  tekartik_mustache_cli:
+    git:
+      url: https://github.com/tekartik/mustache.dart
+      path: mustache_cli
+      ref: dart2_3
+    version: '>=0.2.2'
+  idb_test:
+    git:
+      url: https://github.com/tekartik/idb_shim.dart
+      path: idb_test
+      ref: dart2_3
+    version: '>=0.3.3'
+  idb_sqflite_common_test:
+    git:
+      url: https://github.com/tekartik/idb_sqflite
+      path: idb_sqflite_common_test
+      ref: dart2_3
+    version: '>=0.2.0'
 _tmp:
   tekartik_firebase_firestore_sim_io:
     git:
