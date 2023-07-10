@@ -1,4 +1,4 @@
-name: all_projects_dart2_3
+name: all_projects_dart3a
 description: All dart packages
 version: 1.0.0
 publish_to: none
@@ -11,81 +11,81 @@ dependencies:
     git:
       url: https://github.com/tekartik/firebase_firestore.dart
       path: firestore_rest
-      ref: dart2_3
+      ref: dart3a
     version: '>=0.8.0'
   tekartik_firebase_storage_rest:
     git:
       url: https://github.com/tekartik/firebase_storage.dart
       path: storage_rest
-      ref: dart2_3
+      ref: dart3a
     version: '>=0.8.0'
   tekartik_app_image_web:
     git:
       url: https://github.com/tekartik/app_image.dart
       path: packages/app_image_web
-      ref: dart2_3
+      ref: dart3a
     version: '>=0.1.0'
   tekartik_tone_js:
     git:
       url: https://github.com/tekartik/tone_js.dart
-      ref: dart2_3
+      ref: dart3a
     version: '>=0.1.1'
   tekartik_fs_test:
     git:
       url: https://github.com/tekartik/fs_shim.dart
       path: fs_test
-      ref: dart2_3
+      ref: dart3a
     version: '>=0.1.0'
   sqflite_common_test:
     git:
       url: https://github.com/tekartik/sqflite
-      ref: dart2_3
+      ref: dart3a
       path: sqflite_common_test
     version: '>=0.3.0'
   sqflite_common_porter:
     git:
       url: https://github.com/tekartik/sqflite_more
-      ref: dart2_3
+      ref: dart3a
       path: sqflite_common_porter
     version: '>=0.2.0'
   tekartik_build_utils:
     git:
       url: https://github.com/tekartik/build_utils.dart
-      ref: dart2_3
+      ref: dart3a
     version: '>=0.7.9'
   tekartik_bluetooth:
     git:
       url: https://github.com/tekartik/bluetooth.dart
       path: bluetooth
-      ref: dart2_3
+      ref: dart3a
   tekartik_http_io:
     git:
       url: https://github.com/tekartik/http.dart
       path: http_io
-      ref: dart2_3
+      ref: dart3a
     version: '>=0.2.0+2'
   tekartik_build_menu_flutter:
     git:
       url: https://github.com/tekartik/build_flutter.dart
-      ref: dart2_3
+      ref: dart3a
       path: packages/build_menu_flutter
     version: '>=0.1.0'
   tekartik_bluetooth_bluez:
     git:
       url: https://github.com/tekartik/bluetooth.dart
       path: bluetooth_bluez
-      ref: dart2_3
+      ref: dart3a
     version: '>=0.0.1'
   tekartik_midi:
     git:
       url: https://github.com/tekartik/midi.dart
-      ref: dart2_3
+      ref: dart3a
 _tmp:
   tekartik_firebase_firestore_sim_io:
     git:
       url: https://github.com/tekartik/firebase.dart
       path: firebase_sim_io
-      ref: dart2_3
+      ref: dart3a
     version: '>=0.8.0'
 
 dev_dependencies:

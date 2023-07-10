@@ -1,4 +1,4 @@
-name: all_projects_flutter_dart2_3
+name: all_projects_flutter_dart3a
 description: A new Flutter project.
 
 # The following line prevents the package from being accidentally published to
@@ -32,47 +32,47 @@ dependencies:
   tekartik_app_flutter_sembast:
     git:
       url: https://github.com/tekartik/app_flutter_utils.dart
-      ref: dart2_3
+      ref: dart3a
       path: app_sembast
     version: '>=0.1.0'
   tekartik_app_prefs:
     git:
       url: https://github.com/tekartik/app_flutter_utils.dart
-      ref: dart2_3
+      ref: dart3a
       path: app_prefs
     version: '>=0.1.0'
   tekartik_app_pick_crop_image_flutter:
     git:
       url: https://github.com/tekartik/app_image.dart
       path: packages/app_pick_crop_image_flutter
-      ref: dart2_3
+      ref: dart3a
     version: '>=0.1.0'
   tekartik_notepad_sqflite_app:
     git:
       url: https://github.com/alextekartik/flutter_app_example
       path: notepad_sqflite
-      ref: dart2_3
+      ref: dart3a
       version: '>=0.1.0'
   tekartik_notepad_sembast_app:
     git:
       url: https://github.com/alextekartik/flutter_app_example
       path: notepad_sembast
-      ref: dart2_3
+      ref: dart3a
       version: '>=0.1.0'
   tekartik_notepad_idb_app:
     git:
       url: https://github.com/alextekartik/flutter_app_example
       path: notepad_idb
-      ref: dart2_3
+      ref: dart3a
       version: '>=0.1.0'
   tekartik_qrscan_flutter_web:
     git:
       url: https://github.com/tekartik/app_camera.dart
       path: qrscan_flutter_web
-      ref: dart2_3
+      ref: dart3a
     version: '>=0.1.0'
-  all_projects_dart2_3:
-    path: ../all_projects_dart2_3
+  all_projects_dart3a:
+    path: ../all_projects_dart3a
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
