@@ -158,6 +158,18 @@ dependencies:
       ref: dart2_3
       path: packages/app_zip
     version: '>=0.2.0'
+  tekartik_rpc:
+    git:
+      url: https://github.com/tekartik/rpc.dart
+      ref: dart2_3
+      path: packages/rpc
+    version: '>=0.1.0'
+  tekartik_mailjet:
+    git:
+      url: https://github.com/alextekartik/http_apis.dart
+      path: packages/mailjet
+      ref: dart2_3
+    version: '>=0.1.0'
 _tmp:
   tekartik_firebase_firestore_sim_io:
     git:
