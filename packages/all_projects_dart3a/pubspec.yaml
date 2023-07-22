@@ -199,6 +199,12 @@ dependencies:
       url: https://github.com/tekartik/pubtest.dart
       ref: dart3a
     version: '>=0.7.0'
+  tekartik_common_assets:
+    git:
+      url: https://github.com/alextekartik/assets
+      path: packages/common_assets
+      ref: dart3a
+    version: '>=0.1.0'
 _tmp:
   tekartik_firebase_firestore_sim_io:
     git:
