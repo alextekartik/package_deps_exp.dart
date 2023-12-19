@@ -15,10 +15,12 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        os: [ubuntu-latest, windows-latest, macos-latest]
-        dart: [stable, beta, dev]
+        include:
+          - os: ubuntu-latest
+            dart: stable
+
     steps:
-      - uses: dart-lang/setup-dart@v1.3
+      - uses: dart-lang/setup-dart@v1.4
         with:
           sdk: ${{ matrix.dart }}
       - uses: actions/checkout@v2

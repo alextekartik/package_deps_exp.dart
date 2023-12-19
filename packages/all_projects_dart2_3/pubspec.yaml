@@ -175,6 +175,7 @@ dependencies:
       url: https://github.com/tekartik/pubtest.dart
       ref: dart2_3
     version: '>=0.7.0'
+
 _tmp:
   tekartik_firebase_firestore_sim_io:
     git:
