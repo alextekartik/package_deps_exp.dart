@@ -194,6 +194,35 @@ dependencies:
       path: packages/mailjet
       ref: dart3a
     version: '>=0.1.0'
+  tekartik_stripe_api:
+    git:
+      url: https://github.com/alextekartik/http_apis.dart
+      path: packages/stripe
+      ref: dart3a
+    version: '>=0.1.0'
+  tekartik_deezer_api:
+    git:
+      url: https://github.com/alextekartik/http_apis.dart
+      path: packages/deezer
+      ref: dart3a
+    version: '>=0.1.0'
+  tekartik_aws_ses_node:
+    git:
+      url: https://github.com/tekartik/amazon_node.dart
+      path: packages/aws_ses_node
+      ref: dart3a
+    version: '>=0.1.2'
+  tekartik_mail_aws_ses_node:
+    git:
+      url: https://github.com/tekartik/mail.dart
+      path: packages/mail_aws_ses_node
+      ref: dart3a
+  tekartik_mail_tk:
+    git:
+      url: https://github.com/tekartik/mail.dart
+      path: packages/mail_tk
+      ref: dart3a
+      version: '>1.0.1'
   tekartik_pubtest:
     git:
       url: https://github.com/tekartik/pubtest.dart
