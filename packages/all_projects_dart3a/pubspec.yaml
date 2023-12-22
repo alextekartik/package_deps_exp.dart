@@ -234,6 +234,12 @@ dependencies:
       path: packages/common_assets
       ref: dart3a
     version: '>=0.1.0'
+  tekartik_audio_web:
+    git:
+      url: https://github.com/tekartikprj/audio_web
+      ref: dart3a
+      path: audio_web
+    version: '>=0.1.0'
 _tmp:
   tekartik_firebase_firestore_sim_io:
     git:
