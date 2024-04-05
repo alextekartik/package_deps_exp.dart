@@ -18,6 +18,8 @@ jobs:
         include:
           - os: ubuntu-latest
             flutter: stable
+          - os: ubuntu-latest
+            flutter: beta
 
     steps:
       - uses: actions/checkout@v4

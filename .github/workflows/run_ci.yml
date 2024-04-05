@@ -18,6 +18,8 @@ jobs:
         include:
           - os: ubuntu-latest
             dart: stable
+          - os: ubuntu-latest
+            dart: beta
 
     steps:
       - uses: dart-lang/setup-dart@v1.4

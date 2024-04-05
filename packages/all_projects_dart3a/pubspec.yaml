@@ -4,9 +4,10 @@ version: 1.0.0
 publish_to: none
 
 environment:
-  sdk: '>=2.18.0 <4.0.0'
+  sdk: '>=3.3.0 <4.0.0'
 
 dependencies:
+  rxdart: '>=0.27.7'
   tekartik_firebase_firestore_rest:
     git:
       url: https://github.com/tekartik/firebase_firestore.dart
@@ -240,6 +241,16 @@ dependencies:
       ref: dart3a
       path: audio_web
     version: '>=0.1.0'
+  tkcms_common:
+    git:
+      url: https://github.com/tekartikprj/tkcms.git
+      ref: dart3a
+      path: packages/tkcms_common
+  tkcms_ff:
+    git:
+      url: https://github.com/tekartikprj/tkcms.git
+      ref: dart3a
+      path: packages/tkcms_ff
 _tmp:
   tekartik_firebase_firestore_sim_io:
     git:
