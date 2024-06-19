@@ -10,16 +10,28 @@ dependencies:
   rxdart: '>=0.27.7'
   tekartik_firebase_firestore_rest:
     git:
-      url: https://github.com/tekartik/firebase_firestore.dart
+      url: https://github.com/tekartik/firebase_rest.dart
       path: firestore_rest
       ref: dart3a
     version: '>=0.8.0'
   tekartik_firebase_storage_rest:
     git:
-      url: https://github.com/tekartik/firebase_storage.dart
+      url: https://github.com/tekartik/firebase_rest.dart
       path: storage_rest
       ref: dart3a
     version: '>=0.8.0'
+  tekartik_firebase_auth_rest:
+    git:
+      url: https://github.com/tekartik/firebase_rest.dart
+      path: auth_rest
+      ref: dart3a
+    version: '>=0.3.8'
+  tekartik_firebase_rest:
+    git:
+      url: https://github.com/tekartik/firebase_rest.dart
+      path: firebase_rest
+      ref: dart3a
+    version: '>=0.6.2'
   tekartik_app_image_web:
     git:
       url: https://github.com/tekartik/app_image.dart
@@ -70,6 +82,24 @@ dependencies:
       url: https://github.com/tekartik/build_flutter.dart
       ref: dart3a
       path: packages/build_menu_flutter
+    version: '>=0.1.0'
+  tekartik_firebase_build_menu_flutter:
+    git:
+      url: https://github.com/tekartik/app_build.dart
+      ref: dart3a
+      path: packages/firebase_build_menu_flutter
+    version: '>=0.3.0'
+  tekartik_playstore_publish:
+    git:
+      url: https://github.com/tekartik/app_build.dart
+      ref: dart3a
+      path: packages/playstore_publish
+    version: '>=0.1.0'
+  tekartik_appstore_publish:
+    git:
+      url: https://github.com/tekartik/app_build.dart
+      ref: dart3a
+      path: packages/appstore_publish
     version: '>=0.1.0'
   tekartik_bluetooth_bluez:
     git:
@@ -251,6 +281,57 @@ dependencies:
       url: https://github.com/tekartikprj/tkcms.git
       ref: dart3a
       path: packages/tkcms_ff
+  tekartik_core_node:
+    git:
+      url: https://github.com/tekartik/common_node.dart
+      path: core_node
+      ref: dart3a
+  tekartik_fs_node:
+    git:
+      url: https://github.com/tekartik/common_node.dart
+      path: fs_node
+      ref: dart3a
+    version: '>=0.4.0'
+  tekartik_http_node:
+    git:
+      url: https://github.com/tekartik/common_node.dart
+      path: http_node
+      ref: dart3a
+  tekartik_platform_node:
+    git:
+      url: https://github.com/tekartik/common_node.dart
+      path: platform_node
+      ref: dart3a
+    version: '>=0.2.1'
+  tekartik_firebase_functions_node:
+    git:
+      url: https://github.com/tekartik/firebase_node.dart
+      path: functions_node
+      ref: dart3a
+    version: '>=0.2.1'
+  tekartik_firebase_firestore_node:
+    git:
+      url: https://github.com/tekartik/firebase_node.dart
+      path: firestore_node
+      ref: dart3a
+    version: '>=0.8.1'
+  tekartik_firebase_auth_node:
+    git:
+      url: https://github.com/tekartik/firebase_node.dart
+      path: auth_node
+      ref: dart3a
+  tekartik_firebase_storage_node:
+    git:
+      url: https://github.com/tekartik/firebase_node.dart
+      path: storage_node
+      ref: dart3a
+    version: '>=0.4.0'
+  tekartik_firebase_node:
+    git:
+      url: https://github.com/tekartik/firebase_node.dart
+      path: firebase_node
+      ref: dart3a
+    version: '>=0.1.1'
 _tmp:
   tekartik_firebase_firestore_sim_io:
     git:
