@@ -3,10 +3,34 @@ import 'package:process_run/shell.dart';
 import 'package:collection/collection.dart';
 import 'package:dev_build/build_support.dart';
 
-Future<void> main() async {
-  var path = '.';
-
+class Helper {
+  /// If false new only
+  final bool addAll;
   var globalMap = <String, Map>{};
+
+  Helper({this.addAll = false});
+
+  Future<void> addGlobalToTkpubConfig() async {
+    List<String>? existing;
+    if (!addAll) {
+      existing = (await run('tkpub config list'))
+          .outLines
+          .map((line) => line.split(' ').first)
+          .toList();
+    }
+    for (var entry in globalMap.entries) {
+      if (existing != null && existing.contains(entry.key)) {
+        continue;
+      }
+      // print('${entry.key}: ${entry.value}');
+      var url = entry.value['url'];
+      var path = entry.value['path'];
+      if (url != null) {
+        await run(
+            'tkpub config set ${entry.key} --git-url $url${path != null ? ' --git-path $path' : ''}');
+      }
+    }
+  }
 
   Future<void> handlePath(String path) async {
     void addGlobal(String name, {required String gitUrl, String? gitPath}) {
@@ -50,25 +74,27 @@ Future<void> main() async {
       }
     }
   }
+}
 
-  await handlePath('.');
+Future<void> main() async {
+  addDeps('.', addAll: true);
+}
+
+Future<void> addDeps(String path, {bool addAll = false}) async {
+  var path = '.';
+
+  var helper = Helper(addAll: addAll);
+
+  await helper.handlePath('.');
   var packageConfigMap = await pathGetPackageConfigMap(path);
   var packages = packageConfigGetPackages(packageConfigMap);
   for (var package in packages) {
     var path =
         pathPackageConfigMapGetPackagePath('.', packageConfigMap, package);
     if (path != null) {
-      await handlePath(path);
+      await helper.handlePath(path);
     }
   }
 
-  for (var entry in globalMap.entries) {
-    // print('${entry.key}: ${entry.value}');
-    var url = entry.value['url'];
-    var path = entry.value['path'];
-    if (url != null) {
-      await run(
-          'tkpub config set ${entry.key} --git-url $url${path != null ? ' --git-path $path' : ''}');
-    }
-  }
+  helper.addGlobalToTkpubConfig();
 }
