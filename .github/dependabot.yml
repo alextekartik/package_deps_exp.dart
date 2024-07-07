@@ -3,10 +3,29 @@
 version: 2
 
 enable-beta-ecosystems: true
+
 updates:
+  - package-ecosystem: "pub"
+    directory: "packages/all_projects_dart2_3"
+    schedule:
+      interval: "monthly"
+  - package-ecosystem: "pub"
+    directory: "packages/all_projects_dart3a"
+    schedule:
+      interval: "monthly"
+  - package-ecosystem: "pub"
+    directory: "packages/all_projects_flutter_dart2_3"
+    schedule:
+      interval: "monthly"
+  - package-ecosystem: "pub"
+    directory: "packages/all_projects_flutter_dart3a"
+    schedule:
+      interval: "monthly"
+  - package-ecosystem: "pub"
+    directory: "repo_support"
+    schedule:
+      interval: "monthly"
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
       interval: "monthly"
-    labels:
-      - autosubmit

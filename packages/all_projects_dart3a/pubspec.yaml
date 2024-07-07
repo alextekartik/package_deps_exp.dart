@@ -338,6 +338,16 @@ dependencies:
       ref: dart3a
       path: packages/app_build_menu
     version: '>=0.3.0'
+  tkcms_support:
+    git:
+      url: https://github.com/tekartikprj/tkcms.git
+      ref: dart3a
+      path: packages/tkcms_support
+  linkelio_common:
+    git:
+      url: https://github.com/tekartikprj/linkelio.git
+      ref: dart3a
+      path: packages/linkelio_common
 _tmp:
   tekartik_firebase_firestore_sim_io:
     git:
