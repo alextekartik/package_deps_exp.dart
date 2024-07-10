@@ -348,6 +348,17 @@ dependencies:
       url: https://github.com/tekartikprj/linkelio.git
       ref: dart3a
       path: packages/linkelio_common
+  tekartik_web_splash:
+    git:
+      url: https://github.com/tekartik/app_web_utils.dart
+      ref: dart3a
+      path: packages/web_splash
+    version: '>=0.1.0'
+  tekaly_sembast_synced:
+    git:
+      url: git@github.com:tekartikprj/tekaly.git
+      path: packages/sembast_synced
+      ref: dart3a
 _tmp:
   tekartik_firebase_firestore_sim_io:
     git:
