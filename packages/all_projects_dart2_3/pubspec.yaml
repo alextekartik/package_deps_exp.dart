@@ -175,7 +175,11 @@ dependencies:
       url: https://github.com/tekartik/pubtest.dart
       ref: dart2_3
     version: '>=0.7.0'
-
+  linkelio_common:
+    git:
+      url: https://github.com/tekartikprj/linkelio.git
+      ref: dart3a
+      path: packages/linkelio_common
 _tmp:
   tekartik_firebase_firestore_sim_io:
     git:
