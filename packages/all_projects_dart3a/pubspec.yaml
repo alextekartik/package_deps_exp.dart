@@ -356,7 +356,7 @@ dependencies:
     version: '>=0.1.0'
   tekaly_sembast_synced:
     git:
-      url: git@github.com:tekartikprj/tekaly.git
+      url: https://github.com/tekartikprj/tekaly
       path: packages/sembast_synced
       ref: dart3a
 _tmp:
