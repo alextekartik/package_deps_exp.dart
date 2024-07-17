@@ -124,7 +124,11 @@ dependencies:
       url: https://github.com/tekartik/firebase_flutter
       path: functions_call_flutter
       ref: dart3a
-
+  tekartik_test_menu_flutter:
+    git:
+      url: https://github.com/tekartik/test_menu_flutter
+      ref: dart3a
+      path: test_menu_flutter
   #js: '>=0.7.0'
   all_projects_dart3a:
     path: ../all_projects_dart3a
