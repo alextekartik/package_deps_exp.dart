@@ -359,7 +359,46 @@ dependencies:
       url: https://github.com/tekartikprj/tekaly
       path: packages/sembast_synced
       ref: dart3a
+  tekartik_idb_provider:
+    git:
+      url: https://github.com/tekartik/idb_shim_more.dart
+      path: packages/idb_provider
+      ref: dart3a
+  idb_shim_html_compat:
+    git:
+      url: https://github.com/tekartik/idb_shim_more.dart
+      path: packages/idb_shim_html_compat
+      ref: dart3a
+    version: '>=0.3.3'
+  sembast_web_html_compat:
+    git:
+      url: https://github.com/tekartik/idb_shim_more.dart
+      path: packages/sembast_web_html_compat
+      ref: dart3a
+    version: '>=0.3.3'
+
+  tekartik_cmd_record:
+    git:
+      url: https://github.com/tekartikprj/io_tools
+      path: packages/cmd_record
+      ref: dart3a
+  tekartik_cmd_echo:
+    git:
+      url: https://github.com/tekartikprj/io_tools
+      path: packages/cmd_echo
+      ref: dart3a
+  tekartik_cmd_tools:
+    git:
+      url: https://github.com/tekartikprj/io_tools
+      path: packages/cmd_tools
+      ref: dart3a
 _tmp:
+  # requires web 1.0
+  sqflite_common_ffi_web_test:
+    git:
+      url: https://github.com/tekartik/sqflite
+      path: packages_web/sqflite_common_ffi_web_test
+      ref: dart3a
   tekartik_firebase_firestore_sim_io:
     git:
       url: https://github.com/tekartik/firebase.dart
