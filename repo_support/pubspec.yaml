@@ -12,7 +12,7 @@ dependencies:
 
 dev_dependencies:
   test: '>=1.0.0'
-  dev_test: '>=0.13.4-dev.1'
+  dev_build: '>=0.13.4-dev.1'
   lints:
   pub_semver:
 dependency_overrides:
