@@ -4,7 +4,7 @@ version: 1.0.0
 publish_to: none
 
 environment:
-  sdk: '>=3.3.0 <4.0.0'
+  sdk: ^3.4.0
 
 dependencies:
   rxdart: '>=0.27.7'
@@ -392,6 +392,20 @@ dependencies:
       url: https://github.com/tekartikprj/io_tools
       path: packages/cmd_tools
       ref: dart3a
+  tekartik_html:
+    git:
+      url: https://github.com/tekartik/html.dart
+      ref: dart3a
+  tekaly_assets:
+    git:
+      url: https://github.com/tekartikprj/tekaly.git
+      path: packages/tekaly_assets
+      ref: dart3a
+  tekartik_flutter_build:
+    git:
+      url: https://github.com/tekartik/app_build.dart
+      ref: dart3a
+      path: packages/flutter_build
 _tmp:
   # requires web 1.0
   sqflite_common_ffi_web_test:
