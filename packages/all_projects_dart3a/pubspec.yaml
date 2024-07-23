@@ -406,7 +406,20 @@ dependencies:
       url: https://github.com/tekartik/app_build.dart
       ref: dart3a
       path: packages/flutter_build
+  tekartik_http_redirect:
+    git:
+      url: https://github.com/tekartik/http_redirect.dart
+      path: packages/http_redirect
+      ref: dart3a
+
 _tmp:
+  # Not supported anymore
+  tekartik_firebase_auth_browser:
+    git:
+      url: https://github.com/tekartik/firebase_auth.dart
+      path: auth_browser
+      ref: dart3a
+    version: '>=0.8.1'
   # requires web 1.0
   sqflite_common_ffi_web_test:
     git:
