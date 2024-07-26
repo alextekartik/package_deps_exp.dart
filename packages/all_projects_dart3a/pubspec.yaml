@@ -411,6 +411,16 @@ dependencies:
       url: https://github.com/tekartik/http_redirect.dart
       path: packages/http_redirect
       ref: dart3a
+  tekartik_app_common_prefs:
+    git:
+      url: https://github.com/tekartik/app_common_utils.dart
+      ref: dart3a
+      path: app_prefs
+  tekartik_prj_tktools:
+    git:
+      url: https://github.com/tekartikprj/tktools.git
+      ref: dart3a
+      path: packages/prj_tktools
 
 _tmp:
   # Not supported anymore
