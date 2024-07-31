@@ -134,7 +134,11 @@ dependencies:
       url: https://github.com/tekartik/test_menu_flutter
       ref: dart3a
       path: test_menu_flutter
-  #js: '>=0.7.0'
+  tekartik_firebase_ui_auth:
+    git:
+      url: https://github.com/tekartik/firebase_ui.dart
+      path: packages/firebase_ui_auth
+      ref: dart3a
   all_projects_dart3a:
     path: ../all_projects_dart3a
 
