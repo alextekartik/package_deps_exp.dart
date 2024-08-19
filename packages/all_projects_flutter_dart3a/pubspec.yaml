@@ -30,6 +30,11 @@ dependencies:
   flutter:
     sdk: flutter
   dev_build:
+  dev_flutter_test:
+    git:
+      url: https://github.com/tekartik/dev_flutter_test
+      ref: dart3a
+      path: dev_flutter_test
   tekartik_app_flutter_sembast:
     git:
       url: https://github.com/tekartik/app_flutter_utils.dart
