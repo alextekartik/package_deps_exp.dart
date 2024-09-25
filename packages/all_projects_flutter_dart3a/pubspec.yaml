@@ -128,7 +128,11 @@ dependencies:
       url: https://github.com/tekartik/firebase_flutter
       path: firebase_flutter
       ref: dart3a
-    version: '>=0.7.2'
+  tekartik_firebase_storage_flutter:
+    git:
+      url: https://github.com/tekartik/firebase_flutter
+      path: storage_flutter
+      ref: dart3a
   tekartik_firebase_functions_call_flutter:
     git:
       url: https://github.com/tekartik/firebase_flutter
@@ -148,6 +152,16 @@ dependencies:
     git:
       url: https://github.com/tekartik/firebase_ui.dart
       path: packages/firebase_flutter_ui_auth
+      ref: dart3a
+  tekaly_file_download:
+    git:
+      url: https://github.com/tekartikprj/tekaly
+      path: flutter_packages/file_download
+      ref: dart3a
+  tekaly_firestore_explorer:
+    git:
+      url: https://github.com/tekartikprj/tekaly
+      path: flutter_packages/firestore_explorer
       ref: dart3a
   all_projects_dart3a:
     path: ../all_projects_dart3a
