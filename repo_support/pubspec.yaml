@@ -13,7 +13,7 @@ dependencies:
 dev_dependencies:
   test: '>=1.0.0'
   dev_build: '>=0.13.4-dev.1'
-  lints:
+  lints: '>=2.0.0'
   pub_semver:
 dependency_overrides:
 #  tekartik_build_utils:
