@@ -172,6 +172,86 @@ dependencies:
   collection: '>=1.18.0'
   process_run: '>=1.0.0+1'
 
+dependency_overrides:
+  synchronized:
+    git:
+      url: https://github.com/tekartik/synchronized.dart
+      path: synchronized
+      ref: dart3a
+  sembast:
+    git:
+      url: https://github.com/tekartik/sembast.dart
+      path: sembast
+      ref: dart3a
+  sembast_web:
+    git:
+      url: https://github.com/tekartik/sembast.dart
+      path: sembast_web
+      ref: dart3a
+  sqflite:
+    git:
+      url: https://github.com/tekartik/sqflite
+      path: sqflite
+      ref: dart3a
+  sqflite_common:
+    git:
+      url: https://github.com/tekartik/sqflite
+      path: sqflite_common
+      ref: dart3a
+  sqflite_common_ffi:
+    git:
+      url: https://github.com/tekartik/sqflite
+      path: sqflite_common_ffi
+      ref: dart3a
+  sqflite_common_ffi_async:
+    git:
+      url: https://github.com/tekartik/sqflite
+      path: packages/sqflite_common_ffi_async
+      ref: dart3a
+  sqflite_common_ffi_web:
+    git:
+      url: https://github.com/tekartik/sqflite
+      path: packages_web/sqflite_common_ffi_web
+      ref: dart3a
+  pubglobalupdate:
+    git:
+      url: https://github.com/tekartik/pubglobalupdate.dart
+      ref: dart3a
+  idb_shim:
+    git:
+      url: https://github.com/tekartik/idb_shim.dart
+      path: idb_shim
+      ref: dart3a
+  idb_sqflite:
+    git:
+      url: https://github.com/tekartik/idb_sqflite
+      path: idb_sqflite
+      ref: dart3a
+  dev_test:
+    git:
+      url: https://github.com/tekartik/dev_test.dart
+      path: dev_test
+      ref: dart3a
+  dev_build:
+    git:
+      url: https://github.com/tekartik/dev_test.dart
+      path: dev_build
+      ref: dart3a
+  cv:
+    git:
+      url: https://github.com/tekartik/cv.dart
+      path: packages/cv
+      ref: dart3a
+  process_run:
+    git:
+      url: https://github.com/tekartik/process_run.dart
+      path: packages/process_run
+      ref: dart3a
+  fs_shim:
+    git:
+      url: https://github.com/tekartik/fs_shim.dart
+      path: fs
+      ref: dart3a
 dev_dependencies:
   flutter_test:
     sdk: flutter
