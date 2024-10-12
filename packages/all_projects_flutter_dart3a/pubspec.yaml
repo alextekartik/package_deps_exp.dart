@@ -179,6 +179,11 @@ dependencies:
       url: https://github.com/tekartik/app_flutter_utils.dart
       ref: dart3a
       path: app_rx_bloc
+  tekartik_app_flutter_fs:
+    git:
+      url: https://github.com/tekartik/app_flutter_utils.dart
+      ref: dart3a
+      path: app_fs
   all_projects_dart3a:
     path: ../all_projects_dart3a
 
