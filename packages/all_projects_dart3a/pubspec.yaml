@@ -461,7 +461,11 @@ dependencies:
       url: https://github.com/tekartik/app_build.dart
       ref: dart3a
       path: packages/gcr_build
-
+  tekartik_ci:
+    git:
+      url: https://github.com/tekartik/ci.dart
+      ref: dart3a
+      path: ci
 _tmp:
   # Not supported anymore
   tekartik_firebase_auth_browser:
