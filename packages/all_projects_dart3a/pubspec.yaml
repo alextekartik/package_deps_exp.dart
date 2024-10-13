@@ -466,6 +466,11 @@ dependencies:
       url: https://github.com/tekartik/ci.dart
       ref: dart3a
       path: ci
+  tekartik_app_archive:
+    git:
+      url: https://github.com/tekartik/app_common_utils.dart
+      ref: dart3a
+      path: app_archive
 _tmp:
   # Not supported anymore
   tekartik_firebase_auth_browser:
