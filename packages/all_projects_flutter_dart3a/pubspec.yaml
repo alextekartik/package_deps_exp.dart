@@ -18,7 +18,7 @@ publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 version: 1.0.0+1
 
 environment:
-  sdk: '>=3.4.0 <4.0.0'
+  sdk: ^3.5.0
 
 # Dependencies specify other packages that your package needs in order to work.
 # To automatically upgrade your package dependencies to the latest versions
@@ -29,7 +29,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  dev_build:
+  dev_build: ">=1.1.0+1"
   dev_flutter_test:
     git:
       url: https://github.com/tekartik/dev_flutter_test
@@ -40,19 +40,19 @@ dependencies:
       url: https://github.com/tekartik/app_flutter_utils.dart
       ref: dart3a
       path: app_sembast
-    version: '>=0.1.0'
+    version: ">=0.5.1"
   tekartik_app_prefs:
     git:
       url: https://github.com/tekartik/app_flutter_utils.dart
       ref: dart3a
       path: app_prefs
-    version: '>=0.1.0'
+    version: ">=0.4.2"
   tekartik_app_pick_crop_image_flutter:
     git:
       url: https://github.com/tekartik/app_image.dart
-      path: packages/app_pick_crop_image_flutter
       ref: dart3a
-    version: '>=0.1.0'
+      path: packages/app_pick_crop_image_flutter
+    version: ">=0.2.0"
   tekartik_notepad_sqflite_app:
     git:
       url: https://github.com/alextekartik/flutter_app_example
@@ -105,14 +105,14 @@ dependencies:
       url: https://github.com/tekartik/app_flutter_utils.dart
       ref: dart3a
       path: app_widget
-    version: '>=0.1.0'
+    version: ">=0.2.3"
   # App
   tekaly_firestore_explorer_test_app:
     git:
       url: https://github.com/tekartikprj/tekaly
-      path: test/firestore_explorer_test_app
       ref: dart3a
-    version: '>=0.1.0'
+      path: test/firestore_explorer_test_app
+    version: ">=1.0.0+1"
   tekartik_firebase_firestore_flutter:
     git:
       url: https://github.com/tekartik/firebase_flutter
@@ -166,9 +166,9 @@ dependencies:
   tekartik_bluetooth_flutter:
     git:
       url: https://github.com/tekartik/bluetooth.dart
-      path: bluetooth_flutter
       ref: dart3a
-    version: '>=0.2.1'
+      path: bluetooth_flutter
+    version: ">=0.5.0"
   sqflite_example_common:
     git:
       url: https://github.com/tekartik/sqflite
@@ -189,9 +189,9 @@ dependencies:
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
-  cupertino_icons:
+  cupertino_icons: ">=1.0.8"
   collection: '>=1.18.0'
-  process_run: '>=1.0.0+1'
+  process_run: ">=1.2.0+3"
 
 dependency_overrides:
   synchronized:
@@ -274,6 +274,8 @@ dependency_overrides:
       path: fs
       ref: dart3a
 dev_dependencies:
+  path: ">=1.9.0"
+  intl: ">=0.19.0"
   flutter_test:
     sdk: flutter
 
@@ -282,7 +284,7 @@ dev_dependencies:
   # activated in the `analysis_options.yaml` file located at the root of your
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
-  flutter_lints:
+  flutter_lints: ">=5.0.0"
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
