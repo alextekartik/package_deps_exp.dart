@@ -481,6 +481,11 @@ dependencies:
       url: https://github.com/tekartik/app_web_utils.dart
       ref: dart3a
       path: packages/three_js
+  tekartik_prefs_test:
+    git:
+      url: https://github.com/tekartik/prefs.dart
+      path: prefs_test
+      ref: dart3a
 _tmp:
   # Not supported anymore
   tekartik_firebase_auth_browser:
