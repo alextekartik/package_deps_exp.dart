@@ -192,6 +192,11 @@ dependencies:
   cupertino_icons: ">=1.0.8"
   collection: '>=1.18.0'
   process_run: ">=1.2.0+3"
+  tekartik_firebase_vertex_ai_flutter:
+    git:
+      url: https://github.com/tekartik/firebase_flutter
+      ref: dart3a
+      path: vertex_ai_flutter
 
 dependency_overrides:
   synchronized:
@@ -285,6 +290,11 @@ dev_dependencies:
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
   flutter_lints: ">=5.0.0"
+  tekartik_prj_tktools:
+    git:
+      url: https://github.com/tekartikprj/tktools.git
+      ref: dart3a
+      path: packages/prj_tktools
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec

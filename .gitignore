@@ -25,5 +25,8 @@ doc/api/
 .idea/
 *.iml
 
-# Loca
+# Local
 .local/
+
+# Dart
+pubspec_overrides.yaml
