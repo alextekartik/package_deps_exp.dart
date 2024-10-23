@@ -491,6 +491,11 @@ dependencies:
       url: https://github.com/tekartik/firebase_vertex_ai.dart
       ref: dart3a
       path: vertex_ai
+  tekartik_app_json_schema:
+    git:
+      url: https://github.com/tekartik/app_common_utils.dart
+      ref: dart3a
+      path: app_json_schema
 _tmp:
   # Not supported anymore
   tekartik_firebase_auth_browser:
