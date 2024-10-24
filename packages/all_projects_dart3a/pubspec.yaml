@@ -501,6 +501,11 @@ dependencies:
       url: https://github.com/tekartik/app_common_utils.dart
       ref: dart3a
       path: app_media
+  tekartik_ftp_io:
+    git:
+      url: https://github.com/tekartik/ftp.dart
+      ref: dart3a
+      path: ftp_io
 _tmp:
   # Not supported anymore
   tekartik_firebase_auth_browser:
