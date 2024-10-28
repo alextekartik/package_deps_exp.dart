@@ -278,6 +278,12 @@ dependency_overrides:
       url: https://github.com/tekartik/fs_shim.dart
       path: fs
       ref: dart3a
+  tekartik_app_flutter_common_web_utils:
+    git:
+      url: https://github.com/tekartik/app_flutter_utils.dart
+      ref: dart3a
+      path: app_common_web
+
 dev_dependencies:
   path: ">=1.9.0"
   intl: ">=0.19.0"
