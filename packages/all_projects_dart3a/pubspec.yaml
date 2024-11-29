@@ -512,6 +512,12 @@ dependencies:
       url: https://github.com/a2ktik/a2ktikcommonpublic
       ref: dart3a
       path: packages/a2ktik_asset
+  tekartik_gdrive_api_utils:
+    git:
+      url: https://github.com/tekartik/gapi.dart
+      ref: dart3a
+      path: gdrive_api_utils
+    version: '>=0.1.0'
 _tmp:
   # Not supported anymore
   tekartik_firebase_auth_browser:
