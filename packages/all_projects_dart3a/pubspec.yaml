@@ -518,6 +518,11 @@ dependencies:
       ref: dart3a
       path: gdrive_api_utils
     version: '>=0.1.0'
+  festenao_common:
+    git:
+      url: https://github.com/tekaly/festenao
+      ref: dart3a
+      path: packages/festenao_common
 _tmp:
   # Not supported anymore
   tekartik_firebase_auth_browser:
