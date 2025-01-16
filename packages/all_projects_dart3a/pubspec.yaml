@@ -523,6 +523,12 @@ dependencies:
       url: https://github.com/tekaly/festenao
       ref: dart3a
       path: packages/festenao_common
+  festenao_blur_hash:
+    git:
+      url: https://github.com/tekaly/festenao
+      path: packages/festenao_blur_hash
+      ref: dart3a
+    version: '>=0.1.0'
 _tmp:
   # Not supported anymore
   tekartik_firebase_auth_browser:
