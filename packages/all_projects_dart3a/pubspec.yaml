@@ -529,6 +529,17 @@ dependencies:
       path: packages/festenao_blur_hash
       ref: dart3a
     version: '>=0.1.0'
+  tekaly_music_note:
+    git:
+      url: https://github.com/tekartikprj/music
+      ref: dart3a
+      path: packages/music_note
+  tekaly_chordpro:
+    git:
+      url: https://github.com/tekartikprj/music
+      ref: dart3a
+      path: packages/chordpro
+    version: '>=0.1.0'
 _tmp:
   # Not supported anymore
   tekartik_firebase_auth_browser:
