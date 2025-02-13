@@ -13,10 +13,10 @@ class Helper {
   Future<void> addGlobalToTkpubConfig() async {
     List<String>? existing;
     if (!addAll) {
-      existing = (await run('tkpub config list'))
-          .outLines
-          .map((line) => line.split(' ').first)
-          .toList();
+      existing =
+          (await run(
+            'tkpub config list',
+          )).outLines.map((line) => line.split(' ').first).toList();
     }
     for (var entry in globalMap.entries) {
       if (existing != null && existing.contains(entry.key)) {
@@ -27,7 +27,8 @@ class Helper {
       var path = entry.value['path'];
       if (url != null) {
         await run(
-            'tkpub config set ${entry.key} --git-url $url${path != null ? ' --git-path $path' : ''}');
+          'tkpub config set ${entry.key} --git-url $url${path != null ? ' --git-path $path' : ''}',
+        );
       }
     }
   }
@@ -89,8 +90,11 @@ Future<void> addDeps(String path, {bool addAll = false}) async {
   var packageConfigMap = await pathGetPackageConfigMap(path);
   var packages = packageConfigGetPackages(packageConfigMap);
   for (var package in packages) {
-    var path =
-        pathPackageConfigMapGetPackagePath('.', packageConfigMap, package);
+    var path = pathPackageConfigMapGetPackagePath(
+      '.',
+      packageConfigMap,
+      package,
+    );
     if (path != null) {
       await helper.handlePath(path);
     }
