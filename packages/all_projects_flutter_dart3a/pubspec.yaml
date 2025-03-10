@@ -298,6 +298,11 @@ dependency_overrides:
       path: packages_flutter/festenao_audio_player
       ref: dart3a
     version: '>=0.2.0'
+  festenao_firebase_flutter:
+    git:
+      url: https://github.com/tekaly/festenao
+      ref: dart3a
+      path: packages_flutter/festenao_firebase_flutter
 dev_dependencies:
   path: ">=1.9.0"
   intl: ">=0.19.0"
