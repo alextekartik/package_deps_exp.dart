@@ -545,6 +545,12 @@ dependencies:
       url: https://github.com/tekartik/yacht.dart
       path: packages/yacht
       ref: dart3a
+  tekartik_app_dev_menu:
+    git:
+      url: https://github.com/tekartik/app_common_utils.dart
+      ref: dart3a
+      path: app_dev_menu
+    version: '>=0.1.0'
 _tmp:
   # Not supported anymore
   tekartik_firebase_auth_browser:
