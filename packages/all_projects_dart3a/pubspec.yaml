@@ -551,6 +551,17 @@ dependencies:
       ref: dart3a
       path: app_dev_menu
     version: '>=0.1.0'
+  tekartik_rpc_test:
+    git:
+      url: https://github.com/tekartik/rpc.dart
+      ref: dart3a
+      path: packages/rpc_test
+  tekartik_web_socket_test:
+    git:
+      url: https://github.com/tekartik/web_socket.dart
+      path: web_socket_test
+      ref: dart3a
+    version: '>=0.1.0'
 _tmp:
   # Not supported anymore
   tekartik_firebase_auth_browser:
