@@ -567,6 +567,21 @@ dependencies:
       url: https://github.com/tekartik/firebase.dart
       path: firebase_sim_io
       ref: dart3a
+  tekaly_sembast_synced_test:
+    git:
+      url: https://github.com/tekartikprj/tekaly.git
+      path: packages/sembast_synced_test
+      ref: dart3a
+  tekaly_sembast_synced_rpc:
+    git:
+      url: https://github.com/tekartikprj/tekaly.git
+      path: packages/sembast_synced_rpc
+      ref: dart3a
+  tekaly_media_cache:
+    git:
+      url: https://github.com/tekartikprj/tekaly.git
+      path: packages/tekaly_media_cache
+      ref: dart3a
 _tmp:
   # Not supported anymore
   tekartik_firebase_auth_browser:
