@@ -582,6 +582,11 @@ dependencies:
       url: https://github.com/tekartikprj/tekaly.git
       path: packages/tekaly_media_cache
       ref: dart3a
+  tekartik_app_text:
+    git:
+      url: https://github.com/tekartik/app_common_utils.dart
+      ref: dart3a
+      path: app_text
 _tmp:
   # Not supported anymore
   tekartik_firebase_auth_browser:
