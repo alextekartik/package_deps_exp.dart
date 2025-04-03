@@ -587,6 +587,11 @@ dependencies:
       url: https://github.com/tekartik/app_common_utils.dart
       ref: dart3a
       path: app_text
+  sembast_dev_menu:
+    git:
+      url: https://github.com/tekartik/sembast_flutter_more.dart
+      path: example/sembast_dev_menu
+      ref: dart3a
 _tmp:
   # Not supported anymore
   tekartik_firebase_auth_browser:
