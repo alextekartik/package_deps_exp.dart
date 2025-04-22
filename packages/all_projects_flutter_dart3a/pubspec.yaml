@@ -185,6 +185,26 @@ dependencies:
       url: https://github.com/tekartik/app_flutter_utils.dart
       ref: dart3a
       path: app_fs
+  festenao_base_app:
+    git:
+      url: https://github.com/tekaly/festenao
+      ref: dart3a
+      path: packages_flutter/festenao_base_app
+  festenao_icon:
+    git:
+      url: https://github.com/tekaly/festenao
+      ref: dart3a
+      path: packages_flutter/festenao_icon
+  festenao_theme:
+    git:
+      url: https://github.com/tekaly/festenao
+      ref: dart3a
+      path: packages_flutter/festenao_theme
+  festenao_markdown:
+    git:
+      url: https://github.com/tekaly/festenao
+      ref: dart3a
+      path: packages_flutter/festenao_markdown
   all_projects_dart3a:
     path: ../all_projects_dart3a
 
