@@ -215,6 +215,7 @@ dependencies:
       url: https://github.com/tekaly/festenao
       ref: dart3a
       path: packages_flutter/festenao_youtube_player
+
   all_projects_dart3a:
     path: ../all_projects_dart3a
 
@@ -345,6 +346,8 @@ dependency_overrides:
       path: packages/kiosk_app
       ref: dart3a
 dev_dependencies:
+  # needed for firebase_auth_jwt
+  corsac_jwt: ">=2.0.1"
   path: ">=1.9.0"
   intl: ">=0.19.0"
   flutter_test:

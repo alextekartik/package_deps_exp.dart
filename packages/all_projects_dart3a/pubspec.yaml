@@ -592,6 +592,11 @@ dependencies:
       url: https://github.com/tekartik/sembast_flutter_more.dart
       path: example/sembast_dev_menu
       ref: dart3a
+  tekaly_lyrics:
+    git:
+      url: https://github.com/tekartikprj/music
+      ref: dart3a
+      path: packages/lyrics
 _tmp:
   # Not supported anymore
   tekartik_firebase_auth_browser:
