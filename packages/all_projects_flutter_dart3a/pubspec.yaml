@@ -345,6 +345,11 @@ dependency_overrides:
       url: https://github.com/tekartikprj/android_tools
       path: packages/kiosk_app
       ref: dart3a
+  festenao_media_base_app:
+    git:
+      url: https://github.com/tekaly/festenao
+      ref: dart3a
+      path: packages_flutter/festenao_media_base_app
 dev_dependencies:
   # needed for firebase_auth_jwt
   corsac_jwt: ">=2.0.1"
