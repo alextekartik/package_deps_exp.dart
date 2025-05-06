@@ -350,6 +350,27 @@ dependency_overrides:
       url: https://github.com/tekaly/festenao
       ref: dart3a
       path: packages_flutter/festenao_media_base_app
+  playlr_audio_recorder:
+    git:
+      url: https://github.com/tekaly/playlr.git
+      path: packages_flutter/playlr_audio_recorder
+      ref: dart3a
+  playlr_audio_player_blue_fire:
+    git:
+      url: https://github.com/tekaly/playlr.git
+      path: packages_flutter/playlr_audio_player_blue_fire
+      ref: dart3a
+    version: '>=0.0.1'
+  playlr_audio_player_just_audio:
+    git:
+      url: https://github.com/tekaly/playlr.git
+      ref: dart3a
+      path: packages_flutter/playlr_audio_player_just_audio
+  a2ktik_kar:
+    git:
+      url: https://github.com/a2ktik/a2ktikcommonpublic
+      path: packages/a2ktik_kar
+      ref: dart3a
 dev_dependencies:
   # needed for firebase_auth_jwt
   corsac_jwt: ">=2.0.1"
