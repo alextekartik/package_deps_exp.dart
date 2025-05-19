@@ -602,6 +602,11 @@ dependencies:
       url: https://github.com/tekaly/playlr.git
       path: packages/playlr_audio_assets
       ref: dart3a
+  tekartik_app_python:
+    git:
+      url: https://github.com/tekartik/app_io_utils.dart
+      ref: dart3a
+      path: packages/app_python
 _tmp:
   # Not supported anymore
   tekartik_firebase_auth_browser:

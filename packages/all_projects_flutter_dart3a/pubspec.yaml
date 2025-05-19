@@ -371,6 +371,7 @@ dependency_overrides:
       url: https://github.com/a2ktik/a2ktikcommonpublic
       path: packages/a2ktik_kar
       ref: dart3a
+
 dev_dependencies:
   # needed for firebase_auth_jwt
   corsac_jwt: ">=2.0.1"
