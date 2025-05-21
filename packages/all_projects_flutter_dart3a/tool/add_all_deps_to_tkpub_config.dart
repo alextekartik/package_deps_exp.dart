@@ -13,10 +13,9 @@ class Helper {
   Future<void> addGlobalToTkpubConfig() async {
     List<String>? existing;
     if (!addAll) {
-      existing =
-          (await run(
-            'tkpub config list',
-          )).outLines.map((line) => line.split(' ').first).toList();
+      existing = (await run(
+        'tkpub config list',
+      )).outLines.map((line) => line.split(' ').first).toList();
     }
     for (var entry in globalMap.entries) {
       if (existing != null && existing.contains(entry.key)) {
