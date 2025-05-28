@@ -234,6 +234,12 @@ dependencies:
       url: https://github.com/tekartik/app_flutter_utils.dart
       ref: dart3a
       path: example/test_app
+  tekartik_midi_device_flutter_command:
+    git:
+      url: https://github.com/tekartikprj/midi_device
+      path: packages/midi_device_flutter_command
+      ref: dart3a
+
 dependency_overrides:
   synchronized:
     git:

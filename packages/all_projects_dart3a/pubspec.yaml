@@ -612,6 +612,11 @@ dependencies:
       url: https://github.com/tekartik/app_common_utils.dart
       ref: dart3a
       path: app_cv_sdb
+  tekartik_midi_device_alsa_linux:
+    git:
+      url: https://github.com/tekartikprj/midi_device
+      path: packages/midi_device_alsa_linux
+      ref: dart3a
 _tmp:
   # Not supported anymore
   tekartik_firebase_auth_browser:
