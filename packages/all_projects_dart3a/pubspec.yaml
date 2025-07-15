@@ -622,6 +622,17 @@ dependencies:
       url: https://github.com/tekaly/festenao
       ref: dart3a
       path: packages/festenao_support
+  tekartik_app_web_socket:
+    git:
+      url: https://github.com/tekartik/app_common_utils.dart
+      ref: dart3a
+      path: app_web_socket
+    version: '>=0.1.0'
+  tekartik_firebase_auth_sim:
+    git:
+      url: https://github.com/tekartik/firebase_auth.dart
+      path: auth_sim
+      ref: dart3a
 _tmp:
   # Not supported anymore
   tekartik_firebase_auth_browser:
