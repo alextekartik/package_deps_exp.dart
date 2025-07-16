@@ -562,11 +562,6 @@ dependencies:
       path: web_socket_test
       ref: dart3a
     version: '>=0.1.0'
-  tekartik_firebase_sim_io:
-    git:
-      url: https://github.com/tekartik/firebase.dart
-      path: firebase_sim_io
-      ref: dart3a
   tekaly_sembast_synced_test:
     git:
       url: https://github.com/tekartikprj/tekaly.git
@@ -647,12 +642,6 @@ _tmp:
       url: https://github.com/tekartik/sqflite
       path: packages_web/sqflite_common_ffi_web_test
       ref: dart3a
-  tekartik_firebase_firestore_sim_io:
-    git:
-      url: https://github.com/tekartik/firebase.dart
-      path: firebase_sim_io
-      ref: dart3a
-    version: '>=0.8.0'
   yacht:
     git:
       url: https://github.com/tekartik/yacht.dart
