@@ -633,11 +633,6 @@ dependencies:
       url: https://github.com/tekartik/firebase_functions.dart
       path: functions_call_sim
       ref: dart3a
-  tekartik_firebase_functions_sim:
-    git:
-      url: https://github.com/tekartik/firebase_functions.dart
-      path: firebase_functions_sim
-      ref: dart3a
 _tmp:
   # Not supported anymore
   tekartik_firebase_auth_browser:
