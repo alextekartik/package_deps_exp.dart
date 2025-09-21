@@ -1,0 +1,658 @@
+name: all_projects_main
+description: All dart packages
+version: 1.0.0
+publish_to: none
+
+environment:
+  sdk: ^3.9.0
+
+dependencies:
+  rxdart: '>=0.27.7'
+  tekartik_firebase_firestore_rest:
+    git:
+      url: https://github.com/tekartik/firebase_rest.dart
+      path: firestore_rest
+
+    version: '>=0.8.0'
+  tekartik_firebase_storage_rest:
+    git:
+      url: https://github.com/tekartik/firebase_rest.dart
+      path: storage_rest
+
+    version: '>=0.8.0'
+  tekartik_firebase_auth_rest:
+    git:
+      url: https://github.com/tekartik/firebase_rest.dart
+      path: auth_rest
+
+    version: '>=0.3.8'
+  tekartik_firebase_rest:
+    git:
+      url: https://github.com/tekartik/firebase_rest.dart
+      path: firebase_rest
+
+    version: '>=0.6.2'
+  tekartik_app_image_web:
+    git:
+      url: https://github.com/tekartik/app_image.dart
+      path: packages/app_image_web
+
+    version: '>=0.1.0'
+  tekartik_tone_js:
+    git:
+      url: https://github.com/tekartik/tone_js.dart
+
+    version: '>=0.1.1'
+  tekartik_fs_test:
+    git:
+      url: https://github.com/tekartik/fs_shim.dart
+      path: fs_test
+
+    version: '>=0.1.0'
+  sqflite_common_test:
+    git:
+      url: https://github.com/tekartik/sqflite
+
+      path: sqflite_common_test
+    version: '>=0.3.0'
+  sqflite_common_porter:
+    git:
+      url: https://github.com/tekartik/sqflite_more
+
+      path: sqflite_common_porter
+    version: '>=0.2.0'
+  tekartik_build_utils:
+    git:
+      url: https://github.com/tekartik/build_utils.dart
+
+    version: '>=0.7.9'
+  tekartik_bluetooth:
+    git:
+      url: https://github.com/tekartik/bluetooth.dart
+      path: bluetooth
+
+  tekartik_http_io:
+    git:
+      url: https://github.com/tekartik/http.dart
+      path: http_io
+
+    version: '>=0.2.0+2'
+  tekartik_build_menu_flutter:
+    git:
+      url: https://github.com/tekartik/build_flutter.dart
+
+      path: packages/build_menu_flutter
+    version: '>=0.1.0'
+  tekartik_firebase_build_menu_flutter:
+    git:
+      url: https://github.com/tekartik/app_build.dart
+
+      path: packages/firebase_build_menu_flutter
+    version: '>=0.3.0'
+  tekartik_playstore_publish:
+    git:
+      url: https://github.com/tekartik/app_build.dart
+
+      path: packages/playstore_publish
+    version: '>=0.1.0'
+  tekartik_appstore_publish:
+    git:
+      url: https://github.com/tekartik/app_build.dart
+
+      path: packages/appstore_publish
+    version: '>=0.1.0'
+  tekartik_bluetooth_bluez:
+    git:
+      url: https://github.com/tekartik/bluetooth.dart
+      path: bluetooth_bluez
+
+    version: '>=0.0.1'
+  tekartik_midi:
+    git:
+      url: https://github.com/tekartik/midi.dart
+
+  tekartik_mustache_cli:
+    git:
+      url: https://github.com/tekartik/mustache.dart
+      path: mustache_cli
+
+    version: '>=0.2.2'
+  idb_test:
+    git:
+      url: https://github.com/tekartik/idb_shim.dart
+      path: idb_test
+
+    version: '>=0.3.3'
+  idb_sqflite_common_test:
+    git:
+      url: https://github.com/tekartik/idb_sqflite
+      path: idb_sqflite_common_test
+
+    version: '>=0.2.0'
+  tekartik_aliyun_tablestore_node:
+    git:
+      url: https://github.com/tekartik/aliyun.dart
+      path: node/tablestore_node
+
+    version: '>=0.1.0'
+  tekartik_aliyun_oss_universal:
+    git:
+      url: https://github.com/tekartik/aliyun.dart
+      path: common/oss_universal
+
+    version: '>=0.1.0'
+  tekartik_aliyun_fc_universal:
+    git:
+      url: https://github.com/tekartik/aliyun.dart
+      path: common/fc_universal
+
+    version: '>=0.1.0'
+  tekartik_aliyun_tablestore_universal:
+    git:
+      url: https://github.com/tekartik/aliyun.dart
+      path: common/tablestore_universal
+
+    version: '>=0.1.0'
+  sembast_sqflite_common_test:
+    git:
+      url: https://github.com/tekartik/sembast_sqflite
+      path: sembast_sqflite_common_test
+
+    version: '>=0.1.0'
+  tekartik_firebase_functions_io:
+    git:
+      url: https://github.com/tekartik/firebase_functions.dart
+      path: firebase_functions_io
+
+    version: '>=0.2.1'
+  tekartik_prefs_sembast:
+    git:
+      url: https://github.com/tekartik/prefs.dart
+      path: prefs_sembast
+
+    version: '>=0.1.0'
+  tekartik_app_io_prefs:
+    git:
+      url: https://github.com/tekartik/app_io_utils.dart
+
+      path: packages/app_prefs
+    version: '>=0.1.1'
+  tekartik_app_io_launcher:
+    git:
+      url: https://github.com/tekartik/app_io_utils.dart
+
+      path: packages/app_launcher
+    version: '>=0.1.1'
+  tekartik_app_io_platform:
+    git:
+      url: https://github.com/tekartik/app_io_utils.dart
+
+      path: packages/app_platform
+    version: '>=0.3.1'
+  tekartik_app_secure_env:
+    git:
+      url: https://github.com/tekartik/app_io_utils.dart
+
+      path: packages/app_secure_env
+    version: '>=0.1.0'
+  tekartik_app_io_sembast:
+    git:
+      url: https://github.com/tekartik/app_io_utils.dart
+
+      path: packages/app_sembast
+    version: '>=0.1.0'
+  tekartik_app_io_sqflite:
+    git:
+      url: https://github.com/tekartik/app_io_utils.dart
+
+      path: packages/app_sqflite
+    version: '>=0.2.0'
+  tekartik_app_io_zip:
+    git:
+      url: https://github.com/tekartik/app_io_utils.dart
+
+      path: packages/app_zip
+    version: '>=0.2.0'
+  tekartik_rpc:
+    git:
+      url: https://github.com/tekartik/rpc.dart
+
+      path: packages/rpc
+    version: '>=0.1.0'
+  tekartik_mailjet:
+    git:
+      url: https://github.com/alextekartik/http_apis.dart
+      path: packages/mailjet
+
+    version: '>=0.1.0'
+  tekartik_stripe_api:
+    git:
+      url: https://github.com/alextekartik/http_apis.dart
+      path: packages/stripe
+
+    version: '>=0.1.0'
+  tekartik_deezer_api:
+    git:
+      url: https://github.com/alextekartik/http_apis.dart
+      path: packages/deezer
+
+    version: '>=0.1.0'
+  tekartik_aws_ses_node:
+    git:
+      url: https://github.com/tekartik/amazon_node.dart
+      path: packages/aws_ses_node
+
+    version: '>=0.1.2'
+  tekartik_mail_aws_ses_node:
+    git:
+      url: https://github.com/tekartik/mail.dart
+      path: packages/mail_aws_ses_node
+
+  tekartik_mail_tk:
+    git:
+      url: https://github.com/tekartik/mail.dart
+      path: packages/mail_tk
+
+    version: '>1.0.1'
+  tekartik_pubtest:
+    git:
+      url: https://github.com/tekartik/pubtest.dart
+
+    version: '>=0.7.0'
+  tekartik_common_assets:
+    git:
+      url: https://github.com/alextekartik/assets
+      path: packages/common_assets
+
+    version: '>=0.1.0'
+  tekartik_audio_web:
+    git:
+      url: https://github.com/tekartikprj/audio_web
+
+      path: audio_web
+    version: '>=0.1.0'
+  tkcms_common:
+    git:
+      url: https://github.com/tekartikprj/tkcms.git
+
+      path: packages/tkcms_common
+  tkcms_test:
+    git:
+      url: https://github.com/tekartikprj/tkcms.git
+
+      path: packages/tkcms_test
+  tkcms_ff:
+    git:
+      url: https://github.com/tekartikprj/tkcms.git
+
+      path: packages/tkcms_ff
+  tekartik_core_node:
+    git:
+      url: https://github.com/tekartik/common_node.dart
+      path: core_node
+
+  tekartik_fs_node:
+    git:
+      url: https://github.com/tekartik/common_node.dart
+      path: fs_node
+
+    version: '>=0.4.0'
+  tekartik_http_node:
+    git:
+      url: https://github.com/tekartik/common_node.dart
+      path: http_node
+
+  tekartik_platform_node:
+    git:
+      url: https://github.com/tekartik/common_node.dart
+      path: platform_node
+
+    version: '>=0.2.1'
+  tekartik_firebase_functions_node:
+    git:
+      url: https://github.com/tekartik/firebase_node.dart
+      path: functions_node
+
+    version: '>=0.2.1'
+  tekartik_firebase_firestore_node:
+    git:
+      url: https://github.com/tekartik/firebase_node.dart
+      path: firestore_node
+
+    version: '>=0.8.1'
+  tekartik_firebase_auth_node:
+    git:
+      url: https://github.com/tekartik/firebase_node.dart
+      path: auth_node
+
+  tekartik_firebase_storage_node:
+    git:
+      url: https://github.com/tekartik/firebase_node.dart
+      path: storage_node
+
+    version: '>=0.4.0'
+  tekartik_firebase_node:
+    git:
+      url: https://github.com/tekartik/firebase_node.dart
+      path: firebase_node
+
+    version: '>=0.1.1'
+  tekartik_app_web_build_menu:
+    git:
+      url: https://github.com/tekartik/app_web_utils.dart
+
+      path: packages/app_build_menu
+    version: '>=0.3.0'
+  tkcms_support:
+    git:
+      url: https://github.com/tekartikprj/tkcms.git
+
+      path: packages/tkcms_support
+  linkelio_common:
+    git:
+      url: https://github.com/tekartikprj/linkelio.git
+
+      path: packages/linkelio_common
+  tekartik_web_splash:
+    git:
+      url: https://github.com/tekartik/app_web_utils.dart
+
+      path: packages/web_splash
+    version: '>=0.1.0'
+  tekaly_sembast_synced:
+    git:
+      url: https://github.com/tekartikprj/tekaly
+      path: packages/sembast_synced
+
+  tekartik_idb_provider:
+    git:
+      url: https://github.com/tekartik/idb_shim_more.dart
+      path: packages/idb_provider
+
+  idb_shim_html_compat:
+    git:
+      url: https://github.com/tekartik/idb_shim_more.dart
+      path: packages/idb_shim_html_compat
+
+    version: '>=0.3.3'
+  sembast_web_html_compat:
+    git:
+      url: https://github.com/tekartik/idb_shim_more.dart
+      path: packages/sembast_web_html_compat
+
+    version: '>=0.3.3'
+
+  tekartik_cmd_record:
+    git:
+      url: https://github.com/tekartikprj/io_tools
+      path: packages/cmd_record
+
+  tekartik_cmd_echo:
+    git:
+      url: https://github.com/tekartikprj/io_tools
+      path: packages/cmd_echo
+
+  tekartik_cmd_tools:
+    git:
+      url: https://github.com/tekartikprj/io_tools
+      path: packages/cmd_tools
+
+  tekartik_html:
+    git:
+      url: https://github.com/tekartik/html.dart
+
+  tekaly_assets:
+    git:
+      url: https://github.com/tekartikprj/tekaly.git
+      path: packages/tekaly_assets
+
+  tekartik_flutter_build:
+    git:
+      url: https://github.com/tekartik/app_build.dart
+
+      path: packages/flutter_build
+  tekartik_http_redirect:
+    git:
+      url: https://github.com/tekartik/http_redirect.dart
+      path: packages/http_redirect
+
+  tekartik_app_common_prefs:
+    git:
+      url: https://github.com/tekartik/app_common_utils.dart
+
+      path: app_prefs
+  tekartik_prj_tktools:
+    git:
+      url: https://github.com/tekartikprj/tktools.git
+
+      path: packages/prj_tktools
+  tekartik_app_sembast_firestore_type_adapters:
+    git:
+      url: https://github.com/tekartik/app_common_utils.dart
+
+      path: app_sembast_firestore_type_adapters
+  tekartik_firebase_functions_call:
+    git:
+      url: https://github.com/tekartik/firebase_functions.dart
+      path: functions_call
+
+  tekartik_firebase_functions_call_http:
+    git:
+      url: https://github.com/tekartik/firebase_functions.dart
+      path: functions_call_http
+
+  tekartik_firebase_auth_sembast:
+    git:
+      url: https://github.com/tekartik/firebase_auth.dart
+      path: auth_sembast
+
+  tekaly_file_download_web:
+    git:
+      url: https://github.com/tekartikprj/tekaly
+      path: packages/file_download_web
+
+  tekartik_firebase_firestore_sim:
+    git:
+      url: https://github.com/tekartik/firebase_firestore.dart
+      path: firestore_sim
+
+  tekartik_gcr_build:
+    git:
+      url: https://github.com/tekartik/app_build.dart
+
+      path: packages/gcr_build
+  tekartik_ci:
+    git:
+      url: https://github.com/tekartik/ci.dart
+
+      path: ci
+  tekartik_app_archive:
+    git:
+      url: https://github.com/tekartik/app_common_utils.dart
+
+      path: app_archive
+  tekartik_mediapipe_js:
+    git:
+      url: https://github.com/tekartik/app_web_utils.dart
+
+      path: packages/mediapipe_js
+  tekartik_three_js:
+    git:
+      url: https://github.com/tekartik/app_web_utils.dart
+
+      path: packages/three_js
+  tekartik_prefs_test:
+    git:
+      url: https://github.com/tekartik/prefs.dart
+      path: prefs_test
+
+  tekartik_firebase_vertex_ai:
+    git:
+      url: https://github.com/tekartik/firebase_vertex_ai.dart
+
+      path: vertex_ai
+  tekartik_app_json_schema:
+    git:
+      url: https://github.com/tekartik/app_common_utils.dart
+
+      path: app_json_schema
+  tekartik_app_media:
+    git:
+      url: https://github.com/tekartik/app_common_utils.dart
+
+      path: app_media
+  tekartik_ftp_io:
+    git:
+      url: https://github.com/tekartik/ftp.dart
+
+      path: ftp_io
+  # a2k
+  a2ktik_asset:
+    git:
+      url: https://github.com/a2ktik/a2ktikcommonpublic
+
+      path: packages/a2ktik_asset
+  tekartik_gdrive_api_utils:
+    git:
+      url: https://github.com/tekartik/gapi.dart
+
+      path: gdrive_api_utils
+    version: '>=0.1.0'
+  festenao_common:
+    git:
+      url: https://github.com/tekaly/festenao
+
+      path: packages/festenao_common
+  festenao_blur_hash:
+    git:
+      url: https://github.com/tekaly/festenao
+      path: packages/festenao_blur_hash
+
+    version: '>=0.1.0'
+  tekaly_music_note:
+    git:
+      url: https://github.com/tekartikprj/music
+
+      path: packages/music_note
+  tekaly_chordpro:
+    git:
+      url: https://github.com/tekartikprj/music
+
+      path: packages/chordpro
+    version: '>=0.1.0'
+  tekartik_yacht:
+    git:
+      url: https://github.com/tekartik/yacht.dart
+      path: packages/yacht
+
+  tekartik_app_dev_menu:
+    git:
+      url: https://github.com/tekartik/app_common_utils.dart
+
+      path: app_dev_menu
+    version: '>=0.1.0'
+  tekartik_rpc_test:
+    git:
+      url: https://github.com/tekartik/rpc.dart
+
+      path: packages/rpc_test
+  tekartik_web_socket_test:
+    git:
+      url: https://github.com/tekartik/web_socket.dart
+      path: web_socket_test
+
+    version: '>=0.1.0'
+  tekaly_sembast_synced_test:
+    git:
+      url: https://github.com/tekartikprj/tekaly.git
+      path: packages/sembast_synced_test
+
+  tekaly_sembast_synced_rpc:
+    git:
+      url: https://github.com/tekartikprj/tekaly.git
+      path: packages/sembast_synced_rpc
+
+  tekaly_media_cache:
+    git:
+      url: https://github.com/tekartikprj/tekaly.git
+      path: packages/tekaly_media_cache
+
+  tekartik_app_text:
+    git:
+      url: https://github.com/tekartik/app_common_utils.dart
+
+      path: app_text
+  sembast_dev_menu:
+    git:
+      url: https://github.com/tekartik/sembast_flutter_more.dart
+      path: example/sembast_dev_menu
+
+  tekaly_lyrics:
+    git:
+      url: https://github.com/tekartikprj/music
+
+      path: packages/lyrics
+  tekaly_playlr_audio_assets:
+    git:
+      url: https://github.com/tekaly/playlr.git
+      path: packages/playlr_audio_assets
+
+  tekartik_app_python:
+    git:
+      url: https://github.com/tekartik/app_io_utils.dart
+
+      path: packages/app_python
+  tekartik_app_cv_sdb:
+    git:
+      url: https://github.com/tekartik/app_common_utils.dart
+
+      path: app_cv_sdb
+  tekartik_midi_device_alsa_linux:
+    git:
+      url: https://github.com/tekartikprj/midi_device
+      path: packages/midi_device_alsa_linux
+
+  festenao_support:
+    git:
+      url: https://github.com/tekaly/festenao
+
+      path: packages/festenao_support
+  tekartik_app_web_socket:
+    git:
+      url: https://github.com/tekartik/app_common_utils.dart
+
+      path: app_web_socket
+    version: '>=0.1.0'
+  tekartik_firebase_auth_sim:
+    git:
+      url: https://github.com/tekartik/firebase_auth.dart
+      path: auth_sim
+
+  tekartik_firebase_functions_call_sim:
+    git:
+      url: https://github.com/tekartik/firebase_functions.dart
+      path: functions_call_sim
+
+_tmp:
+  # Not supported anymore
+  tekartik_firebase_auth_browser:
+    git:
+      url: https://github.com/tekartik/firebase_auth.dart
+      path: auth_browser
+
+    version: '>=0.8.1'
+  # requires web 1.0
+  sqflite_common_ffi_web_test:
+    git:
+      url: https://github.com/tekartik/sqflite
+      path: packages_web/sqflite_common_ffi_web_test
+
+  yacht:
+    git:
+      url: https://github.com/tekartik/yacht.dart
+
+    version: '>=0.3.1'
+
+dev_dependencies:
+  lints: ">=5.0.0"
+  test: ">=1.24.0"
