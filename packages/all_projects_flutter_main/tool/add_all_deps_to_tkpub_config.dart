@@ -2,6 +2,7 @@ import 'dart:io';
 import 'package:process_run/shell.dart';
 import 'package:collection/collection.dart';
 import 'package:dev_build/build_support.dart';
+import 'package:tekartik_sc/git.dart';
 
 class Helper {
   /// If false new only
@@ -63,11 +64,21 @@ class Helper {
           var git = value['git'];
           if (git is Map) {
             var gitUrl = git['url'] as String?;
-            var gitRef = git['ref'] as String?;
             var gitPath = git['path'] as String?;
-            if (gitRef == 'dart3a') {
-              // print('$name git: $git');
-              addGlobal(name, gitUrl: gitUrl!, gitPath: gitPath);
+            if (gitUrl != null) {
+              var gitUri = gitUrlToHttpsUri(gitUrl);
+              var owner = gitUri.pathSegments.firstOrNull;
+              switch (owner) {
+                case 'tekartik':
+                case 'tekartikprj':
+                case 'tekartikprv':
+                case 'alextekartik':
+                case 'tekaly':
+                  addGlobal(name, gitUrl: gitUrl, gitPath: gitPath);
+                  break;
+                default:
+                  break;
+              }
             }
           }
         }

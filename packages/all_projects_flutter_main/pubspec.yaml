@@ -34,188 +34,184 @@ dependencies:
   dev_flutter_test:
     git:
       url: https://github.com/tekartik/dev_flutter_test
-      
+
       path: dev_flutter_test
   tekartik_app_flutter_sembast:
     git:
       url: https://github.com/tekartik/app_flutter_utils.dart
-      
+
       path: app_sembast
     version: ">=0.5.1"
   tekartik_app_prefs:
     git:
       url: https://github.com/tekartik/app_flutter_utils.dart
-      
+
       path: app_prefs
     version: ">=0.4.2"
   tekartik_app_pick_crop_image_flutter:
     git:
       url: https://github.com/tekartik/app_image.dart
-      
+
       path: packages/app_pick_crop_image_flutter
     version: ">=0.2.0"
   tekartik_notepad_sqflite_app:
     git:
       url: https://github.com/alextekartik/flutter_app_example
       path: notepad_sqflite
-      
+
     version: '>=0.1.0'
   tekartik_notepad_sembast_app:
     git:
       url: https://github.com/alextekartik/flutter_app_example
       path: notepad_sembast
-      
+
     version: '>=0.1.0'
   tekartik_notepad_idb_app:
     git:
       url: https://github.com/alextekartik/flutter_app_example
       path: notepad_idb
-      
+
     version: '>=0.1.0'
   tekartik_notepad_sdb_app:
     git:
       url: https://github.com/alextekartik/flutter_app_example
-      
+
       path: notepad_sdb
   tekartik_qrscan_flutter_web:
     git:
       url: https://github.com/tekartik/app_camera.dart
       path: qrscan_flutter_web
-      
+
     version: '>=0.1.0'
   sembast_cloud_firestore_type_adapters:
     git:
       url: https://github.com/tekartik/sembast_flutter_more.dart
       path: cloud_firestore_type_adapters
-      
+
     version: '>=0.1.0'
   # Some apps
   tkcms_admin_app:
     git:
       url: https://github.com/tekartikprj/tkcms.git
-      
+
       path: flutter_packages/tkcms_admin_app
   sembast_db_explorer:
     git:
       url: https://github.com/tekartik/sembast_flutter_more.dart
       path: sembast_db_explorer
-      
+
     version: '>=0.1.0'
   tekartik_app_flutter_widget:
     git:
       url: https://github.com/tekartik/app_flutter_utils.dart
-      
+
       path: app_widget
     version: ">=0.2.3"
   # App
   tekaly_firestore_explorer_test_app:
     git:
       url: https://github.com/tekartikprj/tekaly
-      
+
       path: test/firestore_explorer_test_app
     version: ">=1.0.0+1"
   tekartik_firebase_firestore_flutter:
     git:
       url: https://github.com/tekartik/firebase_flutter
       path: firestore_flutter
-      
+
   tekartik_firebase_auth_flutter:
     git:
       url: https://github.com/tekartik/firebase_flutter
       path: auth_flutter
-      
+
   tekartik_firebase_flutter:
     git:
       url: https://github.com/tekartik/firebase_flutter
       path: firebase_flutter
-      
+
   tekartik_firebase_storage_flutter:
     git:
       url: https://github.com/tekartik/firebase_flutter
       path: storage_flutter
-      
+
   tekartik_firebase_functions_call_flutter:
     git:
       url: https://github.com/tekartik/firebase_flutter
-      
+
       path: functions_call_flutter
   tekartik_test_menu_flutter:
     git:
       url: https://github.com/tekartik/test_menu_flutter
-      
+
       path: test_menu_flutter
   tekartik_firebase_ui_auth:
     git:
       url: https://github.com/tekartik/firebase_ui.dart
       path: packages/firebase_ui_auth
-      
+
   tekartik_firebase_flutter_ui_auth:
     git:
       url: https://github.com/tekartik/firebase_ui.dart
       path: packages/firebase_flutter_ui_auth
-      
+
   tekaly_file_download:
     git:
       url: https://github.com/tekartikprj/tekaly
       path: flutter_packages/file_download
-      
+
   tekaly_firestore_explorer:
     git:
       url: https://github.com/tekartikprj/tekaly
       path: flutter_packages/firestore_explorer
-      
+
   tekartik_bluetooth_flutter:
     git:
       url: https://github.com/tekartik/bluetooth.dart
-      
+
       path: bluetooth_flutter
     version: ">=0.5.0"
   sqflite_example_common:
     git:
       url: https://github.com/tekartik/sqflite
-      
+
       path: packages_flutter/sqflite_example_common
   tekartik_app_rx_bloc_flutter:
     git:
       url: https://github.com/tekartik/app_flutter_utils.dart
-      
+
       path: app_rx_bloc
   tekartik_app_flutter_fs:
     git:
       url: https://github.com/tekartik/app_flutter_utils.dart
-      
+
       path: app_fs
   festenao_base_app:
     git:
       url: https://github.com/tekaly/festenao
-      
+
       path: packages_flutter/festenao_base_app
   festenao_icon:
     git:
       url: https://github.com/tekaly/festenao
-      
+
       path: packages_flutter/festenao_icon
   festenao_theme:
     git:
       url: https://github.com/tekaly/festenao
-      
+
       path: packages_flutter/festenao_theme
   festenao_markdown:
     git:
       url: https://github.com/tekaly/festenao
-      
       path: packages_flutter/festenao_markdown
   festenao_common_flutter:
     git:
       url: https://github.com/tekaly/festenao
-      
       path: packages_flutter/festenao_common_flutter
   festenao_youtube_player:
     git:
       url: https://github.com/tekaly/festenao
-      
       path: packages_flutter/festenao_youtube_player
-
   all_projects_main:
     path: ../all_projects_main
 
@@ -227,161 +223,162 @@ dependencies:
   tekartik_firebase_vertex_ai_flutter:
     git:
       url: https://github.com/tekartik/firebase_flutter
-      
       path: vertex_ai_flutter
   tekartik_app_flutter_utils_test_app:
     git:
       url: https://github.com/tekartik/app_flutter_utils.dart
-      
+
       path: example/test_app
   tekartik_midi_device_flutter_command:
     git:
       url: https://github.com/tekartikprj/midi_device
       path: packages/midi_device_flutter_command
-      
   tekartik_app_url_launcher_flutter:
     git:
       url: https://github.com/tekartik/app_flutter_utils.dart
-      
       path: app_url_launcher
     version: '>=0.0.1'
+  tekartik_midi_player:
+    git:
+      url: https://github.com/tekartikprj/midi_player
+      path: packages/midi_player
+  tekartik_sc:
+    git: https://github.com/tekartik/sc.dart
 dependency_overrides:
   synchronized:
     git:
       url: https://github.com/tekartik/synchronized.dart
       path: synchronized
-      
+
   sembast:
     git:
       url: https://github.com/tekartik/sembast.dart
       path: sembast
-      
+
   sembast_web:
     git:
       url: https://github.com/tekartik/sembast.dart
       path: sembast_web
-      
+
   sqflite:
     git:
       url: https://github.com/tekartik/sqflite
       path: sqflite
-      
+
   sqflite_common:
     git:
       url: https://github.com/tekartik/sqflite
       path: sqflite_common
-      
+
   sqflite_common_ffi:
     git:
       url: https://github.com/tekartik/sqflite
       path: sqflite_common_ffi
-      
+
   sqflite_common_ffi_async:
     git:
       url: https://github.com/tekartik/sqflite
       path: packages/sqflite_common_ffi_async
-      
+
   sqflite_common_ffi_web:
     git:
       url: https://github.com/tekartik/sqflite
       path: packages_web/sqflite_common_ffi_web
-      
+
   pubglobalupdate:
     git:
       url: https://github.com/tekartik/pubglobalupdate.dart
-      
+
   idb_shim:
     git:
       url: https://github.com/tekartik/idb_shim.dart
       path: idb_shim
-      
+
   idb_sqflite:
     git:
       url: https://github.com/tekartik/idb_sqflite
       path: idb_sqflite
-      
+
   dev_test:
     git:
       url: https://github.com/tekartik/dev_test.dart
       path: dev_test
-      
+
   dev_build:
     git:
       url: https://github.com/tekartik/dev_test.dart
       path: dev_build
-      
+
   cv:
     git:
       url: https://github.com/tekartik/cv.dart
       path: packages/cv
-      
+
   process_run:
     git:
       url: https://github.com/tekartik/process_run.dart
       path: packages/process_run
-      
+
   fs_shim:
     git:
       url: https://github.com/tekartik/fs_shim.dart
       path: fs
-      
+
   tekartik_app_flutter_common_web_utils:
     git:
       url: https://github.com/tekartik/app_flutter_utils.dart
-      
+
       path: app_common_web
   festenao_admin_base_app:
     git:
       url: https://github.com/tekaly/festenao
-      
+
       path: packages_flutter/festenao_admin_base_app
   festenao_audio_player:
     git:
       url: https://github.com/tekaly/festenao
       path: packages_flutter/festenao_audio_player
-      
+
     version: '>=0.2.0'
   festenao_firebase_flutter:
     git:
       url: https://github.com/tekaly/festenao
-      
+
       path: packages_flutter/festenao_firebase_flutter
   tekartik_kiosk:
     git:
       url: https://github.com/tekartikprj/android_tools
       path: packages/kiosk
-      
+
   tekartik_kiosk_app:
     git:
       url: https://github.com/tekartikprj/android_tools
       path: packages/kiosk_app
-      
+
   festenao_media_base_app:
     git:
       url: https://github.com/tekaly/festenao
-      
+
       path: packages_flutter/festenao_media_base_app
   playlr_audio_recorder:
     git:
       url: https://github.com/tekaly/playlr.git
       path: packages_flutter/playlr_audio_recorder
-      
+
   playlr_audio_player_blue_fire:
     git:
       url: https://github.com/tekaly/playlr.git
       path: packages_flutter/playlr_audio_player_blue_fire
-      
+
     version: '>=0.0.1'
   playlr_audio_player_just_audio:
     git:
       url: https://github.com/tekaly/playlr.git
-      
       path: packages_flutter/playlr_audio_player_just_audio
   a2ktik_kar:
     git:
       url: https://github.com/a2ktik/a2ktikcommonpublic
       path: packages/a2ktik_kar
-      
 
 dev_dependencies:
   # needed for firebase_auth_jwt
@@ -400,7 +397,7 @@ dev_dependencies:
   tekartik_prj_tktools:
     git:
       url: https://github.com/tekartikprj/tktools.git
-      
+
       path: packages/prj_tktools
 
 # For information on the generic Dart part of this file, see the
