@@ -244,6 +244,10 @@ dependencies:
       path: packages/midi_player
   tekartik_sc:
     git: https://github.com/tekartik/sc.dart
+  tekartik_wav:
+    git:
+      url: https://github.com/tekartikprj/audio
+      path: packages/wav
 dependency_overrides:
   synchronized:
     git:
