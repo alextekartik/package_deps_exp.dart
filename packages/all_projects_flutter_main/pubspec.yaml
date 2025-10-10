@@ -248,6 +248,10 @@ dependencies:
     git:
       url: https://github.com/tekartikprj/audio
       path: packages/wav
+  festenao_google_auth:
+    git:
+      url: https://github.com/tekaly/festenao
+      path: packages_flutter/festenao_google_auth
 dependency_overrides:
   synchronized:
     git:
