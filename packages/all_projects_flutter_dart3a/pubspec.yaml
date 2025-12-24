@@ -246,6 +246,9 @@ dependencies:
       path: app_url_launcher
     version: '>=0.0.1'
 dependency_overrides:
+  # Temp 2025-12-24 until sqlite_async supports sqlite3 v3
+  sqlite3: ^3.0.0
+  # Needed to use local versions
   synchronized:
     git:
       url: https://github.com/tekartik/synchronized.dart

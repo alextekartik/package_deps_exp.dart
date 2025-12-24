@@ -659,3 +659,8 @@ _tmp:
 dev_dependencies:
   lints: ">=5.0.0"
   test: ">=1.24.0"
+
+dependencies_overrides:
+  # Temp 2025-12-24 until sqlite_async supports sqlite3 v3
+  sqlite3: ">=3.0.0"
+  # Needed to use local versions
