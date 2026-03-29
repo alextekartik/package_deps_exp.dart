@@ -22,7 +22,7 @@ jobs:
             dart: beta
 
     steps:
-      - uses: dart-lang/setup-dart@v1.4
+      - uses: dart-lang/setup-dart@v1
         with:
           sdk: ${{ matrix.dart }}
       - uses: actions/checkout@v6
