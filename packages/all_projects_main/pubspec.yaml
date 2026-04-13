@@ -644,6 +644,10 @@ dependencies:
     git:
       url: https://github.com/tekartikprj/tekaly.git
       path: packages/sdb_synced_test
+  tekartik_firebase_emulator:
+    git:
+      url: https://github.com/tekartik/firebase_node.dart
+      path: firebase_emulator
 _tmp:
   # Not supported anymore
   tekartik_firebase_auth_browser:
