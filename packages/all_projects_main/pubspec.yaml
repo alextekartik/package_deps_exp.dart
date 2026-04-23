@@ -648,6 +648,10 @@ dependencies:
     git:
       url: https://github.com/tekartik/firebase_node.dart
       path: firebase_emulator
+  tekartik_idb_playground:
+    git:
+      url: https://github.com/tekartik/idb_shim_more.dart
+      path: packages/idb_playground
 _tmp:
   # Not supported anymore
   tekartik_firebase_auth_browser:
