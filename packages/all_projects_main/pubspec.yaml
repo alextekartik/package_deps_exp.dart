@@ -652,6 +652,14 @@ dependencies:
     git:
       url: https://github.com/tekartik/idb_shim_more.dart
       path: packages/idb_playground
+  tekartik_firebase_admin_sdk_test:
+    git:
+      url: https://github.com/tekartik/firebase_admin_sdk.dart
+      path: firebase_admin_sdk_test
+  tekartik_firebase_functions_admin_sdk:
+    git:
+      url: https://github.com/tekartik/firebase_admin_sdk.dart
+      path: firebase_functions_admin_sdk
 _tmp:
   # Not supported anymore
   tekartik_firebase_auth_browser:
@@ -679,4 +687,7 @@ dev_dependencies:
 dependencies_overrides:
   # Temp 2025-12-24 until sqlite_async supports sqlite3 v3
   sqlite3: ">=3.0.0"
+  # Temp 2026-05-04
+  encrypt: ">=3.0.0"
+  pointycastle: ">=3.0.0"
   # Needed to use local versions
