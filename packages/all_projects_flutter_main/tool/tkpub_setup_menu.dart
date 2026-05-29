@@ -1,9 +1,42 @@
 import 'package:dev_build/menu/menu_io.dart';
 import 'package:tekartik_prj_tktools/tkpub.dart';
 
+Future<TkPubDbPackage> addGitPackage(
+  String packageName, {
+  required String gitUrl,
+  String? gitPath,
+}) async {
+  return await tkPubDbAction((configDb) async {
+    var package = TkPubDbPackage()
+      ..gitUrl.v = gitUrl
+      ..gitPath.setValue(gitPath);
+
+    var added = await configDb.setPackage(packageName, package);
+    return added;
+  }, write: true);
+}
+
 Future<void> main(List<String> args) async {
   mainMenuConsole(args, () {
     menu('once', () {
+      item('tekartik_prj_tools', () async {
+        writeln(
+          await addGitPackage(
+            'tekartik_prj_tools',
+            gitUrl: 'git@github.com:tekartikprv/tools.dart',
+            gitPath: 'packages/prj_tools',
+          ),
+        );
+      });
+      item('list', () async {
+        await tkPubDbAction((configDb) async {
+          var packages = await configDb.getAllPackages();
+
+          for (var package in packages) {
+            writeln(package);
+          }
+        });
+      });
       item('setup vertex ai', () async {
         await tkPubDbAction(
           (configDb) async {
