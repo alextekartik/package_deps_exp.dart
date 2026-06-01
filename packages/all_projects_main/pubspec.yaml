@@ -664,6 +664,10 @@ dependencies:
     git:
       url: https://github.com/tekartik/firebase_admin_sdk.dart
       path: firebase_functions_admin_sdk_test
+  tekartik_firebase_functions_call_rest:
+    git:
+      url: https://github.com/tekartik/firebase_rest.dart
+      path: functions_call_rest
 _tmp:
   # Not supported anymore
   tekartik_firebase_auth_browser:
