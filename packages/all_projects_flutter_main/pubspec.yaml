@@ -288,6 +288,11 @@ dependencies:
     git:
       url: https://github.com/a2ktik/a2ktikcommonpublic
       path: packages/a2ktik_kar
+  tekartik_qrscan_flutter_mobile_scanner:
+    git:
+      url: https://github.com/tekartik/app_camera.dart
+      path: qrscan_flutter_mobile_scanner
+
 _dependency_overrides:
   # Needed to use local versions
   synchronized:
