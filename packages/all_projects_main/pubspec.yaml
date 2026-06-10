@@ -668,6 +668,10 @@ dependencies:
     git:
       url: https://github.com/tekartik/firebase_rest.dart
       path: functions_call_rest
+  tekartik_mail_aws_ses:
+    git:
+      url: https://github.com/tekartik/mail.dart
+      path: packages/mail_aws_ses
 _tmp:
   # Not supported anymore
   tekartik_firebase_auth_browser:
