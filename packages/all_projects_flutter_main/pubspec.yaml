@@ -292,7 +292,14 @@ dependencies:
     git:
       url: https://github.com/tekartik/app_camera.dart
       path: qrscan_flutter_mobile_scanner
-
+  festenao_object_storage_picker:
+    git:
+      url: https://github.com/tekaly/festenao
+      path: packages_flutter/festenao_object_storage_picker
+  festenao_lyrics_player:
+    git:
+      url: https://github.com/tekaly/festenao
+      path: packages_flutter/festenao_lyrics_player
 _dependency_overrides:
   # Needed to use local versions
   synchronized:
