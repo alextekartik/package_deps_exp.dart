@@ -672,6 +672,10 @@ dependencies:
     git:
       url: https://github.com/tekartik/mail.dart
       path: packages/mail_aws_ses
+  tekartik_prefs_sdb:
+    git:
+      url: https://github.com/tekartik/prefs.dart
+      path: prefs_sdb
 _tmp:
   # Not supported anymore
   tekartik_firebase_auth_browser:
