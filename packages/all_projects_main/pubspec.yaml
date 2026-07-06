@@ -403,7 +403,7 @@ dependencies:
 
   tekaly_assets:
     git:
-      url: https://github.com/tekartikprj/tekaly.git
+      url: https://github.com/tekartikprj/tekaly
       path: packages/tekaly_assets
 
   tekartik_flutter_build:
@@ -564,17 +564,17 @@ dependencies:
     version: '>=0.1.0'
   tekaly_sembast_synced_test:
     git:
-      url: https://github.com/tekartikprj/tekaly.git
+      url: https://github.com/tekartikprj/tekaly
       path: packages/sembast_synced_test
 
   tekaly_sembast_synced_rpc:
     git:
-      url: https://github.com/tekartikprj/tekaly.git
+      url: https://github.com/tekartikprj/tekaly
       path: packages/sembast_synced_rpc
 
   tekaly_media_cache:
     git:
-      url: https://github.com/tekartikprj/tekaly.git
+      url: https://github.com/tekartikprj/tekaly
       path: packages/tekaly_media_cache
 
   tekartik_app_text:
@@ -638,11 +638,11 @@ dependencies:
       path: storage_sim
   tekaly_sdb_synced:
     git:
-      url: https://github.com/tekartikprj/tekaly.git
+      url: https://github.com/tekartikprj/tekaly
       path: packages/sdb_synced
   tekaly_sdb_synced_test:
     git:
-      url: https://github.com/tekartikprj/tekaly.git
+      url: https://github.com/tekartikprj/tekaly
       path: packages/sdb_synced_test
   tekartik_firebase_emulator:
     git:

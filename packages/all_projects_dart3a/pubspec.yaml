@@ -403,7 +403,7 @@ dependencies:
       ref: dart3a
   tekaly_assets:
     git:
-      url: https://github.com/tekartikprj/tekaly.git
+      url: https://github.com/tekartikprj/tekaly
       path: packages/tekaly_assets
       ref: dart3a
   tekartik_flutter_build:
@@ -564,17 +564,17 @@ dependencies:
     version: '>=0.1.0'
   tekaly_sembast_synced_test:
     git:
-      url: https://github.com/tekartikprj/tekaly.git
+      url: https://github.com/tekartikprj/tekaly
       path: packages/sembast_synced_test
       ref: dart3a
   tekaly_sembast_synced_rpc:
     git:
-      url: https://github.com/tekartikprj/tekaly.git
+      url: https://github.com/tekartikprj/tekaly
       path: packages/sembast_synced_rpc
       ref: dart3a
   tekaly_media_cache:
     git:
-      url: https://github.com/tekartikprj/tekaly.git
+      url: https://github.com/tekartikprj/tekaly
       path: packages/tekaly_media_cache
       ref: dart3a
   tekartik_app_text:
