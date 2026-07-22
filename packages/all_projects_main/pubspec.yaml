@@ -308,6 +308,14 @@ dependencies:
       path: platform_node
 
     version: '>=0.2.1'
+  tekartik_firebase_firestore_idb:
+    git:
+      url: https://github.com/tekartik/firebase_firestore.dart
+      path: firestore_idb
+  tekartik_firebase_firestore_sembast:
+    git:
+      url: https://github.com/tekartik/firebase_firestore.dart
+      path: firestore_sembast
   tekartik_firebase_functions_node:
     git:
       url: https://github.com/tekartik/firebase_node.dart
