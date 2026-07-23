@@ -300,7 +300,10 @@ dependencies:
     git:
       url: https://github.com/tekaly/festenao
       path: packages_flutter/festenao_lyrics_player
-
+  festenao_riverpod_flutter:
+    git:
+      url: https://github.com/tekaly/festenao
+      path: packages_flutter/festenao_riverpod_flutter
 _dependency_overrides:
   # Needed to use local versions
   synchronized:
