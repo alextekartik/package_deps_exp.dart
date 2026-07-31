@@ -692,6 +692,14 @@ dependencies:
     git:
       url: https://github.com/tekartik/firebase_rest.dart
       path: firestore_grpc_rest
+  tekartik_firebase_tools:
+    git:
+      url: https://github.com/tekartik/firebase_tools.dart
+      path: packages/firebase_tools
+  tekartik_firebase_tools_common:
+    git:
+      url: https://github.com/tekartik/firebase_tools.dart
+      path: packages/firebase_tools_common
 _tmp:
   # Not supported anymore
   tekartik_firebase_auth_browser:
