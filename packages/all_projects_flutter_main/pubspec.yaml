@@ -304,6 +304,10 @@ dependencies:
     git:
       url: https://github.com/tekaly/festenao
       path: packages_flutter/festenao_riverpod_flutter
+  tekartik_google_auth_flutter:
+    git:
+      url: https://github.com/tekartik/google_auth.dart
+      path: google_auth_flutter
 _dependency_overrides:
   # Needed to use local versions
   synchronized:

@@ -704,7 +704,14 @@ dependencies:
     git:
       url: https://github.com/tekartik/firebase_tools.dart
       path: packages/firebase_tools_common
-
+  tekartik_google_auth_io:
+    git:
+      url: https://github.com/tekartik/google_auth.dart
+      path: google_auth_io
+  tekartik_google_auth_test:
+    git:
+      url: https://github.com/tekartik/google_auth.dart
+      path: google_auth_test
 _tmp:
   # Not supported anymore
   tekartik_firebase_auth_browser:
