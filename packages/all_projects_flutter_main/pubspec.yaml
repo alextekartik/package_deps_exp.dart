@@ -308,6 +308,10 @@ dependencies:
     git:
       url: https://github.com/tekartik/google_auth.dart
       path: google_auth_flutter
+  tekaly_file_picker_flutter:
+    git:
+      url: https://github.com/tekartikprj/tekaly
+      path: flutter_packages/file_picker_flutter
 _dependency_overrides:
   # Needed to use local versions
   synchronized:
