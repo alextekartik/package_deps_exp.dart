@@ -312,6 +312,14 @@ dependencies:
     git:
       url: https://github.com/tekartikprj/tekaly
       path: flutter_packages/file_picker_flutter
+  tekartik_app_list_view_flutter:
+    git:
+      url: https://github.com/tekartik/app_flutter_utils.dart
+      path: app_list_view
+  tekartik_app_sdb_ui_flutter:
+    git:
+      url: https://github.com/tekartik/app_flutter_utils.dart
+      path: app_sdb_ui
 _dependency_overrides:
   # Needed to use local versions
   synchronized:
