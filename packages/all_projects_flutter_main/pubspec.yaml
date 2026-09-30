@@ -320,6 +320,11 @@ dependencies:
     git:
       url: https://github.com/tekartik/app_flutter_utils.dart
       path: app_sdb_ui
+  tekartik_app_flutter_full_screen:
+    git:
+      url: https://github.com/tekartik/app_flutter_utils.dart
+      path: app_full_screen
+    version: '>=0.1.0'
 _dependency_overrides:
   # Needed to use local versions
   synchronized:
