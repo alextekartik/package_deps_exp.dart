@@ -88,7 +88,7 @@ class Helper {
 }
 
 Future<void> main() async {
-  addDeps('.', addAll: true);
+  await addDeps('.', addAll: true);
 }
 
 Future<void> addDeps(String path, {bool addAll = false}) async {
@@ -110,5 +110,5 @@ Future<void> addDeps(String path, {bool addAll = false}) async {
     }
   }
 
-  helper.addGlobalToTkpubConfig();
+  await helper.addGlobalToTkpubConfig();
 }
