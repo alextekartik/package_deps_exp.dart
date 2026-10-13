@@ -1,0 +1,5526 @@
+{
+  "name": "all_projects_flutter_main",
+  "version": "1.0.0+1",
+  "dependencies": [
+    "a2ktik_kar",
+    "all_projects_main",
+    "cv",
+    "dev_build",
+    "dev_flutter_test",
+    "dev_test",
+    "festenao_admin_base_app",
+    "festenao_audio_player",
+    "festenao_base_app",
+    "festenao_common_flutter",
+    "festenao_firebase_flutter",
+    "festenao_google_auth",
+    "festenao_icon",
+    "festenao_lyrics_player",
+    "festenao_markdown",
+    "festenao_media_base_app",
+    "festenao_object_storage_picker",
+    "festenao_riverpod_flutter",
+    "festenao_theme",
+    "festenao_youtube_player",
+    "fs_shim",
+    "idb_shim",
+    "idb_sqflite",
+    "playlr_audio_player_blue_fire",
+    "playlr_audio_player_just_audio",
+    "playlr_audio_recorder",
+    "process_run",
+    "pubglobalupdate",
+    "sembast",
+    "sembast_cloud_firestore_type_adapters",
+    "sembast_db_explorer",
+    "sembast_sqflite",
+    "sembast_web",
+    "sqflite",
+    "sqflite_android",
+    "sqflite_common",
+    "sqflite_common_ffi",
+    "sqflite_common_ffi_async",
+    "sqflite_common_ffi_web",
+    "sqflite_darwin",
+    "sqflite_example_common",
+    "sqflite_platform_interface",
+    "synchronized",
+    "tekaly_file_download",
+    "tekaly_file_picker_flutter",
+    "tekaly_firestore_explorer",
+    "tekaly_firestore_explorer_test_app",
+    "tekartik_app_dev_menu_flutter",
+    "tekartik_app_flutter_common_web_utils",
+    "tekartik_app_flutter_fs",
+    "tekartik_app_flutter_full_screen",
+    "tekartik_app_flutter_sembast",
+    "tekartik_app_flutter_utils_test_app",
+    "tekartik_app_flutter_widget",
+    "tekartik_app_list_view_flutter",
+    "tekartik_app_pick_crop_image_flutter",
+    "tekartik_app_prefs",
+    "tekartik_app_rx_bloc_flutter",
+    "tekartik_app_sdb_ui_flutter",
+    "tekartik_app_url_launcher_flutter",
+    "tekartik_bluetooth_flutter",
+    "tekartik_common_utils",
+    "tekartik_firebase_auth_flutter",
+    "tekartik_firebase_firestore_flutter",
+    "tekartik_firebase_flutter",
+    "tekartik_firebase_flutter_ui_auth",
+    "tekartik_firebase_functions_call_flutter",
+    "tekartik_firebase_storage_flutter",
+    "tekartik_firebase_ui_auth",
+    "tekartik_firebase_vertex_ai_flutter",
+    "tekartik_google_auth_flutter",
+    "tekartik_kiosk",
+    "tekartik_kiosk_app",
+    "tekartik_midi_device_flutter_command",
+    "tekartik_midi_player",
+    "tekartik_notepad_idb_app",
+    "tekartik_notepad_sdb_app",
+    "tekartik_notepad_sembast_app",
+    "tekartik_notepad_sqflite_app",
+    "tekartik_prj_tktools",
+    "tekartik_qrscan_flutter_mobile_scanner",
+    "tekartik_qrscan_flutter_web",
+    "tekartik_sc",
+    "tekartik_test_menu_flutter",
+    "tekartik_wav",
+    "tkcms_admin_app"
+  ],
+  "devDependencies": [],
+  "packages": [
+    {
+      "name": "a2ktik_asset",
+      "version": "1.0.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/a2ktik/a2ktikcommonpublic",
+      "gitPath": "packages/a2ktik_asset",
+      "level": 0,
+      "dependencies": []
+    },
+    {
+      "name": "cv",
+      "version": "1.1.12",
+      "kind": "direct",
+      "source": "hosted",
+      "url": "https://github.com/tekartik/cv.dart/tree/main/packages/cv",
+      "level": 0,
+      "dependencies": []
+    },
+    {
+      "name": "festenao_blur_hash",
+      "version": "0.1.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekaly/festenao",
+      "gitPath": "packages/festenao_blur_hash",
+      "level": 0,
+      "dependencies": []
+    },
+    {
+      "name": "festenao_icon",
+      "version": "0.0.1",
+      "kind": "direct",
+      "source": "git",
+      "url": "https://github.com/tekaly/festenao",
+      "gitPath": "packages_flutter/festenao_icon",
+      "level": 0,
+      "dependencies": []
+    },
+    {
+      "name": "festenao_markdown",
+      "version": "0.1.0",
+      "kind": "direct",
+      "source": "git",
+      "url": "https://github.com/tekaly/festenao",
+      "gitPath": "packages_flutter/festenao_markdown",
+      "level": 0,
+      "dependencies": []
+    },
+    {
+      "name": "ftpconnect",
+      "version": "2.0.7",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartikdev/dartFTP",
+      "level": 0,
+      "dependencies": []
+    },
+    {
+      "name": "playlr_audio_player_interface",
+      "version": "0.0.1",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekaly/playlr.git",
+      "gitPath": "packages/playlr_audio_player_interface",
+      "level": 0,
+      "dependencies": []
+    },
+    {
+      "name": "synchronized",
+      "version": "3.4.2",
+      "kind": "direct",
+      "source": "hosted",
+      "url": "https://github.com/tekartik/synchronized.dart/tree/master/synchronized",
+      "level": 0,
+      "dependencies": []
+    },
+    {
+      "name": "tekaly_assets",
+      "version": "1.0.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartikprj/tekaly",
+      "gitPath": "packages/tekaly_assets",
+      "level": 0,
+      "dependencies": []
+    },
+    {
+      "name": "tekaly_file_picker",
+      "version": "0.2.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartikprj/tekaly",
+      "gitPath": "packages/file_picker",
+      "level": 0,
+      "dependencies": []
+    },
+    {
+      "name": "tekaly_music_note",
+      "version": "1.0.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartikprj/music",
+      "gitPath": "packages/music_note",
+      "level": 0,
+      "dependencies": []
+    },
+    {
+      "name": "tekaly_playlr_audio_assets",
+      "version": "1.0.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekaly/playlr.git",
+      "gitPath": "packages/playlr_audio_assets",
+      "level": 0,
+      "dependencies": []
+    },
+    {
+      "name": "tekartik_app_args",
+      "version": "0.1.1",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/app_io_utils.dart",
+      "gitPath": "packages/app_args",
+      "level": 0,
+      "dependencies": []
+    },
+    {
+      "name": "tekartik_app_list_view_flutter",
+      "version": "0.1.0",
+      "kind": "direct",
+      "source": "git",
+      "url": "https://github.com/tekartik/app_flutter_utils.dart",
+      "gitPath": "app_list_view",
+      "level": 0,
+      "dependencies": []
+    },
+    {
+      "name": "tekartik_app_media",
+      "version": "1.0.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/app_common_utils.dart",
+      "gitPath": "app_media",
+      "level": 0,
+      "dependencies": []
+    },
+    {
+      "name": "tekartik_app_roboto",
+      "version": "0.3.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/app_flutter_utils.dart",
+      "gitPath": "app_roboto",
+      "level": 0,
+      "dependencies": []
+    },
+    {
+      "name": "tekartik_app_rx_utils",
+      "version": "0.5.1",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/app_flutter_utils.dart",
+      "gitPath": "app_rx_utils",
+      "level": 0,
+      "dependencies": []
+    },
+    {
+      "name": "tekartik_built_flutter",
+      "version": "0.1.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/build_flutter.dart",
+      "gitPath": "packages/built_flutter",
+      "level": 0,
+      "dependencies": []
+    },
+    {
+      "name": "tekartik_common_assets",
+      "version": "0.1.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/alextekartik/assets",
+      "gitPath": "packages/common_assets",
+      "level": 0,
+      "dependencies": []
+    },
+    {
+      "name": "tekartik_core",
+      "version": "0.1.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/common.dart",
+      "gitPath": "packages/core",
+      "level": 0,
+      "dependencies": []
+    },
+    {
+      "name": "tekartik_encrypt",
+      "version": "5.0.5",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartikdev/encrypt",
+      "level": 0,
+      "dependencies": []
+    },
+    {
+      "name": "tekartik_ftp",
+      "version": "1.0.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/ftp.dart",
+      "gitPath": "ftp",
+      "level": 0,
+      "dependencies": []
+    },
+    {
+      "name": "tekartik_mail",
+      "version": "0.1.2",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/mail.dart",
+      "gitPath": "packages/mail",
+      "level": 0,
+      "dependencies": []
+    },
+    {
+      "name": "tekartik_web_splash",
+      "version": "0.4.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/app_web_utils.dart",
+      "gitPath": "packages/web_splash",
+      "level": 0,
+      "dependencies": []
+    },
+    {
+      "name": "process_run",
+      "version": "1.3.7",
+      "kind": "direct",
+      "source": "hosted",
+      "url": "https://github.com/tekartik/process_run.dart/blob/master/packages/process_run",
+      "level": 1,
+      "dependencies": [
+        "synchronized"
+      ]
+    },
+    {
+      "name": "sembast",
+      "version": "3.8.11",
+      "kind": "direct",
+      "source": "hosted",
+      "url": "https://github.com/tekartik/sembast.dart/tree/master/sembast",
+      "level": 1,
+      "dependencies": [
+        "synchronized"
+      ]
+    },
+    {
+      "name": "sqflite_common",
+      "version": "2.5.13",
+      "kind": "direct",
+      "source": "hosted",
+      "url": "https://github.com/tekartik/sqflite/tree/master/sqflite_common",
+      "level": 1,
+      "dependencies": [
+        "synchronized"
+      ]
+    },
+    {
+      "name": "tekaly_file_picker_flutter",
+      "version": "0.2.0",
+      "kind": "direct",
+      "source": "git",
+      "url": "https://github.com/tekartikprj/tekaly",
+      "gitPath": "flutter_packages/file_picker_flutter",
+      "level": 1,
+      "dependencies": [
+        "tekaly_file_picker"
+      ]
+    },
+    {
+      "name": "tekaly_lyrics_core",
+      "version": "0.1.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartikprj/music",
+      "gitPath": "packages/lyrics_core",
+      "level": 1,
+      "dependencies": [
+        "cv"
+      ]
+    },
+    {
+      "name": "tekartik_ftp_server_io",
+      "version": "1.0.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/ftp.dart",
+      "gitPath": "ftp_server_io",
+      "level": 1,
+      "dependencies": [
+        "tekartik_ftp"
+      ]
+    },
+    {
+      "name": "tekartik_lints",
+      "version": "1.0.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/common.dart",
+      "gitPath": "packages/lints",
+      "level": 1,
+      "dependencies": [
+        "tekartik_core"
+      ]
+    },
+    {
+      "name": "tekartik_mail_aws_ses",
+      "version": "0.1.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/mail.dart",
+      "gitPath": "packages/mail_aws_ses",
+      "level": 1,
+      "dependencies": [
+        "tekartik_mail"
+      ]
+    },
+    {
+      "name": "dev_build",
+      "version": "1.1.12",
+      "kind": "direct",
+      "source": "hosted",
+      "url": "https://github.com/tekartik/dev_test.dart/tree/master/dev_build",
+      "level": 2,
+      "dependencies": [
+        "process_run",
+        "synchronized"
+      ]
+    },
+    {
+      "name": "festenao_lyrics",
+      "version": "0.2.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekaly/festenao",
+      "gitPath": "packages/festenao_lyrics",
+      "level": 2,
+      "dependencies": [
+        "tekaly_lyrics_core"
+      ]
+    },
+    {
+      "name": "idb_shim",
+      "version": "2.9.10-2",
+      "kind": "direct",
+      "source": "hosted",
+      "url": "https://github.com/tekartik/idb_shim.dart/tree/master/idb_shim",
+      "level": 2,
+      "dependencies": [
+        "sembast",
+        "synchronized"
+      ]
+    },
+    {
+      "name": "sembast_cloud_firestore_type_adapters",
+      "version": "0.1.0",
+      "kind": "direct",
+      "source": "git",
+      "url": "https://github.com/tekartik/sembast_flutter_more.dart",
+      "gitPath": "cloud_firestore_type_adapters",
+      "level": 2,
+      "dependencies": [
+        "sembast"
+      ]
+    },
+    {
+      "name": "sembast_sqflite",
+      "version": "2.2.3",
+      "kind": "direct",
+      "source": "hosted",
+      "url": "https://github.com/tekartik/sembast_sqflite/tree/master/sembast_sqflite",
+      "level": 2,
+      "dependencies": [
+        "sembast",
+        "sqflite_common",
+        "synchronized"
+      ]
+    },
+    {
+      "name": "sqflite_common_ffi",
+      "version": "2.4.3",
+      "kind": "direct",
+      "source": "hosted",
+      "url": "https://github.com/tekartik/sqflite/tree/master/sqflite_common_ffi",
+      "level": 2,
+      "dependencies": [
+        "sqflite_common",
+        "synchronized"
+      ]
+    },
+    {
+      "name": "sqflite_example_common",
+      "version": "0.4.0",
+      "kind": "direct",
+      "source": "git",
+      "url": "https://github.com/tekartik/sqflite",
+      "gitPath": "packages_flutter/sqflite_example_common",
+      "level": 2,
+      "dependencies": [
+        "sqflite_common",
+        "synchronized"
+      ]
+    },
+    {
+      "name": "sqflite_platform_interface",
+      "version": "2.4.2",
+      "kind": "direct",
+      "source": "hosted",
+      "url": "https://github.com/tekartik/sqflite/tree/master/sqflite_platform_interface",
+      "level": 2,
+      "dependencies": [
+        "sqflite_common"
+      ]
+    },
+    {
+      "name": "tekaly_lyrics_view",
+      "version": "0.1.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartikprj/music",
+      "gitPath": "packages_flutter/lyrics_view",
+      "level": 2,
+      "dependencies": [
+        "tekaly_lyrics_core"
+      ]
+    },
+    {
+      "name": "tekartik_alsa_midi_linux",
+      "version": "0.1.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartikprj/midi_device",
+      "gitPath": "packages/alsa_midi_linux",
+      "level": 2,
+      "dependencies": [
+        "tekartik_lints"
+      ]
+    },
+    {
+      "name": "tekartik_common_utils",
+      "version": "1.0.0",
+      "kind": "direct",
+      "source": "git",
+      "url": "https://github.com/tekartik/common_utils.dart",
+      "level": 2,
+      "dependencies": [
+        "cv",
+        "synchronized",
+        "tekartik_lints"
+      ]
+    },
+    {
+      "name": "tekartik_lints_flutter",
+      "version": "0.2.3",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/common_flutter.dart",
+      "gitPath": "packages/lints_flutter",
+      "level": 2,
+      "dependencies": [
+        "tekartik_lints"
+      ]
+    },
+    {
+      "name": "dev_test",
+      "version": "1.0.4",
+      "kind": "direct",
+      "source": "hosted",
+      "url": "https://github.com/tekartik/dev_test.dart/tree/master/dev_test",
+      "level": 3,
+      "dependencies": [
+        "dev_build",
+        "process_run",
+        "synchronized"
+      ]
+    },
+    {
+      "name": "fs_shim",
+      "version": "2.5.7",
+      "kind": "direct",
+      "source": "hosted",
+      "url": "https://github.com/tekartik/fs_shim.dart/tree/master/fs",
+      "level": 3,
+      "dependencies": [
+        "idb_shim",
+        "sembast",
+        "synchronized"
+      ]
+    },
+    {
+      "name": "idb_shim_html_compat",
+      "version": "2.4.1+4",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/idb_shim_more.dart",
+      "gitPath": "packages/idb_shim_html_compat",
+      "level": 3,
+      "dependencies": [
+        "idb_shim",
+        "sembast"
+      ]
+    },
+    {
+      "name": "idb_sqflite",
+      "version": "1.4.6-1",
+      "kind": "direct",
+      "source": "hosted",
+      "url": "https://github.com/tekartik/idb_sqflite/tree/master/idb_sqflite",
+      "level": 3,
+      "dependencies": [
+        "idb_shim",
+        "sqflite_common",
+        "synchronized"
+      ]
+    },
+    {
+      "name": "playlr_audio_recorder",
+      "version": "0.0.1",
+      "kind": "direct",
+      "source": "git",
+      "url": "https://github.com/tekaly/playlr.git",
+      "gitPath": "packages_flutter/playlr_audio_recorder",
+      "level": 3,
+      "dependencies": [
+        "tekartik_common_utils"
+      ]
+    },
+    {
+      "name": "pubglobalupdate",
+      "version": "1.1.0",
+      "kind": "direct",
+      "source": "hosted",
+      "url": "https://github.com/tekartik/pubglobalupdate.dart",
+      "level": 3,
+      "dependencies": [
+        "dev_build",
+        "process_run"
+      ]
+    },
+    {
+      "name": "sembast_db_explorer",
+      "version": "0.1.0",
+      "kind": "direct",
+      "source": "git",
+      "url": "https://github.com/tekartik/sembast_flutter_more.dart",
+      "gitPath": "sembast_db_explorer",
+      "level": 3,
+      "dependencies": [
+        "sembast",
+        "tekartik_common_utils"
+      ]
+    },
+    {
+      "name": "sembast_web",
+      "version": "2.4.6",
+      "kind": "direct",
+      "source": "hosted",
+      "url": "https://github.com/tekartik/sembast.dart/tree/master/sembast_web",
+      "level": 3,
+      "dependencies": [
+        "idb_shim",
+        "sembast",
+        "synchronized"
+      ]
+    },
+    {
+      "name": "sqflite_android",
+      "version": "2.4.4",
+      "kind": "direct",
+      "source": "hosted",
+      "url": "https://github.com/tekartik/sqflite/tree/master/sqflite_android",
+      "level": 3,
+      "dependencies": [
+        "sqflite_common",
+        "sqflite_platform_interface"
+      ]
+    },
+    {
+      "name": "sqflite_common_ffi_async",
+      "version": "1.0.2",
+      "kind": "direct",
+      "source": "hosted",
+      "url": "https://github.com/tekartik/sqflite/tree/master/packages/sqflite_common_ffi_async",
+      "level": 3,
+      "dependencies": [
+        "sqflite_common",
+        "sqflite_common_ffi"
+      ]
+    },
+    {
+      "name": "sqflite_common_ffi_web",
+      "version": "1.2.0",
+      "kind": "direct",
+      "source": "hosted",
+      "url": "https://github.com/tekartik/sqflite/tree/master/packages_web/sqflite_common_ffi_web",
+      "level": 3,
+      "dependencies": [
+        "dev_build",
+        "process_run",
+        "sqflite_common",
+        "sqflite_common_ffi",
+        "synchronized"
+      ]
+    },
+    {
+      "name": "sqflite_common_test",
+      "version": "0.5.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/sqflite",
+      "gitPath": "sqflite_common_test",
+      "level": 3,
+      "dependencies": [
+        "sqflite_common",
+        "sqflite_common_ffi",
+        "synchronized"
+      ]
+    },
+    {
+      "name": "sqflite_darwin",
+      "version": "2.4.4",
+      "kind": "direct",
+      "source": "hosted",
+      "url": "https://github.com/tekartik/sqflite/tree/master/sqflite_darwin",
+      "level": 3,
+      "dependencies": [
+        "sqflite_common",
+        "sqflite_platform_interface"
+      ]
+    },
+    {
+      "name": "sqflite_ffi",
+      "version": "0.1.1",
+      "kind": "transitive",
+      "source": "hosted",
+      "url": "https://github.com/tekartik/sqflite/tree/master/packages_flutter/sqflite_ffi",
+      "level": 3,
+      "dependencies": [
+        "sqflite_common_ffi"
+      ]
+    },
+    {
+      "name": "tekaly_chordpro",
+      "version": "0.1.3",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartikprj/music",
+      "gitPath": "packages/chordpro",
+      "level": 3,
+      "dependencies": [
+        "tekaly_music_note",
+        "tekartik_common_utils"
+      ]
+    },
+    {
+      "name": "tekartik_app_archive",
+      "version": "1.3.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/app_common_utils.dart",
+      "gitPath": "app_archive",
+      "level": 3,
+      "dependencies": [
+        "tekartik_common_utils"
+      ]
+    },
+    {
+      "name": "tekartik_app_bloc",
+      "version": "0.2.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/app_common_utils.dart",
+      "gitPath": "app_bloc",
+      "level": 3,
+      "dependencies": [
+        "tekartik_common_utils"
+      ]
+    },
+    {
+      "name": "tekartik_app_common_utils",
+      "version": "1.0.1",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/app_common_utils.dart",
+      "gitPath": "app",
+      "level": 3,
+      "dependencies": [
+        "cv",
+        "synchronized",
+        "tekartik_common_utils"
+      ]
+    },
+    {
+      "name": "tekartik_app_crypto",
+      "version": "0.2.4",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/app_common_utils.dart",
+      "gitPath": "app_crypto",
+      "level": 3,
+      "dependencies": [
+        "tekartik_common_utils",
+        "tekartik_encrypt"
+      ]
+    },
+    {
+      "name": "tekartik_app_csv",
+      "version": "1.3.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/app_common_utils.dart",
+      "gitPath": "app_csv",
+      "level": 3,
+      "dependencies": [
+        "tekartik_common_utils"
+      ]
+    },
+    {
+      "name": "tekartik_app_cv_sdb",
+      "version": "1.0.1",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/app_common_utils.dart",
+      "gitPath": "app_cv_sdb",
+      "level": 3,
+      "dependencies": [
+        "cv",
+        "idb_shim",
+        "sembast",
+        "tekartik_common_utils"
+      ]
+    },
+    {
+      "name": "tekartik_app_cv_sembast",
+      "version": "1.2.2",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/app_common_utils.dart",
+      "gitPath": "app_cv_sembast",
+      "level": 3,
+      "dependencies": [
+        "cv",
+        "sembast",
+        "tekartik_common_utils"
+      ]
+    },
+    {
+      "name": "tekartik_app_date",
+      "version": "0.1.6",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/app_common_utils.dart",
+      "gitPath": "app_date",
+      "level": 3,
+      "dependencies": [
+        "tekartik_common_utils"
+      ]
+    },
+    {
+      "name": "tekartik_app_flutter_plugin",
+      "version": "0.3.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/app_flutter_utils.dart",
+      "gitPath": "app_plugin",
+      "level": 3,
+      "dependencies": [
+        "tekartik_common_utils"
+      ]
+    },
+    {
+      "name": "tekartik_app_image",
+      "version": "0.2.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/app_image.dart",
+      "gitPath": "packages/app_image",
+      "level": 3,
+      "dependencies": [
+        "dev_build",
+        "tekartik_common_utils"
+      ]
+    },
+    {
+      "name": "tekartik_app_image_flutter",
+      "version": "0.1.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/app_flutter_utils.dart",
+      "gitPath": "app_image",
+      "level": 3,
+      "dependencies": [
+        "tekartik_common_utils"
+      ]
+    },
+    {
+      "name": "tekartik_app_io_launcher",
+      "version": "0.1.1",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/app_io_utils.dart",
+      "gitPath": "packages/app_launcher",
+      "level": 3,
+      "dependencies": [
+        "process_run",
+        "tekartik_common_utils"
+      ]
+    },
+    {
+      "name": "tekartik_app_io_sqflite",
+      "version": "0.5.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/app_io_utils.dart",
+      "gitPath": "packages/app_sqflite",
+      "level": 3,
+      "dependencies": [
+        "process_run",
+        "sqflite_common",
+        "sqflite_common_ffi"
+      ]
+    },
+    {
+      "name": "tekartik_app_json_schema",
+      "version": "1.0.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/app_common_utils.dart",
+      "gitPath": "app_json_schema",
+      "level": 3,
+      "dependencies": [
+        "cv",
+        "tekartik_common_utils"
+      ]
+    },
+    {
+      "name": "tekartik_app_python",
+      "version": "1.0.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/app_io_utils.dart",
+      "gitPath": "packages/app_python",
+      "level": 3,
+      "dependencies": [
+        "dev_build",
+        "process_run",
+        "tekartik_common_utils"
+      ]
+    },
+    {
+      "name": "tekartik_app_sdb_ui_flutter",
+      "version": "0.1.0",
+      "kind": "direct",
+      "source": "git",
+      "url": "https://github.com/tekartik/app_flutter_utils.dart",
+      "gitPath": "app_sdb_ui",
+      "level": 3,
+      "dependencies": [
+        "idb_shim",
+        "tekartik_app_list_view_flutter"
+      ]
+    },
+    {
+      "name": "tekartik_app_text",
+      "version": "1.0.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/app_common_utils.dart",
+      "gitPath": "app_text",
+      "level": 3,
+      "dependencies": [
+        "tekartik_common_utils"
+      ]
+    },
+    {
+      "name": "tekartik_appstore_publish",
+      "version": "0.1.1",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/app_build.dart",
+      "gitPath": "packages/appstore_publish",
+      "level": 3,
+      "dependencies": [
+        "process_run",
+        "tekartik_common_utils"
+      ]
+    },
+    {
+      "name": "tekartik_bluetooth",
+      "version": "0.6.1",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/bluetooth.dart",
+      "gitPath": "bluetooth",
+      "level": 3,
+      "dependencies": [
+        "cv",
+        "tekartik_common_utils"
+      ]
+    },
+    {
+      "name": "tekartik_build_node",
+      "version": "0.2.3",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/build_node.dart",
+      "gitPath": "packages/build_node",
+      "level": 3,
+      "dependencies": [
+        "dev_build",
+        "process_run"
+      ]
+    },
+    {
+      "name": "tekartik_cmd_echo",
+      "version": "0.2.1+1",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartikprj/io_tools",
+      "gitPath": "packages/cmd_echo",
+      "level": 3,
+      "dependencies": [
+        "process_run",
+        "tekartik_common_utils"
+      ]
+    },
+    {
+      "name": "tekartik_firebase",
+      "version": "0.9.1",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/firebase.dart",
+      "gitPath": "firebase",
+      "level": 3,
+      "dependencies": [
+        "synchronized",
+        "tekartik_common_utils"
+      ]
+    },
+    {
+      "name": "tekartik_ftp_client_io",
+      "version": "1.0.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/ftp.dart",
+      "gitPath": "ftp_client_io",
+      "level": 3,
+      "dependencies": [
+        "ftpconnect",
+        "tekartik_common_utils",
+        "tekartik_ftp"
+      ]
+    },
+    {
+      "name": "tekartik_google_auth",
+      "version": "0.4.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/google_auth.dart",
+      "gitPath": "google_auth",
+      "level": 3,
+      "dependencies": [
+        "tekartik_common_utils"
+      ]
+    },
+    {
+      "name": "tekartik_html",
+      "version": "0.3.1",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/html.dart",
+      "level": 3,
+      "dependencies": [
+        "tekartik_common_utils"
+      ]
+    },
+    {
+      "name": "tekartik_http",
+      "version": "0.7.6",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/http.dart",
+      "gitPath": "http",
+      "level": 3,
+      "dependencies": [
+        "tekartik_common_utils"
+      ]
+    },
+    {
+      "name": "tekartik_idb_provider",
+      "version": "0.4.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/idb_shim_more.dart",
+      "gitPath": "packages/idb_provider",
+      "level": 3,
+      "dependencies": [
+        "idb_shim",
+        "tekartik_common_utils"
+      ]
+    },
+    {
+      "name": "tekartik_io_utils",
+      "version": "0.8.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/io_utils.dart",
+      "level": 3,
+      "dependencies": [
+        "process_run",
+        "tekartik_common_utils"
+      ]
+    },
+    {
+      "name": "tekartik_js_utils",
+      "version": "0.3.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/js_utils.dart",
+      "gitPath": "js_utils",
+      "level": 3,
+      "dependencies": [
+        "synchronized",
+        "tekartik_common_utils"
+      ]
+    },
+    {
+      "name": "tekartik_js_utils_interop",
+      "version": "0.2.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/js_utils.dart",
+      "gitPath": "js_utils_interop",
+      "level": 3,
+      "dependencies": [
+        "tekartik_common_utils"
+      ]
+    },
+    {
+      "name": "tekartik_midi",
+      "version": "0.4.1",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/midi.dart",
+      "level": 3,
+      "dependencies": [
+        "tekartik_common_utils"
+      ]
+    },
+    {
+      "name": "tekartik_midi_player",
+      "version": "0.3.1",
+      "kind": "direct",
+      "source": "git",
+      "url": "https://github.com/tekartikprj/midi_player",
+      "gitPath": "packages/midi_player",
+      "level": 3,
+      "dependencies": [
+        "process_run",
+        "synchronized",
+        "tekartik_common_utils"
+      ]
+    },
+    {
+      "name": "tekartik_mustache",
+      "version": "0.3.1",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/mustache.dart",
+      "gitPath": "mustache",
+      "level": 3,
+      "dependencies": [
+        "tekartik_common_utils"
+      ]
+    },
+    {
+      "name": "tekartik_platform",
+      "version": "0.4.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/platform.dart",
+      "gitPath": "platform",
+      "level": 3,
+      "dependencies": [
+        "tekartik_common_utils"
+      ]
+    },
+    {
+      "name": "tekartik_prefs",
+      "version": "1.1.1",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/prefs.dart",
+      "gitPath": "prefs",
+      "level": 3,
+      "dependencies": [
+        "cv",
+        "synchronized",
+        "tekartik_common_utils"
+      ]
+    },
+    {
+      "name": "tekartik_qrscan_flutter",
+      "version": "0.1.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/app_camera.dart",
+      "gitPath": "qrscan_flutter",
+      "level": 3,
+      "dependencies": [
+        "tekartik_lints_flutter"
+      ]
+    },
+    {
+      "name": "tekartik_test_menu",
+      "version": "0.8.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/test_menu.dart",
+      "gitPath": "test_menu",
+      "level": 3,
+      "dependencies": [
+        "dev_build",
+        "tekartik_common_utils"
+      ]
+    },
+    {
+      "name": "tekartik_web_socket",
+      "version": "0.3.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/web_socket.dart",
+      "gitPath": "web_socket",
+      "level": 3,
+      "dependencies": [
+        "tekartik_common_utils"
+      ]
+    },
+    {
+      "name": "dev_flutter_test",
+      "version": "0.3.0",
+      "kind": "direct",
+      "source": "git",
+      "url": "https://github.com/tekartik/dev_flutter_test",
+      "gitPath": "dev_flutter_test",
+      "level": 4,
+      "dependencies": [
+        "dev_test",
+        "tekartik_test_menu_flutter"
+      ]
+    },
+    {
+      "name": "idb_test",
+      "version": "1.0.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/idb_shim.dart",
+      "gitPath": "idb_test",
+      "level": 4,
+      "dependencies": [
+        "dev_test",
+        "idb_shim",
+        "sembast"
+      ]
+    },
+    {
+      "name": "sembast_test",
+      "version": "0.3.1",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/sembast.dart",
+      "gitPath": "sembast_test",
+      "level": 4,
+      "dependencies": [
+        "sembast",
+        "sembast_web"
+      ]
+    },
+    {
+      "name": "sqflite",
+      "version": "2.4.4",
+      "kind": "direct",
+      "source": "hosted",
+      "url": "https://github.com/tekartik/sqflite/tree/master/sqflite",
+      "level": 4,
+      "dependencies": [
+        "sqflite_android",
+        "sqflite_common",
+        "sqflite_darwin",
+        "sqflite_platform_interface"
+      ]
+    },
+    {
+      "name": "sqflite_common_porter",
+      "version": "0.3.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/sqflite_more",
+      "gitPath": "sqflite_common_porter",
+      "level": 4,
+      "dependencies": [
+        "sqflite_common",
+        "sqflite_common_ffi",
+        "tekartik_app_csv",
+        "tekartik_common_utils"
+      ]
+    },
+    {
+      "name": "tekaly_lyrics",
+      "version": "1.1.2",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartikprj/music",
+      "gitPath": "packages/lyrics",
+      "level": 4,
+      "dependencies": [
+        "tekartik_common_utils",
+        "tekartik_midi"
+      ]
+    },
+    {
+      "name": "tekartik_aliyun_fc",
+      "version": "0.2.1",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/aliyun.dart",
+      "gitPath": "common/fc",
+      "level": 4,
+      "dependencies": [
+        "tekartik_http"
+      ]
+    },
+    {
+      "name": "tekartik_aliyun_oss",
+      "version": "0.2.2",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/aliyun.dart",
+      "gitPath": "common/oss",
+      "level": 4,
+      "dependencies": [
+        "cv",
+        "tekartik_common_utils",
+        "tekartik_http"
+      ]
+    },
+    {
+      "name": "tekartik_aliyun_tablestore",
+      "version": "0.2.3",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/aliyun.dart",
+      "gitPath": "common/tablestore",
+      "level": 4,
+      "dependencies": [
+        "cv",
+        "tekartik_common_utils",
+        "tekartik_http"
+      ]
+    },
+    {
+      "name": "tekartik_app_flutter_bloc",
+      "version": "0.4.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/app_flutter_utils.dart",
+      "gitPath": "app_bloc",
+      "level": 4,
+      "dependencies": [
+        "tekartik_app_bloc"
+      ]
+    },
+    {
+      "name": "tekartik_app_flutter_common_utils",
+      "version": "0.1.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/app_flutter_utils.dart",
+      "gitPath": "app_common",
+      "level": 4,
+      "dependencies": [
+        "tekartik_app_common_utils",
+        "tekartik_common_utils",
+        "tekartik_lints_flutter"
+      ]
+    },
+    {
+      "name": "tekartik_app_flutter_common_web_utils",
+      "version": "0.1.0",
+      "kind": "direct",
+      "source": "git",
+      "url": "https://github.com/tekartik/app_flutter_utils.dart",
+      "gitPath": "app_common_web",
+      "level": 4,
+      "dependencies": [
+        "tekartik_app_common_utils",
+        "tekartik_common_utils",
+        "tekartik_lints_flutter"
+      ]
+    },
+    {
+      "name": "tekartik_app_flutter_fs",
+      "version": "0.2.0",
+      "kind": "direct",
+      "source": "git",
+      "url": "https://github.com/tekartik/app_flutter_utils.dart",
+      "gitPath": "app_fs",
+      "level": 4,
+      "dependencies": [
+        "fs_shim",
+        "idb_shim",
+        "process_run"
+      ]
+    },
+    {
+      "name": "tekartik_app_flutter_sqflite",
+      "version": "0.6.1",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/app_flutter_utils.dart",
+      "gitPath": "app_sqflite",
+      "level": 4,
+      "dependencies": [
+        "process_run",
+        "sqflite_common",
+        "sqflite_common_ffi",
+        "sqflite_common_ffi_web",
+        "sqflite_ffi"
+      ]
+    },
+    {
+      "name": "tekartik_app_intl",
+      "version": "0.2.3",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/app_common_utils.dart",
+      "gitPath": "app_intl",
+      "level": 4,
+      "dependencies": [
+        "fs_shim",
+        "process_run",
+        "tekartik_common_utils"
+      ]
+    },
+    {
+      "name": "tekartik_app_io_sembast",
+      "version": "0.5.1",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/app_io_utils.dart",
+      "gitPath": "packages/app_sembast",
+      "level": 4,
+      "dependencies": [
+        "sembast",
+        "sembast_sqflite",
+        "sqflite_common_ffi",
+        "tekartik_app_io_sqflite"
+      ]
+    },
+    {
+      "name": "tekartik_app_io_zip",
+      "version": "1.0.1",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/app_io_utils.dart",
+      "gitPath": "packages/app_zip",
+      "level": 4,
+      "dependencies": [
+        "tekartik_io_utils"
+      ]
+    },
+    {
+      "name": "tekartik_app_rx",
+      "version": "0.2.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/app_common_utils.dart",
+      "gitPath": "app_rx",
+      "level": 4,
+      "dependencies": [
+        "tekartik_app_common_utils",
+        "tekartik_common_utils"
+      ]
+    },
+    {
+      "name": "tekartik_app_secure_env",
+      "version": "0.1.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/app_io_utils.dart",
+      "gitPath": "packages/app_secure_env",
+      "level": 4,
+      "dependencies": [
+        "process_run",
+        "tekartik_app_crypto"
+      ]
+    },
+    {
+      "name": "tekartik_app_sqflite",
+      "version": "0.6.1",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/app_common_utils.dart",
+      "gitPath": "app_sqflite",
+      "level": 4,
+      "dependencies": [
+        "process_run",
+        "sqflite_common",
+        "sqflite_common_ffi",
+        "sqflite_common_ffi_web"
+      ]
+    },
+    {
+      "name": "tekartik_bluetooth_bluez",
+      "version": "0.5.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/bluetooth.dart",
+      "gitPath": "bluetooth_bluez",
+      "level": 4,
+      "dependencies": [
+        "tekartik_bluetooth"
+      ]
+    },
+    {
+      "name": "tekartik_bluetooth_flutter",
+      "version": "0.6.1",
+      "kind": "direct",
+      "source": "git",
+      "url": "https://github.com/tekartik/bluetooth.dart",
+      "gitPath": "bluetooth_flutter",
+      "level": 4,
+      "dependencies": [
+        "synchronized",
+        "tekartik_bluetooth"
+      ]
+    },
+    {
+      "name": "tekartik_browser_utils",
+      "version": "0.7.6",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/browser_utils.dart",
+      "level": 4,
+      "dependencies": [
+        "synchronized",
+        "tekartik_common_utils",
+        "tekartik_js_utils",
+        "tekartik_js_utils_interop"
+      ]
+    },
+    {
+      "name": "tekartik_cmd_record",
+      "version": "0.3.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartikprj/io_tools",
+      "gitPath": "packages/cmd_record",
+      "level": 4,
+      "dependencies": [
+        "process_run",
+        "tekartik_cmd_echo"
+      ]
+    },
+    {
+      "name": "tekartik_cmd_tools",
+      "version": "0.4.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartikprj/io_tools",
+      "gitPath": "packages/cmd_tools",
+      "level": 4,
+      "dependencies": [
+        "process_run",
+        "tekartik_app_csv",
+        "tekartik_common_utils",
+        "tekartik_io_utils"
+      ]
+    },
+    {
+      "name": "tekartik_core_node",
+      "version": "1.0.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/common_node.dart",
+      "gitPath": "core_node",
+      "level": 4,
+      "dependencies": [
+        "tekartik_common_utils",
+        "tekartik_js_utils_interop"
+      ]
+    },
+    {
+      "name": "tekartik_deploy",
+      "version": "0.7.1",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/deploy.dart",
+      "level": 4,
+      "dependencies": [
+        "fs_shim",
+        "process_run",
+        "tekartik_app_media",
+        "tekartik_common_utils",
+        "tekartik_io_utils"
+      ]
+    },
+    {
+      "name": "tekartik_firebase_auth",
+      "version": "0.9.2",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/firebase_auth.dart",
+      "gitPath": "auth",
+      "level": 4,
+      "dependencies": [
+        "tekartik_common_utils",
+        "tekartik_firebase"
+      ]
+    },
+    {
+      "name": "tekartik_firebase_firestore",
+      "version": "1.2.1",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/firebase_firestore.dart",
+      "gitPath": "firestore",
+      "level": 4,
+      "dependencies": [
+        "cv",
+        "tekartik_common_utils",
+        "tekartik_firebase"
+      ]
+    },
+    {
+      "name": "tekartik_firebase_flutter",
+      "version": "0.8.4+1",
+      "kind": "direct",
+      "source": "git",
+      "url": "https://github.com/tekartik/firebase_flutter",
+      "gitPath": "firebase_flutter",
+      "level": 4,
+      "dependencies": [
+        "tekartik_firebase"
+      ]
+    },
+    {
+      "name": "tekartik_firebase_local",
+      "version": "0.9.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/firebase.dart",
+      "gitPath": "firebase_local",
+      "level": 4,
+      "dependencies": [
+        "tekartik_firebase"
+      ]
+    },
+    {
+      "name": "tekartik_firebase_storage",
+      "version": "0.8.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/firebase_storage.dart",
+      "gitPath": "storage",
+      "level": 4,
+      "dependencies": [
+        "tekartik_app_media",
+        "tekartik_firebase"
+      ]
+    },
+    {
+      "name": "tekartik_firebase_vertex_ai",
+      "version": "1.0.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/firebase_vertex_ai.dart",
+      "gitPath": "vertex_ai",
+      "level": 4,
+      "dependencies": [
+        "tekartik_app_json_schema",
+        "tekartik_firebase"
+      ]
+    },
+    {
+      "name": "tekartik_fs_test",
+      "version": "0.4.3",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/fs_shim.dart",
+      "gitPath": "fs_test",
+      "level": 4,
+      "dependencies": [
+        "dev_test",
+        "fs_shim",
+        "tekartik_common_utils"
+      ]
+    },
+    {
+      "name": "tekartik_ftp_io",
+      "version": "1.0.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/ftp.dart",
+      "gitPath": "ftp_io",
+      "level": 4,
+      "dependencies": [
+        "fs_shim",
+        "tekartik_ftp",
+        "tekartik_ftp_client_io",
+        "tekartik_ftp_server_io"
+      ]
+    },
+    {
+      "name": "tekartik_google_auth_flutter",
+      "version": "0.3.0",
+      "kind": "direct",
+      "source": "git",
+      "url": "https://github.com/tekartik/google_auth.dart",
+      "gitPath": "google_auth_flutter",
+      "level": 4,
+      "dependencies": [
+        "tekartik_google_auth"
+      ]
+    },
+    {
+      "name": "tekartik_http_browser",
+      "version": "0.7.3",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/http.dart",
+      "gitPath": "http_browser",
+      "level": 4,
+      "dependencies": [
+        "tekartik_http"
+      ]
+    },
+    {
+      "name": "tekartik_http_io",
+      "version": "0.7.4",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/http.dart",
+      "gitPath": "http_io",
+      "level": 4,
+      "dependencies": [
+        "tekartik_http"
+      ]
+    },
+    {
+      "name": "tekartik_io_auth_utils",
+      "version": "0.3.2+1",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/io_auth_utils.dart",
+      "level": 4,
+      "dependencies": [
+        "fs_shim",
+        "tekartik_io_utils"
+      ]
+    },
+    {
+      "name": "tekartik_kiosk",
+      "version": "0.1.0",
+      "kind": "direct",
+      "source": "git",
+      "url": "https://github.com/tekartikprj/android_tools",
+      "gitPath": "packages/kiosk",
+      "level": 4,
+      "dependencies": [
+        "tekartik_app_common_utils"
+      ]
+    },
+    {
+      "name": "tekartik_mail_tk",
+      "version": "1.0.2",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/mail.dart",
+      "gitPath": "packages/mail_tk",
+      "level": 4,
+      "dependencies": [
+        "cv",
+        "tekartik_http",
+        "tekartik_mail"
+      ]
+    },
+    {
+      "name": "tekartik_mailjet",
+      "version": "0.1.1",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/alextekartik/http_apis.dart",
+      "gitPath": "packages/mailjet",
+      "level": 4,
+      "dependencies": [
+        "cv",
+        "tekartik_http"
+      ]
+    },
+    {
+      "name": "tekartik_mediapipe_js",
+      "version": "1.0.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/app_web_utils.dart",
+      "gitPath": "packages/mediapipe_js",
+      "level": 4,
+      "dependencies": [
+        "tekartik_common_utils",
+        "tekartik_js_utils_interop"
+      ]
+    },
+    {
+      "name": "tekartik_nodedev",
+      "version": "0.1.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/build_node.dart",
+      "gitPath": "packages/nodedev",
+      "level": 4,
+      "dependencies": [
+        "dev_build",
+        "process_run",
+        "tekartik_build_node"
+      ]
+    },
+    {
+      "name": "tekartik_platform_browser",
+      "version": "0.5.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/platform.dart",
+      "gitPath": "platform_browser",
+      "level": 4,
+      "dependencies": [
+        "tekartik_platform"
+      ]
+    },
+    {
+      "name": "tekartik_platform_io",
+      "version": "0.4.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/platform.dart",
+      "gitPath": "platform_io",
+      "level": 4,
+      "dependencies": [
+        "process_run",
+        "tekartik_platform"
+      ]
+    },
+    {
+      "name": "tekartik_prefs_browser",
+      "version": "0.2.1",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/prefs.dart",
+      "gitPath": "prefs_browser",
+      "level": 4,
+      "dependencies": [
+        "tekartik_common_utils",
+        "tekartik_prefs"
+      ]
+    },
+    {
+      "name": "tekartik_prefs_flutter",
+      "version": "0.1.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/prefs.dart",
+      "gitPath": "prefs_flutter",
+      "level": 4,
+      "dependencies": [
+        "cv",
+        "synchronized",
+        "tekartik_common_utils",
+        "tekartik_prefs"
+      ]
+    },
+    {
+      "name": "tekartik_prefs_sdb",
+      "version": "0.1.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/prefs.dart",
+      "gitPath": "prefs_sdb",
+      "level": 4,
+      "dependencies": [
+        "idb_shim",
+        "tekartik_common_utils",
+        "tekartik_prefs"
+      ]
+    },
+    {
+      "name": "tekartik_prefs_sembast",
+      "version": "0.1.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/prefs.dart",
+      "gitPath": "prefs_sembast",
+      "level": 4,
+      "dependencies": [
+        "sembast",
+        "tekartik_common_utils",
+        "tekartik_prefs"
+      ]
+    },
+    {
+      "name": "tekartik_prefs_test",
+      "version": "0.3.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/prefs.dart",
+      "gitPath": "prefs_test",
+      "level": 4,
+      "dependencies": [
+        "cv",
+        "tekartik_common_utils",
+        "tekartik_prefs"
+      ]
+    },
+    {
+      "name": "tekartik_pub",
+      "version": "1.0.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/pub.dart",
+      "level": 4,
+      "dependencies": [
+        "dev_build",
+        "fs_shim",
+        "process_run",
+        "tekartik_common_utils"
+      ]
+    },
+    {
+      "name": "tekartik_qrscan_flutter_mobile_scanner",
+      "version": "0.1.0",
+      "kind": "direct",
+      "source": "git",
+      "url": "https://github.com/tekartik/app_camera.dart",
+      "gitPath": "qrscan_flutter_mobile_scanner",
+      "level": 4,
+      "dependencies": [
+        "tekartik_qrscan_flutter"
+      ]
+    },
+    {
+      "name": "tekartik_sc",
+      "version": "0.10.5",
+      "kind": "direct",
+      "source": "git",
+      "url": "https://github.com/tekartik/sc.dart",
+      "level": 4,
+      "dependencies": [
+        "dev_build",
+        "process_run",
+        "tekartik_common_utils",
+        "tekartik_io_utils"
+      ]
+    },
+    {
+      "name": "tekartik_stripe_api",
+      "version": "1.0.2",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/alextekartik/http_apis.dart",
+      "gitPath": "packages/stripe",
+      "level": 4,
+      "dependencies": [
+        "cv",
+        "process_run",
+        "tekartik_http"
+      ]
+    },
+    {
+      "name": "tekartik_test_menu_io",
+      "version": "0.8.0+3",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/test_menu.dart",
+      "gitPath": "test_menu_io",
+      "level": 4,
+      "dependencies": [
+        "dev_build",
+        "process_run",
+        "tekartik_test_menu"
+      ]
+    },
+    {
+      "name": "tekartik_three_js",
+      "version": "1.0.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/app_web_utils.dart",
+      "gitPath": "packages/three_js",
+      "level": 4,
+      "dependencies": [
+        "cv",
+        "tekartik_common_utils",
+        "tekartik_js_utils",
+        "tekartik_js_utils_interop"
+      ]
+    },
+    {
+      "name": "tekartik_wav",
+      "version": "0.1.0",
+      "kind": "direct",
+      "source": "git",
+      "url": "https://github.com/tekartikprj/audio",
+      "gitPath": "packages/wav",
+      "level": 4,
+      "dependencies": [
+        "fs_shim",
+        "tekartik_common_utils"
+      ]
+    },
+    {
+      "name": "tekartik_web_socket_browser",
+      "version": "0.3.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/web_socket.dart",
+      "gitPath": "web_socket_browser",
+      "level": 4,
+      "dependencies": [
+        "tekartik_common_utils",
+        "tekartik_web_socket"
+      ]
+    },
+    {
+      "name": "tekartik_web_socket_io",
+      "version": "0.2.2",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/web_socket.dart",
+      "gitPath": "web_socket_io",
+      "level": 4,
+      "dependencies": [
+        "tekartik_common_utils",
+        "tekartik_web_socket"
+      ]
+    },
+    {
+      "name": "tekartik_web_socket_test",
+      "version": "0.3.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/web_socket.dart",
+      "gitPath": "web_socket_test",
+      "level": 4,
+      "dependencies": [
+        "process_run",
+        "tekartik_web_socket"
+      ]
+    },
+    {
+      "name": "tekartik_yacht",
+      "version": "0.4.1",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/yacht.dart",
+      "gitPath": "packages/yacht",
+      "level": 4,
+      "dependencies": [
+        "fs_shim",
+        "tekartik_common_utils",
+        "tekartik_html"
+      ]
+    },
+    {
+      "name": "festenao_theme",
+      "version": "0.0.1",
+      "kind": "direct",
+      "source": "git",
+      "url": "https://github.com/tekaly/festenao",
+      "gitPath": "packages_flutter/festenao_theme",
+      "level": 5,
+      "dependencies": [
+        "tekartik_app_flutter_common_utils"
+      ]
+    },
+    {
+      "name": "idb_sqflite_common_test",
+      "version": "0.2.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/idb_sqflite",
+      "gitPath": "idb_sqflite_common_test",
+      "level": 5,
+      "dependencies": [
+        "idb_shim",
+        "idb_sqflite",
+        "idb_test",
+        "sqflite_common"
+      ]
+    },
+    {
+      "name": "sembast_sqflite_common_test",
+      "version": "0.5.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/sembast_sqflite",
+      "gitPath": "sembast_sqflite_common_test",
+      "level": 5,
+      "dependencies": [
+        "sembast",
+        "sembast_sqflite",
+        "sembast_test",
+        "sqflite_common",
+        "sqflite_common_ffi"
+      ]
+    },
+    {
+      "name": "sembast_web_html_compat",
+      "version": "1.0.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/idb_shim_more.dart",
+      "gitPath": "packages/sembast_web_html_compat",
+      "level": 5,
+      "dependencies": [
+        "idb_shim",
+        "idb_shim_html_compat",
+        "sembast",
+        "sembast_test",
+        "sembast_web"
+      ]
+    },
+    {
+      "name": "tekaly_file_download_web",
+      "version": "0.1.1",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartikprj/tekaly",
+      "gitPath": "packages/file_download_web",
+      "level": 5,
+      "dependencies": [
+        "tekartik_platform_browser"
+      ]
+    },
+    {
+      "name": "tekartik_aliyun_fc_http",
+      "version": "0.1.5",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/aliyun.dart",
+      "gitPath": "common/fc_http",
+      "level": 5,
+      "dependencies": [
+        "synchronized",
+        "tekartik_aliyun_fc",
+        "tekartik_common_utils",
+        "tekartik_http",
+        "tekartik_http_io"
+      ]
+    },
+    {
+      "name": "tekartik_aliyun_oss_fs",
+      "version": "0.3.1",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/aliyun.dart",
+      "gitPath": "common/oss_fs",
+      "level": 5,
+      "dependencies": [
+        "cv",
+        "fs_shim",
+        "tekartik_aliyun_oss"
+      ]
+    },
+    {
+      "name": "tekartik_aliyun_tablestore_sembast",
+      "version": "0.2.3",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/aliyun.dart",
+      "gitPath": "common/tablestore_sembast",
+      "level": 5,
+      "dependencies": [
+        "sembast",
+        "tekartik_aliyun_tablestore"
+      ]
+    },
+    {
+      "name": "tekartik_app_dock",
+      "version": "0.1.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/app_common_utils.dart",
+      "gitPath": "app_dock",
+      "level": 5,
+      "dependencies": [
+        "fs_shim",
+        "idb_shim",
+        "process_run",
+        "sembast",
+        "sembast_web",
+        "tekartik_common_utils",
+        "tekartik_prefs",
+        "tekartik_prefs_browser",
+        "tekartik_prefs_sembast"
+      ]
+    },
+    {
+      "name": "tekartik_app_flutter_full_screen",
+      "version": "0.1.0",
+      "kind": "direct",
+      "source": "git",
+      "url": "https://github.com/tekartik/app_flutter_utils.dart",
+      "gitPath": "app_full_screen",
+      "level": 5,
+      "dependencies": [
+        "tekartik_browser_utils"
+      ]
+    },
+    {
+      "name": "tekartik_app_flutter_idb",
+      "version": "0.4.1",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/app_flutter_utils.dart",
+      "gitPath": "app_idb",
+      "level": 5,
+      "dependencies": [
+        "idb_shim",
+        "idb_sqflite",
+        "process_run",
+        "sembast",
+        "sqflite",
+        "tekartik_app_flutter_sqflite"
+      ]
+    },
+    {
+      "name": "tekartik_app_flutter_intl",
+      "version": "0.1.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/app_flutter_utils.dart",
+      "gitPath": "app_intl",
+      "level": 5,
+      "dependencies": [
+        "tekartik_app_intl"
+      ]
+    },
+    {
+      "name": "tekartik_app_flutter_sembast",
+      "version": "0.5.1",
+      "kind": "direct",
+      "source": "git",
+      "url": "https://github.com/tekartik/app_flutter_utils.dart",
+      "gitPath": "app_sembast",
+      "level": 5,
+      "dependencies": [
+        "sembast",
+        "sembast_sqflite",
+        "sembast_web",
+        "sqflite_common",
+        "sqflite_common_ffi",
+        "tekartik_app_flutter_sqflite"
+      ]
+    },
+    {
+      "name": "tekartik_app_http",
+      "version": "0.2.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/app_common_utils.dart",
+      "gitPath": "app_http",
+      "level": 5,
+      "dependencies": [
+        "fs_shim",
+        "tekartik_common_utils",
+        "tekartik_http",
+        "tekartik_http_browser",
+        "tekartik_http_io"
+      ]
+    },
+    {
+      "name": "tekartik_app_io_platform",
+      "version": "0.3.1",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/app_io_utils.dart",
+      "gitPath": "packages/app_platform",
+      "level": 5,
+      "dependencies": [
+        "tekartik_platform",
+        "tekartik_platform_io"
+      ]
+    },
+    {
+      "name": "tekartik_app_io_prefs",
+      "version": "0.4.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/app_io_utils.dart",
+      "gitPath": "packages/app_prefs",
+      "level": 5,
+      "dependencies": [
+        "process_run",
+        "sembast",
+        "tekartik_app_io_sqflite",
+        "tekartik_prefs",
+        "tekartik_prefs_sembast"
+      ]
+    },
+    {
+      "name": "tekartik_app_navigator_flutter",
+      "version": "0.4.9",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/app_flutter_utils.dart",
+      "gitPath": "app_navigator",
+      "level": 5,
+      "dependencies": [
+        "tekartik_app_flutter_bloc"
+      ]
+    },
+    {
+      "name": "tekartik_app_platform",
+      "version": "0.4.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/app_flutter_utils.dart",
+      "gitPath": "app_platform",
+      "level": 5,
+      "dependencies": [
+        "tekartik_platform_browser",
+        "tekartik_platform_io"
+      ]
+    },
+    {
+      "name": "tekartik_app_prefs",
+      "version": "0.4.2",
+      "kind": "direct",
+      "source": "git",
+      "url": "https://github.com/tekartik/app_flutter_utils.dart",
+      "gitPath": "app_prefs",
+      "level": 5,
+      "dependencies": [
+        "process_run",
+        "sembast",
+        "tekartik_prefs",
+        "tekartik_prefs_browser",
+        "tekartik_prefs_flutter",
+        "tekartik_prefs_sembast"
+      ]
+    },
+    {
+      "name": "tekartik_app_rx_bloc",
+      "version": "0.2.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/app_common_utils.dart",
+      "gitPath": "app_rx_bloc",
+      "level": 5,
+      "dependencies": [
+        "tekartik_app_bloc",
+        "tekartik_app_common_utils",
+        "tekartik_app_rx"
+      ]
+    },
+    {
+      "name": "tekartik_app_sembast",
+      "version": "0.1.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/app_common_utils.dart",
+      "gitPath": "app_sembast",
+      "level": 5,
+      "dependencies": [
+        "cv",
+        "sembast",
+        "sembast_sqflite",
+        "sembast_web",
+        "sqflite_common_ffi",
+        "synchronized",
+        "tekartik_app_sqflite",
+        "tekartik_lints"
+      ]
+    },
+    {
+      "name": "tekartik_app_sembast_firestore_type_adapters",
+      "version": "0.1.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/app_common_utils.dart",
+      "gitPath": "app_sembast_firestore_type_adapters",
+      "level": 5,
+      "dependencies": [
+        "sembast",
+        "tekartik_firebase_firestore"
+      ]
+    },
+    {
+      "name": "tekartik_app_url_launcher_flutter",
+      "version": "1.0.0",
+      "kind": "direct",
+      "source": "git",
+      "url": "https://github.com/tekartik/app_flutter_utils.dart",
+      "gitPath": "app_url_launcher",
+      "level": 5,
+      "dependencies": [
+        "tekartik_app_flutter_common_utils"
+      ]
+    },
+    {
+      "name": "tekartik_app_web_socket",
+      "version": "0.1.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/app_common_utils.dart",
+      "gitPath": "app_web_socket",
+      "level": 5,
+      "dependencies": [
+        "tekartik_web_socket",
+        "tekartik_web_socket_browser",
+        "tekartik_web_socket_io"
+      ]
+    },
+    {
+      "name": "tekartik_audio_web",
+      "version": "0.2.1",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartikprj/audio_web",
+      "gitPath": "audio_web",
+      "level": 5,
+      "dependencies": [
+        "tekartik_browser_utils",
+        "tekartik_common_utils"
+      ]
+    },
+    {
+      "name": "tekartik_aws_ses_node",
+      "version": "0.1.2",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/amazon_node.dart",
+      "gitPath": "packages/aws_ses_node",
+      "level": 5,
+      "dependencies": [
+        "process_run",
+        "tekartik_common_utils",
+        "tekartik_core_node",
+        "tekartik_js_utils_interop"
+      ]
+    },
+    {
+      "name": "tekartik_camera_web",
+      "version": "0.2.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/app_camera.dart",
+      "gitPath": "camera_web",
+      "level": 5,
+      "dependencies": [
+        "tekartik_browser_utils"
+      ]
+    },
+    {
+      "name": "tekartik_ci",
+      "version": "0.1.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/ci.dart",
+      "gitPath": "ci",
+      "level": 5,
+      "dependencies": [
+        "dev_build",
+        "process_run",
+        "tekartik_platform_io"
+      ]
+    },
+    {
+      "name": "tekartik_firebase_admin_sdk",
+      "version": "1.0.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/firebase_admin_sdk.dart",
+      "gitPath": "firebase_admin_sdk",
+      "level": 5,
+      "dependencies": [
+        "tekartik_common_utils",
+        "tekartik_firebase",
+        "tekartik_firebase_auth",
+        "tekartik_firebase_firestore",
+        "tekartik_firebase_storage"
+      ]
+    },
+    {
+      "name": "tekartik_firebase_auth_flutter",
+      "version": "0.10.2",
+      "kind": "direct",
+      "source": "git",
+      "url": "https://github.com/tekartik/firebase_flutter",
+      "gitPath": "auth_flutter",
+      "level": 5,
+      "dependencies": [
+        "tekartik_firebase",
+        "tekartik_firebase_auth",
+        "tekartik_firebase_flutter"
+      ]
+    },
+    {
+      "name": "tekartik_firebase_auth_local",
+      "version": "0.10.1",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/firebase_auth.dart",
+      "gitPath": "auth_local",
+      "level": 5,
+      "dependencies": [
+        "sembast",
+        "tekartik_common_utils",
+        "tekartik_firebase",
+        "tekartik_firebase_auth",
+        "tekartik_firebase_local"
+      ]
+    },
+    {
+      "name": "tekartik_firebase_firestore_flutter",
+      "version": "0.11.2",
+      "kind": "direct",
+      "source": "git",
+      "url": "https://github.com/tekartik/firebase_flutter",
+      "gitPath": "firestore_flutter",
+      "level": 5,
+      "dependencies": [
+        "tekartik_firebase",
+        "tekartik_firebase_firestore",
+        "tekartik_firebase_flutter"
+      ]
+    },
+    {
+      "name": "tekartik_firebase_firestore_idb",
+      "version": "0.8.2",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/firebase_firestore.dart",
+      "gitPath": "firestore_idb",
+      "level": 5,
+      "dependencies": [
+        "idb_shim",
+        "tekartik_browser_utils",
+        "tekartik_firebase",
+        "tekartik_firebase_firestore",
+        "tekartik_firebase_local"
+      ]
+    },
+    {
+      "name": "tekartik_firebase_firestore_sembast",
+      "version": "1.0.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/firebase_firestore.dart",
+      "gitPath": "firestore_sembast",
+      "level": 5,
+      "dependencies": [
+        "sembast",
+        "sembast_web",
+        "tekartik_common_utils",
+        "tekartik_firebase",
+        "tekartik_firebase_firestore",
+        "tekartik_firebase_local"
+      ]
+    },
+    {
+      "name": "tekartik_firebase_functions",
+      "version": "0.4.1",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/firebase_functions.dart",
+      "gitPath": "firebase_functions",
+      "level": 5,
+      "dependencies": [
+        "cv",
+        "tekartik_firebase",
+        "tekartik_firebase_auth",
+        "tekartik_firebase_firestore",
+        "tekartik_http"
+      ]
+    },
+    {
+      "name": "tekartik_firebase_persistence",
+      "version": "0.2.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/firebase.dart",
+      "gitPath": "firebase_persistence",
+      "level": 5,
+      "dependencies": [
+        "fs_shim",
+        "idb_shim",
+        "tekartik_browser_utils",
+        "tekartik_prefs"
+      ]
+    },
+    {
+      "name": "tekartik_firebase_rest",
+      "version": "0.8.4",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/firebase_rest.dart",
+      "gitPath": "firebase_rest",
+      "level": 5,
+      "dependencies": [
+        "cv",
+        "process_run",
+        "tekartik_firebase",
+        "tekartik_platform",
+        "tekartik_platform_io"
+      ]
+    },
+    {
+      "name": "tekartik_firebase_storage_flutter",
+      "version": "0.8.0",
+      "kind": "direct",
+      "source": "git",
+      "url": "https://github.com/tekartik/firebase_flutter",
+      "gitPath": "storage_flutter",
+      "level": 5,
+      "dependencies": [
+        "tekartik_firebase",
+        "tekartik_firebase_flutter",
+        "tekartik_firebase_storage"
+      ]
+    },
+    {
+      "name": "tekartik_firebase_storage_fs",
+      "version": "0.4.7",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/firebase_storage.dart",
+      "gitPath": "storage_fs",
+      "level": 5,
+      "dependencies": [
+        "fs_shim",
+        "process_run",
+        "tekartik_common_utils",
+        "tekartik_firebase",
+        "tekartik_firebase_local",
+        "tekartik_firebase_storage"
+      ]
+    },
+    {
+      "name": "tekartik_firebase_ui_firestore",
+      "version": "1.5.12",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/firebase_ui.dart",
+      "gitPath": "packages/firebase_ui_firestore",
+      "level": 5,
+      "dependencies": [
+        "tekartik_firebase_firestore"
+      ]
+    },
+    {
+      "name": "tekartik_gdrive_api_utils",
+      "version": "1.0.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/gapi.dart",
+      "gitPath": "gdrive_api_utils",
+      "level": 5,
+      "dependencies": [
+        "cv",
+        "tekartik_io_auth_utils"
+      ]
+    },
+    {
+      "name": "tekartik_http_redirect",
+      "version": "0.8.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/http_redirect.dart",
+      "gitPath": "packages/http_redirect",
+      "level": 5,
+      "dependencies": [
+        "tekartik_common_utils",
+        "tekartik_http",
+        "tekartik_http_io"
+      ]
+    },
+    {
+      "name": "tekartik_js_qr",
+      "version": "0.1.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/app_camera.dart",
+      "gitPath": "js_qr",
+      "level": 5,
+      "dependencies": [
+        "tekartik_browser_utils"
+      ]
+    },
+    {
+      "name": "tekartik_kiosk_app",
+      "version": "1.0.0+1",
+      "kind": "direct",
+      "source": "git",
+      "url": "https://github.com/tekartikprj/android_tools",
+      "gitPath": "packages/kiosk_app",
+      "level": 5,
+      "dependencies": [
+        "tekartik_app_bloc",
+        "tekartik_app_common_utils",
+        "tekartik_kiosk"
+      ]
+    },
+    {
+      "name": "tekartik_mdl_js",
+      "version": "0.5.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/mdl_js.dart",
+      "level": 5,
+      "dependencies": [
+        "tekartik_browser_utils",
+        "tekartik_common_utils"
+      ]
+    },
+    {
+      "name": "tekartik_midi_device",
+      "version": "1.0.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartikprj/midi_device",
+      "gitPath": "packages/midi_device",
+      "level": 5,
+      "dependencies": [
+        "tekartik_app_rx",
+        "tekartik_common_utils"
+      ]
+    },
+    {
+      "name": "tekartik_mustache_fs",
+      "version": "0.2.1",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/mustache.dart",
+      "gitPath": "mustache_fs",
+      "level": 5,
+      "dependencies": [
+        "fs_shim",
+        "tekartik_firebase_storage",
+        "tekartik_mustache"
+      ]
+    },
+    {
+      "name": "tekartik_platform_node",
+      "version": "0.3.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/common_node.dart",
+      "gitPath": "platform_node",
+      "level": 5,
+      "dependencies": [
+        "tekartik_common_utils",
+        "tekartik_core_node",
+        "tekartik_platform",
+        "tekartik_platform_io"
+      ]
+    },
+    {
+      "name": "tekartik_pubtest",
+      "version": "0.7.1",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/pubtest.dart",
+      "level": 5,
+      "dependencies": [
+        "fs_shim",
+        "process_run",
+        "synchronized",
+        "tekartik_common_utils",
+        "tekartik_io_utils",
+        "tekartik_pub",
+        "tekartik_sc"
+      ]
+    },
+    {
+      "name": "tekartik_rpc",
+      "version": "0.1.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/rpc.dart",
+      "gitPath": "packages/rpc",
+      "level": 5,
+      "dependencies": [
+        "cv",
+        "synchronized",
+        "tekartik_common_utils",
+        "tekartik_web_socket",
+        "tekartik_web_socket_browser",
+        "tekartik_web_socket_io"
+      ]
+    },
+    {
+      "name": "tekartik_test_menu_flutter",
+      "version": "1.1.0",
+      "kind": "direct",
+      "source": "git",
+      "url": "https://github.com/tekartik/test_menu_flutter",
+      "gitPath": "test_menu_flutter",
+      "level": 5,
+      "dependencies": [
+        "dev_build",
+        "dev_flutter_test",
+        "synchronized",
+        "tekartik_lints",
+        "tekartik_prefs_flutter",
+        "tekartik_test_menu"
+      ]
+    },
+    {
+      "name": "tekartik_web_publish",
+      "version": "1.0.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/app_build.dart",
+      "gitPath": "packages/web_publish",
+      "level": 5,
+      "dependencies": [
+        "process_run",
+        "tekartik_deploy"
+      ]
+    },
+    {
+      "name": "tekaly_file_download",
+      "version": "0.0.3",
+      "kind": "direct",
+      "source": "git",
+      "url": "https://github.com/tekartikprj/tekaly",
+      "gitPath": "flutter_packages/file_download",
+      "level": 6,
+      "dependencies": [
+        "tekaly_file_download_web",
+        "tekaly_file_picker_flutter"
+      ]
+    },
+    {
+      "name": "tekaly_media_cache",
+      "version": "1.0.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartikprj/tekaly",
+      "gitPath": "packages/tekaly_media_cache",
+      "level": 6,
+      "dependencies": [
+        "fs_shim",
+        "sembast",
+        "tekartik_app_cv_sembast",
+        "tekartik_app_http",
+        "tekartik_common_utils"
+      ]
+    },
+    {
+      "name": "tekartik_app_common_prefs",
+      "version": "0.4.2",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/app_common_utils.dart",
+      "gitPath": "app_prefs",
+      "level": 6,
+      "dependencies": [
+        "process_run",
+        "sembast",
+        "sembast_web",
+        "tekartik_app_sembast",
+        "tekartik_prefs",
+        "tekartik_prefs_browser",
+        "tekartik_prefs_sembast",
+        "tekartik_prefs_test"
+      ]
+    },
+    {
+      "name": "tekartik_app_cv_firestore",
+      "version": "1.0.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/app_common_utils.dart",
+      "gitPath": "app_cv_firestore",
+      "level": 6,
+      "dependencies": [
+        "cv",
+        "tekartik_common_utils",
+        "tekartik_firebase_firestore",
+        "tekartik_firebase_firestore_sembast"
+      ]
+    },
+    {
+      "name": "tekartik_app_image_web",
+      "version": "0.1.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/app_image.dart",
+      "gitPath": "packages/app_image_web",
+      "level": 6,
+      "dependencies": [
+        "tekartik_app_http",
+        "tekartik_app_image",
+        "tekartik_common_utils"
+      ]
+    },
+    {
+      "name": "tekartik_app_node_utils",
+      "version": "0.2.1",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/app_node_utils.dart",
+      "gitPath": "node_utils",
+      "level": 6,
+      "dependencies": [
+        "process_run",
+        "tekartik_common_utils",
+        "tekartik_js_utils_interop",
+        "tekartik_platform",
+        "tekartik_platform_io",
+        "tekartik_platform_node"
+      ]
+    },
+    {
+      "name": "tekartik_app_plugin_test_app_lib",
+      "version": "0.0.1",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/app_flutter_utils.dart",
+      "gitPath": "example/app_plugin_test_app_lib",
+      "level": 6,
+      "dependencies": [
+        "tekartik_app_flutter_plugin",
+        "tekartik_app_platform",
+        "tekartik_common_utils",
+        "tekartik_test_menu_flutter"
+      ]
+    },
+    {
+      "name": "tekartik_app_rx_bloc_flutter",
+      "version": "1.0.0",
+      "kind": "direct",
+      "source": "git",
+      "url": "https://github.com/tekartik/app_flutter_utils.dart",
+      "gitPath": "app_rx_bloc",
+      "level": 6,
+      "dependencies": [
+        "tekartik_app_flutter_bloc",
+        "tekartik_app_flutter_common_utils",
+        "tekartik_app_rx_bloc",
+        "tekartik_app_rx_utils"
+      ]
+    },
+    {
+      "name": "tekartik_common_test_app_lib",
+      "version": "0.0.1",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/app_flutter_utils.dart",
+      "gitPath": "example/common_test_app_lib",
+      "level": 6,
+      "dependencies": [
+        "tekartik_app_flutter_common_utils",
+        "tekartik_app_platform",
+        "tekartik_common_utils",
+        "tekartik_test_menu_flutter"
+      ]
+    },
+    {
+      "name": "tekartik_common_web_test_app_lib",
+      "version": "0.0.1",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/app_flutter_utils.dart",
+      "gitPath": "example/common_web_test_app_lib",
+      "level": 6,
+      "dependencies": [
+        "tekartik_app_flutter_common_web_utils",
+        "tekartik_app_platform",
+        "tekartik_common_utils",
+        "tekartik_test_menu_flutter"
+      ]
+    },
+    {
+      "name": "tekartik_deezer_api",
+      "version": "0.1.3",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/alextekartik/http_apis.dart",
+      "gitPath": "packages/deezer",
+      "level": 6,
+      "dependencies": [
+        "cv",
+        "tekartik_app_http"
+      ]
+    },
+    {
+      "name": "tekartik_file_cache",
+      "version": "1.0.1",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekaly/playlr.git",
+      "gitPath": "packages/file_cache",
+      "level": 6,
+      "dependencies": [
+        "fs_shim",
+        "sembast",
+        "tekartik_app_cv_sembast",
+        "tekartik_app_http"
+      ]
+    },
+    {
+      "name": "tekartik_firebase_auth_rest",
+      "version": "0.9.3",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/firebase_rest.dart",
+      "gitPath": "auth_rest",
+      "level": 6,
+      "dependencies": [
+        "cv",
+        "fs_shim",
+        "tekartik_browser_utils",
+        "tekartik_common_utils",
+        "tekartik_firebase_auth",
+        "tekartik_firebase_persistence",
+        "tekartik_firebase_rest"
+      ]
+    },
+    {
+      "name": "tekartik_firebase_auth_sdb",
+      "version": "1.0.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/firebase_auth.dart",
+      "gitPath": "auth_sdb",
+      "level": 6,
+      "dependencies": [
+        "cv",
+        "idb_shim",
+        "sembast",
+        "tekartik_app_cv_sdb",
+        "tekartik_common_utils",
+        "tekartik_firebase",
+        "tekartik_firebase_auth",
+        "tekartik_firebase_auth_local",
+        "tekartik_firebase_local"
+      ]
+    },
+    {
+      "name": "tekartik_firebase_auth_sembast",
+      "version": "1.0.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/firebase_auth.dart",
+      "gitPath": "auth_sembast",
+      "level": 6,
+      "dependencies": [
+        "cv",
+        "sembast",
+        "tekartik_app_cv_sembast",
+        "tekartik_common_utils",
+        "tekartik_firebase",
+        "tekartik_firebase_auth",
+        "tekartik_firebase_auth_local",
+        "tekartik_firebase_local"
+      ]
+    },
+    {
+      "name": "tekartik_firebase_functions_call",
+      "version": "1.0.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/firebase_functions.dart",
+      "gitPath": "functions_call",
+      "level": 6,
+      "dependencies": [
+        "tekartik_firebase",
+        "tekartik_firebase_functions"
+      ]
+    },
+    {
+      "name": "tekartik_firebase_sim",
+      "version": "0.6.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/firebase.dart",
+      "gitPath": "firebase_sim",
+      "level": 6,
+      "dependencies": [
+        "cv",
+        "fs_shim",
+        "synchronized",
+        "tekartik_app_web_socket",
+        "tekartik_common_utils",
+        "tekartik_firebase",
+        "tekartik_rpc",
+        "tekartik_web_socket",
+        "tekartik_web_socket_browser"
+      ]
+    },
+    {
+      "name": "tekartik_firebase_storage_rest",
+      "version": "0.8.4",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/firebase_rest.dart",
+      "gitPath": "storage_rest",
+      "level": 6,
+      "dependencies": [
+        "fs_shim",
+        "sembast",
+        "tekartik_firebase",
+        "tekartik_firebase_rest",
+        "tekartik_firebase_storage",
+        "tekartik_http"
+      ]
+    },
+    {
+      "name": "tekartik_firebase_vertex_ai_flutter",
+      "version": "1.0.0",
+      "kind": "direct",
+      "source": "git",
+      "url": "https://github.com/tekartik/firebase_flutter",
+      "gitPath": "vertex_ai_flutter",
+      "level": 6,
+      "dependencies": [
+        "tekartik_common_utils",
+        "tekartik_firebase",
+        "tekartik_firebase_auth",
+        "tekartik_firebase_auth_flutter",
+        "tekartik_firebase_flutter",
+        "tekartik_firebase_vertex_ai"
+      ]
+    },
+    {
+      "name": "tekartik_fs_node",
+      "version": "0.4.1",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/common_node.dart",
+      "gitPath": "fs_node",
+      "level": 6,
+      "dependencies": [
+        "fs_shim",
+        "tekartik_common_utils",
+        "tekartik_core_node",
+        "tekartik_js_utils_interop",
+        "tekartik_platform_node"
+      ]
+    },
+    {
+      "name": "tekartik_fs_test_app_lib",
+      "version": "0.0.1",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/app_flutter_utils.dart",
+      "gitPath": "example/fs_test_app_lib",
+      "level": 6,
+      "dependencies": [
+        "tekartik_app_flutter_fs",
+        "tekartik_app_platform",
+        "tekartik_common_utils",
+        "tekartik_test_menu_flutter"
+      ]
+    },
+    {
+      "name": "tekartik_google_auth_io",
+      "version": "0.5.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/google_auth.dart",
+      "gitPath": "google_auth_io",
+      "level": 6,
+      "dependencies": [
+        "cv",
+        "tekartik_firebase_persistence",
+        "tekartik_google_auth",
+        "tekartik_prefs"
+      ]
+    },
+    {
+      "name": "tekartik_idb_test_app_lib",
+      "version": "0.0.1",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/app_flutter_utils.dart",
+      "gitPath": "example/idb_test_app_lib",
+      "level": 6,
+      "dependencies": [
+        "tekartik_app_flutter_idb",
+        "tekartik_app_platform",
+        "tekartik_common_utils",
+        "tekartik_test_menu_flutter"
+      ]
+    },
+    {
+      "name": "tekartik_mail_aws_ses_node",
+      "version": "0.1.1",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/mail.dart",
+      "gitPath": "packages/mail_aws_ses_node",
+      "level": 6,
+      "dependencies": [
+        "tekartik_aws_ses_node",
+        "tekartik_mail"
+      ]
+    },
+    {
+      "name": "tekartik_midi_device_alsa_linux",
+      "version": "1.0.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartikprj/midi_device",
+      "gitPath": "packages/midi_device_alsa_linux",
+      "level": 6,
+      "dependencies": [
+        "tekartik_alsa_midi_linux",
+        "tekartik_app_rx",
+        "tekartik_common_utils",
+        "tekartik_midi_device"
+      ]
+    },
+    {
+      "name": "tekartik_midi_device_flutter_command",
+      "version": "0.0.1",
+      "kind": "direct",
+      "source": "git",
+      "url": "https://github.com/tekartikprj/midi_device",
+      "gitPath": "packages/midi_device_flutter_command",
+      "level": 6,
+      "dependencies": [
+        "tekartik_app_rx",
+        "tekartik_common_utils",
+        "tekartik_midi_device"
+      ]
+    },
+    {
+      "name": "tekartik_mustache_cli",
+      "version": "0.2.2",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/mustache.dart",
+      "gitPath": "mustache_cli",
+      "level": 6,
+      "dependencies": [
+        "fs_shim",
+        "tekartik_mustache",
+        "tekartik_mustache_fs"
+      ]
+    },
+    {
+      "name": "tekartik_notepad_idb_app",
+      "version": "1.0.0+1",
+      "kind": "direct",
+      "source": "git",
+      "url": "https://github.com/alextekartik/flutter_app_example",
+      "gitPath": "notepad_idb",
+      "level": 6,
+      "dependencies": [
+        "idb_shim",
+        "sqflite",
+        "tekartik_app_flutter_idb",
+        "tekartik_app_platform",
+        "tekartik_app_roboto",
+        "tekartik_app_rx_utils",
+        "tekartik_common_utils"
+      ]
+    },
+    {
+      "name": "tekartik_notepad_sdb_app",
+      "version": "1.0.0+1",
+      "kind": "direct",
+      "source": "git",
+      "url": "https://github.com/alextekartik/flutter_app_example",
+      "gitPath": "notepad_sdb",
+      "level": 6,
+      "dependencies": [
+        "idb_shim",
+        "sqflite",
+        "tekaly_assets",
+        "tekartik_app_flutter_idb",
+        "tekartik_app_platform",
+        "tekartik_app_roboto",
+        "tekartik_app_rx_utils",
+        "tekartik_common_utils",
+        "tekartik_web_splash"
+      ]
+    },
+    {
+      "name": "tekartik_notepad_sembast_app",
+      "version": "1.0.0+1",
+      "kind": "direct",
+      "source": "git",
+      "url": "https://github.com/alextekartik/flutter_app_example",
+      "gitPath": "notepad_sembast",
+      "level": 6,
+      "dependencies": [
+        "cv",
+        "sembast",
+        "sembast_sqflite",
+        "sembast_web",
+        "tekartik_app_flutter_sembast",
+        "tekartik_app_platform",
+        "tekartik_app_roboto",
+        "tekartik_common_utils"
+      ]
+    },
+    {
+      "name": "tekartik_notepad_sqflite_app",
+      "version": "1.1.0",
+      "kind": "direct",
+      "source": "git",
+      "url": "https://github.com/alextekartik/flutter_app_example",
+      "gitPath": "notepad_sqflite",
+      "level": 6,
+      "dependencies": [
+        "cv",
+        "sqflite",
+        "sqflite_common_ffi",
+        "sqflite_common_ffi_web",
+        "tekartik_app_flutter_sqflite",
+        "tekartik_app_platform",
+        "tekartik_app_roboto",
+        "tekartik_common_utils"
+      ]
+    },
+    {
+      "name": "tekartik_prefs_test_app_lib",
+      "version": "0.0.1",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/app_flutter_utils.dart",
+      "gitPath": "example/prefs_test_app_lib",
+      "level": 6,
+      "dependencies": [
+        "tekartik_app_platform",
+        "tekartik_app_prefs",
+        "tekartik_common_utils",
+        "tekartik_test_menu_flutter"
+      ]
+    },
+    {
+      "name": "tekartik_qrscan_flutter_web",
+      "version": "0.1.0",
+      "kind": "direct",
+      "source": "git",
+      "url": "https://github.com/tekartik/app_camera.dart",
+      "gitPath": "qrscan_flutter_web",
+      "level": 6,
+      "dependencies": [
+        "tekartik_camera_web",
+        "tekartik_js_qr",
+        "tekartik_lints_flutter",
+        "tekartik_qrscan_flutter"
+      ]
+    },
+    {
+      "name": "tekartik_sembast_test_app_lib",
+      "version": "0.0.1",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/app_flutter_utils.dart",
+      "gitPath": "example/sembast_test_app_lib",
+      "level": 6,
+      "dependencies": [
+        "tekartik_app_flutter_sembast",
+        "tekartik_app_platform",
+        "tekartik_common_utils",
+        "tekartik_test_menu_flutter"
+      ]
+    },
+    {
+      "name": "tekartik_sqflite_test_app_lib",
+      "version": "0.0.1",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/app_flutter_utils.dart",
+      "gitPath": "example/sqflite_test_app_lib",
+      "level": 6,
+      "dependencies": [
+        "tekartik_app_flutter_sqflite",
+        "tekartik_app_platform",
+        "tekartik_common_utils",
+        "tekartik_test_menu_flutter"
+      ]
+    },
+    {
+      "name": "tekartik_test_menu_browser",
+      "version": "0.9.1",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/test_menu.dart",
+      "gitPath": "test_menu_browser",
+      "level": 6,
+      "dependencies": [
+        "tekartik_browser_utils",
+        "tekartik_common_utils",
+        "tekartik_mdl_js",
+        "tekartik_platform_browser",
+        "tekartik_prefs_browser",
+        "tekartik_test_menu",
+        "tekartik_test_menu_io"
+      ]
+    },
+    {
+      "name": "tekaly_synced_db_common",
+      "version": "1.0.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartikprj/tekaly",
+      "gitPath": "packages/synced_db_common",
+      "level": 7,
+      "dependencies": [
+        "cv",
+        "sembast",
+        "synchronized",
+        "tekartik_app_common_utils",
+        "tekartik_app_cv_firestore",
+        "tekartik_common_utils",
+        "tekartik_firebase_firestore"
+      ]
+    },
+    {
+      "name": "tekartik_aliyun_fc_node",
+      "version": "0.2.2+1",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/aliyun.dart",
+      "gitPath": "node/fc_node",
+      "level": 7,
+      "dependencies": [
+        "tekartik_aliyun_fc",
+        "tekartik_app_node_utils",
+        "tekartik_common_utils",
+        "tekartik_js_utils"
+      ]
+    },
+    {
+      "name": "tekartik_aliyun_oss_node",
+      "version": "0.3.1",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/aliyun.dart",
+      "gitPath": "node/oss_node",
+      "level": 7,
+      "dependencies": [
+        "tekartik_aliyun_oss",
+        "tekartik_app_node_utils",
+        "tekartik_js_utils"
+      ]
+    },
+    {
+      "name": "tekartik_aliyun_tablestore_node",
+      "version": "0.2.5",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/aliyun.dart",
+      "gitPath": "node/tablestore_node",
+      "level": 7,
+      "dependencies": [
+        "cv",
+        "tekartik_aliyun_tablestore",
+        "tekartik_app_node_utils",
+        "tekartik_js_utils"
+      ]
+    },
+    {
+      "name": "tekartik_app_dev_menu",
+      "version": "0.6.1",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/app_common_utils.dart",
+      "gitPath": "app_dev_menu",
+      "level": 7,
+      "dependencies": [
+        "process_run",
+        "tekartik_common_utils",
+        "tekartik_test_menu",
+        "tekartik_test_menu_browser",
+        "tekartik_test_menu_io"
+      ]
+    },
+    {
+      "name": "tekartik_app_flutter_widget",
+      "version": "0.2.4",
+      "kind": "direct",
+      "source": "git",
+      "url": "https://github.com/tekartik/app_flutter_utils.dart",
+      "gitPath": "app_widget",
+      "level": 7,
+      "dependencies": [
+        "cv",
+        "tekartik_app_flutter_common_utils",
+        "tekartik_app_rx_bloc_flutter",
+        "tekartik_app_rx_utils"
+      ]
+    },
+    {
+      "name": "tekartik_app_pick_crop_image_flutter",
+      "version": "0.3.0",
+      "kind": "direct",
+      "source": "git",
+      "url": "https://github.com/tekartik/app_image.dart",
+      "gitPath": "packages/app_pick_crop_image_flutter",
+      "level": 7,
+      "dependencies": [
+        "tekaly_file_download",
+        "tekaly_file_picker_flutter",
+        "tekartik_app_image_web",
+        "tekartik_app_platform"
+      ]
+    },
+    {
+      "name": "tekartik_file_cache_flutter",
+      "version": "1.0.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekaly/playlr.git",
+      "gitPath": "packages_flutter/file_cache_flutter",
+      "level": 7,
+      "dependencies": [
+        "tekartik_app_flutter_fs",
+        "tekartik_file_cache"
+      ]
+    },
+    {
+      "name": "tekartik_firebase_auth_sim",
+      "version": "1.0.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/firebase_auth.dart",
+      "gitPath": "auth_sim",
+      "level": 7,
+      "dependencies": [
+        "cv",
+        "sembast",
+        "synchronized",
+        "tekartik_app_cv_sembast",
+        "tekartik_app_rx",
+        "tekartik_app_web_socket",
+        "tekartik_common_utils",
+        "tekartik_firebase",
+        "tekartik_firebase_auth",
+        "tekartik_firebase_auth_sembast",
+        "tekartik_firebase_local",
+        "tekartik_firebase_sim"
+      ]
+    },
+    {
+      "name": "tekartik_firebase_firestore_rest",
+      "version": "0.8.6",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/firebase_rest.dart",
+      "gitPath": "firestore_rest",
+      "level": 7,
+      "dependencies": [
+        "sembast",
+        "tekartik_common_utils",
+        "tekartik_firebase",
+        "tekartik_firebase_auth_rest",
+        "tekartik_firebase_firestore",
+        "tekartik_firebase_rest",
+        "tekartik_http"
+      ]
+    },
+    {
+      "name": "tekartik_firebase_firestore_sim",
+      "version": "0.8.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/firebase_firestore.dart",
+      "gitPath": "firestore_sim",
+      "level": 7,
+      "dependencies": [
+        "cv",
+        "synchronized",
+        "tekartik_common_utils",
+        "tekartik_firebase",
+        "tekartik_firebase_firestore",
+        "tekartik_firebase_firestore_sembast",
+        "tekartik_firebase_local",
+        "tekartik_firebase_sim",
+        "tekartik_web_socket_io"
+      ]
+    },
+    {
+      "name": "tekartik_firebase_functions_call_flutter",
+      "version": "0.0.1",
+      "kind": "direct",
+      "source": "git",
+      "url": "https://github.com/tekartik/firebase_flutter",
+      "gitPath": "functions_call_flutter",
+      "level": 7,
+      "dependencies": [
+        "tekartik_common_utils",
+        "tekartik_firebase",
+        "tekartik_firebase_flutter",
+        "tekartik_firebase_functions",
+        "tekartik_firebase_functions_call",
+        "tekartik_lints_flutter"
+      ]
+    },
+    {
+      "name": "tekartik_firebase_functions_http",
+      "version": "0.4.2",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/firebase_functions.dart",
+      "gitPath": "firebase_functions_http",
+      "level": 7,
+      "dependencies": [
+        "cv",
+        "tekartik_firebase",
+        "tekartik_firebase_auth",
+        "tekartik_firebase_firestore",
+        "tekartik_firebase_functions",
+        "tekartik_firebase_functions_call",
+        "tekartik_firebase_local",
+        "tekartik_http_io"
+      ]
+    },
+    {
+      "name": "tekartik_firebase_node",
+      "version": "0.8.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/firebase_node.dart",
+      "gitPath": "firebase_node",
+      "level": 7,
+      "dependencies": [
+        "tekartik_common_utils",
+        "tekartik_core_node",
+        "tekartik_firebase",
+        "tekartik_firebase_local",
+        "tekartik_fs_node",
+        "tekartik_js_utils_interop",
+        "tekartik_platform",
+        "tekartik_platform_node"
+      ]
+    },
+    {
+      "name": "tekartik_firebase_storage_sim",
+      "version": "0.8.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/firebase_storage.dart",
+      "gitPath": "storage_sim",
+      "level": 7,
+      "dependencies": [
+        "cv",
+        "synchronized",
+        "tekartik_firebase_sim",
+        "tekartik_firebase_storage"
+      ]
+    },
+    {
+      "name": "tekartik_http_node",
+      "version": "0.6.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/common_node.dart",
+      "gitPath": "http_node",
+      "level": 7,
+      "dependencies": [
+        "tekartik_common_utils",
+        "tekartik_core_node",
+        "tekartik_fs_node",
+        "tekartik_http",
+        "tekartik_http_io"
+      ]
+    },
+    {
+      "name": "tekartik_tone_js",
+      "version": "0.7.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/tone_js.dart",
+      "level": 7,
+      "dependencies": [
+        "synchronized",
+        "tekartik_browser_utils",
+        "tekartik_common_utils",
+        "tekartik_test_menu_browser"
+      ]
+    },
+    {
+      "name": "playlr_audio_player",
+      "version": "0.3.1",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekaly/playlr.git",
+      "gitPath": "packages_flutter/playlr_audio_player",
+      "level": 8,
+      "dependencies": [
+        "playlr_audio_player_interface",
+        "synchronized",
+        "tekartik_app_flutter_sembast",
+        "tekartik_file_cache_flutter"
+      ]
+    },
+    {
+      "name": "sembast_dev_menu",
+      "version": "1.0.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/sembast_flutter_more.dart",
+      "gitPath": "example/sembast_dev_menu",
+      "level": 8,
+      "dependencies": [
+        "dev_test",
+        "sembast",
+        "sembast_web",
+        "tekartik_app_cv_sembast",
+        "tekartik_app_dev_menu",
+        "tekartik_app_sembast"
+      ]
+    },
+    {
+      "name": "tekaly_firestore_explorer",
+      "version": "0.2.1",
+      "kind": "direct",
+      "source": "git",
+      "url": "https://github.com/tekartikprj/tekaly",
+      "gitPath": "flutter_packages/firestore_explorer",
+      "level": 8,
+      "dependencies": [
+        "cv",
+        "tekartik_app_cv_firestore",
+        "tekartik_app_flutter_widget",
+        "tekartik_app_rx_utils",
+        "tekartik_firebase_firestore",
+        "tekartik_firebase_ui_firestore"
+      ]
+    },
+    {
+      "name": "tekaly_sdb_synced",
+      "version": "1.0.1",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartikprj/tekaly",
+      "gitPath": "packages/sdb_synced",
+      "level": 8,
+      "dependencies": [
+        "cv",
+        "idb_shim",
+        "idb_sqflite",
+        "synchronized",
+        "tekaly_synced_db_common",
+        "tekartik_app_common_utils",
+        "tekartik_app_crypto",
+        "tekartik_app_cv_firestore",
+        "tekartik_app_cv_sdb",
+        "tekartik_app_http",
+        "tekartik_common_utils",
+        "tekartik_firebase_auth",
+        "tekartik_firebase_auth_local",
+        "tekartik_firebase_auth_rest",
+        "tekartik_firebase_firestore",
+        "tekartik_firebase_firestore_rest",
+        "tekartik_firebase_firestore_sembast",
+        "tekartik_firebase_functions",
+        "tekartik_firebase_functions_http",
+        "tekartik_firebase_local",
+        "tekartik_firebase_rest",
+        "tekartik_firebase_storage",
+        "tekartik_firebase_storage_fs",
+        "tekartik_firebase_storage_rest",
+        "tekartik_http"
+      ]
+    },
+    {
+      "name": "tekaly_sembast_synced",
+      "version": "1.0.1",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartikprj/tekaly",
+      "gitPath": "packages/sembast_synced",
+      "level": 8,
+      "dependencies": [
+        "cv",
+        "sembast",
+        "synchronized",
+        "tekaly_synced_db_common",
+        "tekartik_app_common_utils",
+        "tekartik_app_crypto",
+        "tekartik_app_cv_firestore",
+        "tekartik_app_cv_sembast",
+        "tekartik_app_http",
+        "tekartik_common_utils",
+        "tekartik_firebase_auth",
+        "tekartik_firebase_auth_local",
+        "tekartik_firebase_auth_rest",
+        "tekartik_firebase_firestore",
+        "tekartik_firebase_firestore_rest",
+        "tekartik_firebase_firestore_sembast",
+        "tekartik_firebase_functions",
+        "tekartik_firebase_functions_http",
+        "tekartik_firebase_local",
+        "tekartik_firebase_rest",
+        "tekartik_firebase_storage",
+        "tekartik_firebase_storage_fs",
+        "tekartik_firebase_storage_rest",
+        "tekartik_http"
+      ]
+    },
+    {
+      "name": "tekaly_synced_db_common_test",
+      "version": "1.0.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartikprj/tekaly",
+      "gitPath": "packages/synced_db_common_test",
+      "level": 8,
+      "dependencies": [
+        "dev_test",
+        "tekaly_synced_db_common",
+        "tekartik_common_utils",
+        "tekartik_firebase_firestore",
+        "tekartik_firebase_firestore_sembast"
+      ]
+    },
+    {
+      "name": "tekartik_aliyun_fc_universal",
+      "version": "0.1.3",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/aliyun.dart",
+      "gitPath": "common/fc_universal",
+      "level": 8,
+      "dependencies": [
+        "tekartik_aliyun_fc",
+        "tekartik_aliyun_fc_http",
+        "tekartik_aliyun_fc_node"
+      ]
+    },
+    {
+      "name": "tekartik_aliyun_oss_universal",
+      "version": "0.3.1",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/aliyun.dart",
+      "gitPath": "common/oss_universal",
+      "level": 8,
+      "dependencies": [
+        "tekartik_aliyun_oss",
+        "tekartik_aliyun_oss_fs",
+        "tekartik_aliyun_oss_node"
+      ]
+    },
+    {
+      "name": "tekartik_aliyun_tablestore_universal",
+      "version": "0.2.3",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/aliyun.dart",
+      "gitPath": "common/tablestore_universal",
+      "level": 8,
+      "dependencies": [
+        "dev_build",
+        "tekartik_aliyun_tablestore",
+        "tekartik_aliyun_tablestore_node",
+        "tekartik_aliyun_tablestore_sembast"
+      ]
+    },
+    {
+      "name": "tekartik_android_utils",
+      "version": "0.6.7",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/android_utils.dart",
+      "level": 8,
+      "dependencies": [
+        "dev_build",
+        "fs_shim",
+        "process_run",
+        "tekartik_app_dev_menu",
+        "tekartik_cmd_tools",
+        "tekartik_common_utils",
+        "tekartik_io_utils"
+      ]
+    },
+    {
+      "name": "tekartik_app_dev_menu_flutter",
+      "version": "0.0.1",
+      "kind": "direct",
+      "source": "git",
+      "url": "https://github.com/tekartik/app_flutter_utils.dart",
+      "gitPath": "app_dev_menu",
+      "level": 8,
+      "dependencies": [
+        "tekartik_app_dev_menu",
+        "tekartik_test_menu_flutter"
+      ]
+    },
+    {
+      "name": "tekartik_app_roboto_test_app_lib",
+      "version": "0.0.1",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/app_flutter_utils.dart",
+      "gitPath": "example/roboto_test_app_lib",
+      "level": 8,
+      "dependencies": [
+        "tekartik_app_flutter_common_utils",
+        "tekartik_app_flutter_widget",
+        "tekartik_app_image_flutter",
+        "tekartik_app_platform",
+        "tekartik_app_roboto",
+        "tekartik_common_utils",
+        "tekartik_test_menu_flutter"
+      ]
+    },
+    {
+      "name": "tekartik_firebase_auth_node",
+      "version": "0.9.1",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/firebase_node.dart",
+      "gitPath": "auth_node",
+      "level": 8,
+      "dependencies": [
+        "tekartik_firebase",
+        "tekartik_firebase_auth",
+        "tekartik_firebase_auth_local",
+        "tekartik_firebase_node"
+      ]
+    },
+    {
+      "name": "tekartik_firebase_auth_test",
+      "version": "0.9.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/firebase_auth.dart",
+      "gitPath": "auth_test",
+      "level": 8,
+      "dependencies": [
+        "tekartik_app_dev_menu",
+        "tekartik_common_utils",
+        "tekartik_firebase",
+        "tekartik_firebase_auth",
+        "tekartik_firebase_local"
+      ]
+    },
+    {
+      "name": "tekartik_firebase_firestore_grpc_rest",
+      "version": "0.1.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/firebase_rest.dart",
+      "gitPath": "firestore_grpc_rest",
+      "level": 8,
+      "dependencies": [
+        "tekartik_firebase_firestore",
+        "tekartik_firebase_firestore_rest",
+        "tekartik_firebase_rest"
+      ]
+    },
+    {
+      "name": "tekartik_firebase_firestore_node",
+      "version": "0.10.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/firebase_node.dart",
+      "gitPath": "firestore_node",
+      "level": 8,
+      "dependencies": [
+        "tekartik_firebase_firestore",
+        "tekartik_firebase_firestore_sembast",
+        "tekartik_firebase_node"
+      ]
+    },
+    {
+      "name": "tekartik_firebase_firestore_test",
+      "version": "0.8.2",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/firebase_firestore.dart",
+      "gitPath": "firestore_test",
+      "level": 8,
+      "dependencies": [
+        "dev_test",
+        "tekartik_app_dev_menu",
+        "tekartik_common_utils",
+        "tekartik_firebase",
+        "tekartik_firebase_firestore"
+      ]
+    },
+    {
+      "name": "tekartik_firebase_functions_admin_sdk",
+      "version": "1.0.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/firebase_admin_sdk.dart",
+      "gitPath": "firebase_functions_admin_sdk",
+      "level": 8,
+      "dependencies": [
+        "tekartik_common_utils",
+        "tekartik_firebase",
+        "tekartik_firebase_admin_sdk",
+        "tekartik_firebase_functions",
+        "tekartik_firebase_functions_http",
+        "tekartik_http"
+      ]
+    },
+    {
+      "name": "tekartik_firebase_functions_call_http",
+      "version": "1.0.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/firebase_functions.dart",
+      "gitPath": "functions_call_http",
+      "level": 8,
+      "dependencies": [
+        "cv",
+        "tekartik_app_http",
+        "tekartik_firebase",
+        "tekartik_firebase_auth",
+        "tekartik_firebase_functions",
+        "tekartik_firebase_functions_call",
+        "tekartik_firebase_functions_http",
+        "tekartik_http"
+      ]
+    },
+    {
+      "name": "tekartik_firebase_functions_io",
+      "version": "0.4.1",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/firebase_functions.dart",
+      "gitPath": "firebase_functions_io",
+      "level": 8,
+      "dependencies": [
+        "tekartik_common_utils",
+        "tekartik_firebase",
+        "tekartik_firebase_functions",
+        "tekartik_firebase_functions_http",
+        "tekartik_firebase_local",
+        "tekartik_http_io"
+      ]
+    },
+    {
+      "name": "tekartik_firebase_functions_test",
+      "version": "0.2.1",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/firebase_functions.dart",
+      "gitPath": "firebase_functions_test",
+      "level": 8,
+      "dependencies": [
+        "cv",
+        "dev_test",
+        "tekartik_app_dev_menu",
+        "tekartik_firebase_firestore",
+        "tekartik_firebase_functions",
+        "tekartik_firebase_functions_call",
+        "tekartik_firebase_functions_http",
+        "tekartik_http"
+      ]
+    },
+    {
+      "name": "tekartik_firebase_storage_test",
+      "version": "0.4.1",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/firebase_storage.dart",
+      "gitPath": "storage_test",
+      "level": 8,
+      "dependencies": [
+        "dev_test",
+        "tekartik_app_dev_menu",
+        "tekartik_firebase_storage"
+      ]
+    },
+    {
+      "name": "tekartik_firebase_test",
+      "version": "0.8.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/firebase.dart",
+      "gitPath": "firebase_test",
+      "level": 8,
+      "dependencies": [
+        "process_run",
+        "tekartik_app_dev_menu",
+        "tekartik_firebase"
+      ]
+    },
+    {
+      "name": "tekartik_firebase_ui_auth",
+      "version": "0.2.0",
+      "kind": "direct",
+      "source": "git",
+      "url": "https://github.com/tekartik/firebase_ui.dart",
+      "gitPath": "packages/firebase_ui_auth",
+      "level": 8,
+      "dependencies": [
+        "tekartik_app_flutter_bloc",
+        "tekartik_app_flutter_widget",
+        "tekartik_app_rx",
+        "tekartik_app_rx_bloc",
+        "tekartik_app_rx_bloc_flutter",
+        "tekartik_app_rx_utils",
+        "tekartik_app_url_launcher_flutter",
+        "tekartik_common_utils",
+        "tekartik_firebase_auth",
+        "tekartik_firebase_auth_rest",
+        "tekartik_firebase_auth_sembast"
+      ]
+    },
+    {
+      "name": "tekartik_google_auth_test",
+      "version": "0.1.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/google_auth.dart",
+      "gitPath": "google_auth_test",
+      "level": 8,
+      "dependencies": [
+        "tekartik_app_dev_menu",
+        "tekartik_common_utils",
+        "tekartik_google_auth"
+      ]
+    },
+    {
+      "name": "tekartik_idb_playground",
+      "version": "1.0.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/idb_shim_more.dart",
+      "gitPath": "packages/idb_playground",
+      "level": 8,
+      "dependencies": [
+        "idb_shim",
+        "idb_sqflite",
+        "idb_test",
+        "sembast",
+        "sqflite_common_ffi",
+        "tekartik_app_cv_sdb",
+        "tekartik_app_dev_menu"
+      ]
+    },
+    {
+      "name": "tekartik_navigator_test_app_lib",
+      "version": "0.0.1",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/app_flutter_utils.dart",
+      "gitPath": "example/navigator_test_app_lib",
+      "level": 8,
+      "dependencies": [
+        "tekartik_app_flutter_widget",
+        "tekartik_app_navigator_flutter",
+        "tekartik_lints_flutter",
+        "tekartik_test_menu_flutter"
+      ]
+    },
+    {
+      "name": "tekartik_prj_tktools",
+      "version": "1.0.2",
+      "kind": "direct",
+      "source": "git",
+      "url": "https://github.com/tekartikprj/tktools.git",
+      "gitPath": "packages/prj_tktools",
+      "level": 8,
+      "dependencies": [
+        "cv",
+        "dev_build",
+        "fs_shim",
+        "process_run",
+        "sembast",
+        "tekartik_app_crypto",
+        "tekartik_app_cv_sdb",
+        "tekartik_app_cv_sembast",
+        "tekartik_app_dev_menu",
+        "tekartik_app_dock",
+        "tekartik_app_text",
+        "tekartik_common_utils",
+        "tekartik_mustache",
+        "tekartik_prefs",
+        "tekartik_prefs_sembast",
+        "tekartik_pub",
+        "tekartik_sc",
+        "tekartik_test_menu_io"
+      ]
+    },
+    {
+      "name": "tekartik_rpc_test",
+      "version": "1.0.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/rpc.dart",
+      "gitPath": "packages/rpc_test",
+      "level": 8,
+      "dependencies": [
+        "dev_build",
+        "dev_test",
+        "tekartik_app_dev_menu",
+        "tekartik_rpc",
+        "tekartik_web_socket"
+      ]
+    },
+    {
+      "name": "playlr_audio_player_blue_fire",
+      "version": "0.3.1",
+      "kind": "direct",
+      "source": "git",
+      "url": "https://github.com/tekaly/playlr.git",
+      "gitPath": "packages_flutter/playlr_audio_player_blue_fire",
+      "level": 9,
+      "dependencies": [
+        "playlr_audio_player",
+        "synchronized"
+      ]
+    },
+    {
+      "name": "playlr_audio_player_just_audio",
+      "version": "0.2.2",
+      "kind": "direct",
+      "source": "git",
+      "url": "https://github.com/tekaly/playlr.git",
+      "gitPath": "packages_flutter/playlr_audio_player_just_audio",
+      "level": 9,
+      "dependencies": [
+        "playlr_audio_player",
+        "synchronized"
+      ]
+    },
+    {
+      "name": "tekaly_firestore_explorer_test_app",
+      "version": "1.0.0+1",
+      "kind": "direct",
+      "source": "git",
+      "url": "https://github.com/tekartikprj/tekaly",
+      "gitPath": "test/firestore_explorer_test_app",
+      "level": 9,
+      "dependencies": [
+        "cv",
+        "tekaly_firestore_explorer",
+        "tekartik_firebase_firestore_sembast"
+      ]
+    },
+    {
+      "name": "tekaly_sdb_synced_test",
+      "version": "1.0.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartikprj/tekaly",
+      "gitPath": "packages/sdb_synced_test",
+      "level": 9,
+      "dependencies": [
+        "dev_test",
+        "idb_shim",
+        "tekaly_sdb_synced",
+        "tekaly_synced_db_common",
+        "tekaly_synced_db_common_test",
+        "tekartik_app_cv_sdb",
+        "tekartik_common_utils",
+        "tekartik_firebase_firestore",
+        "tekartik_firebase_firestore_sembast"
+      ]
+    },
+    {
+      "name": "tekaly_sembast_synced_test",
+      "version": "1.0.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartikprj/tekaly",
+      "gitPath": "packages/sembast_synced_test",
+      "level": 9,
+      "dependencies": [
+        "dev_test",
+        "sembast",
+        "tekaly_sembast_synced",
+        "tekaly_synced_db_common_test",
+        "tekartik_app_cv_sembast",
+        "tekartik_common_utils",
+        "tekartik_firebase_firestore",
+        "tekartik_firebase_firestore_sembast"
+      ]
+    },
+    {
+      "name": "tekartik_common_build",
+      "version": "1.0.2+1",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/app_build.dart",
+      "gitPath": "packages/common_build",
+      "level": 9,
+      "dependencies": [
+        "dev_build",
+        "fs_shim",
+        "process_run",
+        "tekartik_prj_tktools"
+      ]
+    },
+    {
+      "name": "tekartik_firebase_admin_sdk_test",
+      "version": "1.0.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/firebase_admin_sdk.dart",
+      "gitPath": "firebase_admin_sdk_test",
+      "level": 9,
+      "dependencies": [
+        "tekartik_firebase",
+        "tekartik_firebase_admin_sdk",
+        "tekartik_firebase_auth",
+        "tekartik_firebase_auth_test",
+        "tekartik_firebase_firestore",
+        "tekartik_firebase_firestore_test",
+        "tekartik_firebase_storage_test",
+        "tekartik_firebase_test"
+      ]
+    },
+    {
+      "name": "tekartik_firebase_flutter_ui_auth",
+      "version": "0.2.0",
+      "kind": "direct",
+      "source": "git",
+      "url": "https://github.com/tekartik/firebase_ui.dart",
+      "gitPath": "packages/firebase_flutter_ui_auth",
+      "level": 9,
+      "dependencies": [
+        "tekartik_app_flutter_bloc",
+        "tekartik_app_flutter_widget",
+        "tekartik_app_rx",
+        "tekartik_app_rx_bloc",
+        "tekartik_app_rx_bloc_flutter",
+        "tekartik_app_rx_utils",
+        "tekartik_firebase_auth",
+        "tekartik_firebase_auth_flutter",
+        "tekartik_firebase_auth_sembast",
+        "tekartik_firebase_flutter",
+        "tekartik_firebase_ui_auth"
+      ]
+    },
+    {
+      "name": "tekartik_firebase_functions_admin_sdk_http",
+      "version": "1.0.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/firebase_admin_sdk.dart",
+      "gitPath": "firebase_functions_admin_sdk_http",
+      "level": 9,
+      "dependencies": [
+        "tekartik_common_utils",
+        "tekartik_firebase",
+        "tekartik_firebase_functions",
+        "tekartik_firebase_functions_admin_sdk",
+        "tekartik_firebase_functions_http",
+        "tekartik_firebase_local",
+        "tekartik_http"
+      ]
+    },
+    {
+      "name": "tekartik_firebase_functions_call_rest",
+      "version": "1.0.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/firebase_rest.dart",
+      "gitPath": "functions_call_rest",
+      "level": 9,
+      "dependencies": [
+        "cv",
+        "sembast",
+        "tekartik_firebase",
+        "tekartik_firebase_functions",
+        "tekartik_firebase_functions_call",
+        "tekartik_firebase_functions_call_http",
+        "tekartik_firebase_rest",
+        "tekartik_http"
+      ]
+    },
+    {
+      "name": "tekartik_firebase_functions_call_sim",
+      "version": "1.0.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/firebase_functions.dart",
+      "gitPath": "functions_call_sim",
+      "level": 9,
+      "dependencies": [
+        "cv",
+        "tekartik_common_utils",
+        "tekartik_firebase",
+        "tekartik_firebase_auth_sim",
+        "tekartik_firebase_functions",
+        "tekartik_firebase_functions_call",
+        "tekartik_firebase_functions_http",
+        "tekartik_firebase_functions_io",
+        "tekartik_firebase_functions_test",
+        "tekartik_firebase_local",
+        "tekartik_firebase_sim"
+      ]
+    },
+    {
+      "name": "tekartik_firebase_functions_node",
+      "version": "0.4.2",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/firebase_node.dart",
+      "gitPath": "functions_node",
+      "level": 9,
+      "dependencies": [
+        "sembast",
+        "tekartik_app_node_utils",
+        "tekartik_firebase_auth_node",
+        "tekartik_firebase_firestore_node",
+        "tekartik_firebase_functions",
+        "tekartik_firebase_functions_io",
+        "tekartik_fs_node"
+      ]
+    },
+    {
+      "name": "tekartik_firebase_storage_node",
+      "version": "0.4.2+1",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/firebase_node.dart",
+      "gitPath": "storage_node",
+      "level": 9,
+      "dependencies": [
+        "sembast",
+        "tekartik_app_node_utils",
+        "tekartik_core_node",
+        "tekartik_firebase",
+        "tekartik_firebase_node",
+        "tekartik_firebase_storage",
+        "tekartik_firebase_storage_fs",
+        "tekartik_firebase_storage_test",
+        "tekartik_js_utils_interop"
+      ]
+    },
+    {
+      "name": "tekartik_full_screen_test_app_lib",
+      "version": "0.0.1",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/app_flutter_utils.dart",
+      "gitPath": "example/full_screen_test_app_lib",
+      "level": 9,
+      "dependencies": [
+        "tekartik_app_dev_menu_flutter",
+        "tekartik_app_flutter_full_screen",
+        "tekartik_app_platform"
+      ]
+    },
+    {
+      "name": "tekartik_image_test_app_lib",
+      "version": "0.0.1",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/app_flutter_utils.dart",
+      "gitPath": "example/image_test_app_lib",
+      "level": 9,
+      "dependencies": [
+        "tekartik_app_dev_menu_flutter",
+        "tekartik_app_flutter_common_utils",
+        "tekartik_app_flutter_widget",
+        "tekartik_app_image_flutter",
+        "tekartik_app_platform",
+        "tekartik_common_utils"
+      ]
+    },
+    {
+      "name": "tekartik_list_view_test_app_lib",
+      "version": "0.0.1",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/app_flutter_utils.dart",
+      "gitPath": "example/list_view_test_app_lib",
+      "level": 9,
+      "dependencies": [
+        "tekartik_app_dev_menu_flutter",
+        "tekartik_app_list_view_flutter",
+        "tekartik_app_platform"
+      ]
+    },
+    {
+      "name": "tekartik_playstore_publish",
+      "version": "0.2.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/app_build.dart",
+      "gitPath": "packages/playstore_publish",
+      "level": 9,
+      "dependencies": [
+        "process_run",
+        "tekartik_android_utils",
+        "tekartik_io_auth_utils"
+      ]
+    },
+    {
+      "name": "tekartik_sdb_ui_test_app_lib",
+      "version": "0.0.1",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/app_flutter_utils.dart",
+      "gitPath": "example/sdb_ui_test_app_lib",
+      "level": 9,
+      "dependencies": [
+        "tekartik_app_dev_menu_flutter",
+        "tekartik_app_flutter_idb",
+        "tekartik_app_platform",
+        "tekartik_app_sdb_ui_flutter"
+      ]
+    },
+    {
+      "name": "tekartik_widget_test_app_lib",
+      "version": "0.0.1",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/app_flutter_utils.dart",
+      "gitPath": "example/widget_test_app_lib",
+      "level": 9,
+      "dependencies": [
+        "cv",
+        "tekartik_app_dev_menu_flutter",
+        "tekartik_app_flutter_common_utils",
+        "tekartik_app_flutter_widget",
+        "tekartik_app_platform",
+        "tekartik_common_utils"
+      ]
+    },
+    {
+      "name": "festenao_audio_player",
+      "version": "0.2.0",
+      "kind": "direct",
+      "source": "git",
+      "url": "https://github.com/tekaly/festenao",
+      "gitPath": "packages_flutter/festenao_audio_player",
+      "level": 10,
+      "dependencies": [
+        "playlr_audio_player",
+        "playlr_audio_player_just_audio"
+      ]
+    },
+    {
+      "name": "festenao_firebase_flutter",
+      "version": "1.0.0",
+      "kind": "direct",
+      "source": "git",
+      "url": "https://github.com/tekaly/festenao",
+      "gitPath": "packages_flutter/festenao_firebase_flutter",
+      "level": 10,
+      "dependencies": [
+        "tekaly_assets",
+        "tekartik_firebase_auth_flutter",
+        "tekartik_firebase_firestore_flutter",
+        "tekartik_firebase_flutter",
+        "tekartik_firebase_flutter_ui_auth",
+        "tekartik_firebase_storage_flutter"
+      ]
+    },
+    {
+      "name": "festenao_google_auth",
+      "version": "0.1.0",
+      "kind": "direct",
+      "source": "git",
+      "url": "https://github.com/tekaly/festenao",
+      "gitPath": "packages_flutter/festenao_google_auth",
+      "level": 10,
+      "dependencies": [
+        "tekartik_firebase_flutter_ui_auth"
+      ]
+    },
+    {
+      "name": "tekartik_app_flutter_utils_test_app",
+      "version": "1.0.0+1",
+      "kind": "direct",
+      "source": "git",
+      "url": "https://github.com/tekartik/app_flutter_utils.dart",
+      "gitPath": "example/test_app",
+      "level": 10,
+      "dependencies": [
+        "sqflite_common_ffi_web",
+        "tekartik_app_dev_menu_flutter",
+        "tekartik_app_flutter_common_web_utils",
+        "tekartik_app_flutter_sqflite",
+        "tekartik_app_plugin_test_app_lib",
+        "tekartik_app_roboto",
+        "tekartik_app_roboto_test_app_lib",
+        "tekartik_common_test_app_lib",
+        "tekartik_common_web_test_app_lib",
+        "tekartik_fs_test_app_lib",
+        "tekartik_full_screen_test_app_lib",
+        "tekartik_idb_test_app_lib",
+        "tekartik_image_test_app_lib",
+        "tekartik_list_view_test_app_lib",
+        "tekartik_navigator_test_app_lib",
+        "tekartik_prefs_test_app_lib",
+        "tekartik_sdb_ui_test_app_lib",
+        "tekartik_sembast_test_app_lib",
+        "tekartik_sqflite_test_app_lib",
+        "tekartik_test_menu_flutter",
+        "tekartik_widget_test_app_lib"
+      ]
+    },
+    {
+      "name": "tekartik_app_node_build",
+      "version": "0.3.7",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/app_node_utils.dart",
+      "gitPath": "app_build",
+      "level": 10,
+      "dependencies": [
+        "dev_build",
+        "process_run",
+        "tekartik_build_node",
+        "tekartik_common_build",
+        "tekartik_common_utils"
+      ]
+    },
+    {
+      "name": "tekartik_build_flutter",
+      "version": "1.0.5",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/build_flutter.dart",
+      "gitPath": "packages/build_flutter",
+      "level": 10,
+      "dependencies": [
+        "cv",
+        "dev_build",
+        "fs_shim",
+        "process_run",
+        "tekartik_android_utils",
+        "tekartik_app_io_platform",
+        "tekartik_appstore_publish",
+        "tekartik_built_flutter",
+        "tekartik_common_build",
+        "tekartik_common_utils",
+        "tekartik_lints_flutter",
+        "tekartik_playstore_publish"
+      ]
+    },
+    {
+      "name": "tekartik_firebase_tools_common",
+      "version": "0.1.5",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/firebase_tools.dart",
+      "gitPath": "packages/firebase_tools_common",
+      "level": 10,
+      "dependencies": [
+        "cv",
+        "dev_build",
+        "process_run",
+        "tekartik_common_build",
+        "tekartik_common_utils",
+        "tekartik_firebase",
+        "tekartik_firebase_auth",
+        "tekartik_firebase_firestore",
+        "tekartik_firebase_storage"
+      ]
+    },
+    {
+      "name": "tekartik_flutter_build",
+      "version": "0.2.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/app_build.dart",
+      "gitPath": "packages/flutter_build",
+      "level": 10,
+      "dependencies": [
+        "dev_build",
+        "process_run",
+        "tekartik_android_utils",
+        "tekartik_common_build",
+        "tekartik_deploy",
+        "tekartik_web_publish"
+      ]
+    },
+    {
+      "name": "tekartik_gcr_build",
+      "version": "1.0.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/app_build.dart",
+      "gitPath": "packages/gcr_build",
+      "level": 10,
+      "dependencies": [
+        "dev_build",
+        "process_run",
+        "tekartik_common_build",
+        "tekartik_common_utils"
+      ]
+    },
+    {
+      "name": "tkcms_common",
+      "version": "0.1.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartikprj/tkcms.git",
+      "gitPath": "packages/tkcms_common",
+      "level": 10,
+      "dependencies": [
+        "cv",
+        "idb_shim",
+        "sembast",
+        "tekaly_sembast_synced",
+        "tekartik_app_crypto",
+        "tekartik_app_cv_firestore",
+        "tekartik_app_cv_sembast",
+        "tekartik_app_http",
+        "tekartik_app_rx",
+        "tekartik_app_rx_bloc",
+        "tekartik_common_utils",
+        "tekartik_firebase_admin_sdk",
+        "tekartik_firebase_auth",
+        "tekartik_firebase_auth_local",
+        "tekartik_firebase_auth_rest",
+        "tekartik_firebase_auth_sdb",
+        "tekartik_firebase_auth_sembast",
+        "tekartik_firebase_firestore",
+        "tekartik_firebase_firestore_idb",
+        "tekartik_firebase_firestore_rest",
+        "tekartik_firebase_firestore_sembast",
+        "tekartik_firebase_functions",
+        "tekartik_firebase_functions_admin_sdk",
+        "tekartik_firebase_functions_admin_sdk_http",
+        "tekartik_firebase_functions_call",
+        "tekartik_firebase_functions_call_http",
+        "tekartik_firebase_functions_call_rest",
+        "tekartik_firebase_functions_http",
+        "tekartik_firebase_functions_io",
+        "tekartik_firebase_rest",
+        "tekartik_firebase_storage",
+        "tekartik_firebase_storage_fs",
+        "tekartik_firebase_storage_rest",
+        "tekartik_http",
+        "tekartik_prefs"
+      ]
+    },
+    {
+      "name": "linkelio_common",
+      "version": "1.0.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartikprj/linkelio.git",
+      "gitPath": "packages/linkelio_common",
+      "level": 11,
+      "dependencies": [
+        "tekartik_app_cv_firestore",
+        "tekartik_app_http",
+        "tekartik_mustache",
+        "tkcms_common"
+      ]
+    },
+    {
+      "name": "tekaly_sembast_synced_rpc",
+      "version": "1.0.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartikprj/tekaly",
+      "gitPath": "packages/sembast_synced_rpc",
+      "level": 11,
+      "dependencies": [
+        "tekaly_sembast_synced",
+        "tekaly_sembast_synced_test",
+        "tekartik_common_utils",
+        "tekartik_rpc",
+        "tekartik_web_socket",
+        "tkcms_common"
+      ]
+    },
+    {
+      "name": "tekartik_app_node_build_menu",
+      "version": "1.0.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/app_node_utils.dart",
+      "gitPath": "app_build_menu",
+      "level": 11,
+      "dependencies": [
+        "dev_build",
+        "process_run",
+        "tekartik_app_node_build",
+        "tekartik_build_node"
+      ]
+    },
+    {
+      "name": "tekartik_build_menu_flutter",
+      "version": "0.4.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/build_flutter.dart",
+      "gitPath": "packages/build_menu_flutter",
+      "level": 11,
+      "dependencies": [
+        "dev_build",
+        "process_run",
+        "tekartik_android_utils",
+        "tekartik_app_args",
+        "tekartik_app_dev_menu",
+        "tekartik_appstore_publish",
+        "tekartik_build_flutter",
+        "tekartik_built_flutter",
+        "tekartik_flutter_build"
+      ]
+    },
+    {
+      "name": "tekartik_build_utils",
+      "version": "0.7.13",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/build_utils.dart",
+      "level": 11,
+      "dependencies": [
+        "dev_build",
+        "fs_shim",
+        "process_run",
+        "tekartik_app_io_zip",
+        "tekartik_app_node_build",
+        "tekartik_common_utils",
+        "tekartik_deploy",
+        "tekartik_io_utils",
+        "tekartik_platform_io",
+        "tekartik_prj_tktools",
+        "tekartik_pub",
+        "tekartik_sc",
+        "tekartik_test_menu_io"
+      ]
+    },
+    {
+      "name": "tekartik_firebase_build",
+      "version": "0.2.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/app_build.dart",
+      "gitPath": "packages/firebase_build",
+      "level": 11,
+      "dependencies": [
+        "cv",
+        "dev_build",
+        "process_run",
+        "tekartik_android_utils",
+        "tekartik_common_build",
+        "tekartik_common_utils",
+        "tekartik_deploy",
+        "tekartik_firebase_tools_common",
+        "tekartik_flutter_build",
+        "tekartik_web_publish"
+      ]
+    },
+    {
+      "name": "tekartik_firebase_emulator",
+      "version": "1.0.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/firebase_node.dart",
+      "gitPath": "firebase_emulator",
+      "level": 11,
+      "dependencies": [
+        "tekartik_firebase_tools_common"
+      ]
+    },
+    {
+      "name": "tekartik_firebase_tools",
+      "version": "0.1.2",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/firebase_tools.dart",
+      "gitPath": "packages/firebase_tools",
+      "level": 11,
+      "dependencies": [
+        "dev_build",
+        "tekartik_firebase_admin_sdk",
+        "tekartik_firebase_tools_common"
+      ]
+    },
+    {
+      "name": "tkcms_ff",
+      "version": "0.1.0+1",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartikprj/tkcms.git",
+      "gitPath": "packages/tkcms_ff",
+      "level": 11,
+      "dependencies": [
+        "cv",
+        "tekartik_app_http",
+        "tekartik_firebase_firestore",
+        "tekartik_firebase_firestore_node",
+        "tekartik_firebase_functions_node",
+        "tekartik_http_node",
+        "tkcms_common"
+      ]
+    },
+    {
+      "name": "tkcms_test",
+      "version": "1.0.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartikprj/tkcms.git",
+      "gitPath": "packages/tkcms_test",
+      "level": 11,
+      "dependencies": [
+        "dev_test",
+        "tkcms_common"
+      ]
+    },
+    {
+      "name": "tkcms_user_app",
+      "version": "1.0.0+1",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartikprj/tkcms.git",
+      "gitPath": "flutter_packages/tkcms_user_app",
+      "level": 11,
+      "dependencies": [
+        "cv",
+        "tekartik_app_date",
+        "tekartik_app_flutter_common_utils",
+        "tekartik_app_flutter_widget",
+        "tekartik_app_navigator_flutter",
+        "tekartik_app_prefs",
+        "tekartik_app_rx_bloc",
+        "tekartik_app_rx_bloc_flutter",
+        "tekartik_app_rx_utils",
+        "tekartik_lints_flutter",
+        "tkcms_common"
+      ]
+    },
+    {
+      "name": "festenao_common",
+      "version": "1.0.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekaly/festenao",
+      "gitPath": "packages/festenao_common",
+      "level": 12,
+      "dependencies": [
+        "cv",
+        "dev_build",
+        "dev_test",
+        "fs_shim",
+        "idb_shim",
+        "sembast",
+        "tekaly_sdb_synced",
+        "tekaly_sembast_synced",
+        "tekaly_synced_db_common",
+        "tekartik_app_bloc",
+        "tekartik_app_crypto",
+        "tekartik_app_cv_firestore",
+        "tekartik_app_cv_sdb",
+        "tekartik_app_cv_sembast",
+        "tekartik_app_date",
+        "tekartik_app_dev_menu",
+        "tekartik_app_http",
+        "tekartik_app_media",
+        "tekartik_app_text",
+        "tekartik_common_utils",
+        "tekartik_firebase_admin_sdk",
+        "tekartik_firebase_auth",
+        "tekartik_firebase_auth_rest",
+        "tekartik_firebase_auth_sdb",
+        "tekartik_firebase_auth_sembast",
+        "tekartik_firebase_auth_sim",
+        "tekartik_firebase_auth_test",
+        "tekartik_firebase_emulator",
+        "tekartik_firebase_firestore",
+        "tekartik_firebase_firestore_rest",
+        "tekartik_firebase_firestore_sembast",
+        "tekartik_firebase_firestore_sim",
+        "tekartik_firebase_firestore_test",
+        "tekartik_firebase_functions",
+        "tekartik_firebase_functions_admin_sdk",
+        "tekartik_firebase_functions_call_rest",
+        "tekartik_firebase_functions_call_sim",
+        "tekartik_firebase_functions_io",
+        "tekartik_firebase_functions_test",
+        "tekartik_firebase_local",
+        "tekartik_firebase_rest",
+        "tekartik_firebase_sim",
+        "tekartik_firebase_storage",
+        "tekartik_firebase_storage_fs",
+        "tekartik_firebase_storage_rest",
+        "tekartik_firebase_storage_sim",
+        "tekartik_gdrive_api_utils",
+        "tekartik_html",
+        "tekartik_http",
+        "tekartik_mustache",
+        "tekartik_mustache_fs",
+        "tekartik_test_menu_browser",
+        "tekartik_yacht",
+        "tkcms_common",
+        "tkcms_test"
+      ]
+    },
+    {
+      "name": "tekartik_app_web_build",
+      "version": "0.1.1",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/app_web_utils.dart",
+      "gitPath": "packages/app_build",
+      "level": 12,
+      "dependencies": [
+        "dev_build",
+        "fs_shim",
+        "process_run",
+        "tekartik_common_build",
+        "tekartik_deploy",
+        "tekartik_firebase_build",
+        "tekartik_web_publish"
+      ]
+    },
+    {
+      "name": "tekartik_firebase_build_menu_flutter",
+      "version": "0.3.4",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/app_build.dart",
+      "gitPath": "packages/firebase_build_menu_flutter",
+      "level": 12,
+      "dependencies": [
+        "dev_build",
+        "process_run",
+        "tekartik_app_args",
+        "tekartik_build_flutter",
+        "tekartik_built_flutter",
+        "tekartik_firebase_build",
+        "tekartik_flutter_build",
+        "tekartik_test_menu",
+        "tekartik_test_menu_io"
+      ]
+    },
+    {
+      "name": "tekartik_firebase_functions_admin_sdk_test",
+      "version": "1.0.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/firebase_admin_sdk.dart",
+      "gitPath": "firebase_functions_admin_sdk_test",
+      "level": 12,
+      "dependencies": [
+        "cv",
+        "dev_build",
+        "dev_test",
+        "tekartik_app_dev_menu",
+        "tekartik_app_http",
+        "tekartik_common_utils",
+        "tekartik_firebase_admin_sdk",
+        "tekartik_firebase_auth",
+        "tekartik_firebase_auth_local",
+        "tekartik_firebase_emulator",
+        "tekartik_firebase_firestore",
+        "tekartik_firebase_firestore_sembast",
+        "tekartik_firebase_functions",
+        "tekartik_firebase_functions_admin_sdk",
+        "tekartik_firebase_functions_admin_sdk_http",
+        "tekartik_firebase_functions_call",
+        "tekartik_firebase_functions_call_http",
+        "tekartik_firebase_functions_test",
+        "tekartik_firebase_local",
+        "tekartik_http",
+        "tekartik_http_io"
+      ]
+    },
+    {
+      "name": "tkcms_admin_app",
+      "version": "1.0.0+1",
+      "kind": "direct",
+      "source": "git",
+      "url": "https://github.com/tekartikprj/tkcms.git",
+      "gitPath": "flutter_packages/tkcms_admin_app",
+      "level": 12,
+      "dependencies": [
+        "tekaly_firestore_explorer",
+        "tekartik_app_date",
+        "tekartik_app_flutter_common_utils",
+        "tekartik_app_flutter_intl",
+        "tekartik_app_flutter_widget",
+        "tekartik_app_navigator_flutter",
+        "tekartik_app_prefs",
+        "tekartik_app_rx_bloc",
+        "tekartik_app_rx_utils",
+        "tekartik_app_sembast",
+        "tekartik_common_utils",
+        "tekartik_firebase_ui_auth",
+        "tekartik_web_splash",
+        "tkcms_common",
+        "tkcms_user_app"
+      ]
+    },
+    {
+      "name": "festenao_base_app",
+      "version": "1.0.0+1",
+      "kind": "direct",
+      "source": "git",
+      "url": "https://github.com/tekaly/festenao",
+      "gitPath": "packages_flutter/festenao_base_app",
+      "level": 13,
+      "dependencies": [
+        "festenao_common",
+        "festenao_theme",
+        "tekaly_sembast_synced",
+        "tekartik_app_flutter_common_utils",
+        "tekartik_app_flutter_common_web_utils",
+        "tekartik_app_flutter_widget",
+        "tekartik_app_navigator_flutter",
+        "tekartik_app_url_launcher_flutter",
+        "tekartik_common_utils",
+        "tekartik_firebase_storage_rest",
+        "tekartik_web_splash",
+        "tkcms_user_app"
+      ]
+    },
+    {
+      "name": "festenao_common_flutter",
+      "version": "0.0.1",
+      "kind": "direct",
+      "source": "git",
+      "url": "https://github.com/tekaly/festenao",
+      "gitPath": "packages_flutter/festenao_common_flutter",
+      "level": 13,
+      "dependencies": [
+        "cv",
+        "dev_test",
+        "festenao_common",
+        "festenao_theme",
+        "fs_shim",
+        "idb_shim",
+        "sembast",
+        "tekaly_assets",
+        "tekaly_file_download",
+        "tekaly_file_picker_flutter",
+        "tekartik_app_common_utils",
+        "tekartik_app_cv_sdb",
+        "tekartik_app_dev_menu",
+        "tekartik_app_flutter_common_utils",
+        "tekartik_app_flutter_common_web_utils",
+        "tekartik_app_flutter_fs",
+        "tekartik_app_flutter_widget",
+        "tekartik_app_navigator_flutter",
+        "tekartik_app_prefs",
+        "tekartik_app_rx_bloc_flutter",
+        "tekartik_app_rx_utils",
+        "tekartik_common_utils",
+        "tekartik_firebase_firestore",
+        "tekartik_test_menu_flutter",
+        "tekartik_web_splash"
+      ]
+    },
+    {
+      "name": "festenao_object_storage_picker",
+      "version": "0.0.1",
+      "kind": "direct",
+      "source": "git",
+      "url": "https://github.com/tekaly/festenao",
+      "gitPath": "packages_flutter/festenao_object_storage_picker",
+      "level": 13,
+      "dependencies": [
+        "festenao_common",
+        "tekartik_app_cv_sdb"
+      ]
+    },
+    {
+      "name": "festenao_riverpod",
+      "version": "1.0.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekaly/festenao",
+      "gitPath": "packages/festenao_riverpod",
+      "level": 13,
+      "dependencies": [
+        "festenao_common",
+        "fs_shim",
+        "idb_shim",
+        "idb_sqflite",
+        "tekartik_common_utils",
+        "tekartik_firebase",
+        "tkcms_common"
+      ]
+    },
+    {
+      "name": "tekartik_app_web_build_menu",
+      "version": "1.0.1",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartik/app_web_utils.dart",
+      "gitPath": "packages/app_build_menu",
+      "level": 13,
+      "dependencies": [
+        "dev_build",
+        "process_run",
+        "tekartik_app_web_build",
+        "tekartik_firebase_build",
+        "tekartik_web_publish"
+      ]
+    },
+    {
+      "name": "tkcms_support",
+      "version": "1.0.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekartikprj/tkcms.git",
+      "gitPath": "packages/tkcms_support",
+      "level": 13,
+      "dependencies": [
+        "dev_build",
+        "process_run",
+        "tekartik_app_csv",
+        "tekartik_app_node_build_menu",
+        "tekartik_build_menu_flutter",
+        "tekartik_firebase_build",
+        "tekartik_firebase_build_menu_flutter",
+        "tekartik_firebase_rest",
+        "tekartik_prj_tktools",
+        "tekartik_test_menu_io",
+        "tkcms_common"
+      ]
+    },
+    {
+      "name": "festenao_admin_base_app",
+      "version": "1.0.0+1",
+      "kind": "direct",
+      "source": "git",
+      "url": "https://github.com/tekaly/festenao",
+      "gitPath": "packages_flutter/festenao_admin_base_app",
+      "level": 14,
+      "dependencies": [
+        "festenao_audio_player",
+        "festenao_base_app",
+        "festenao_blur_hash",
+        "festenao_common",
+        "fs_shim",
+        "sembast",
+        "sembast_db_explorer",
+        "tekaly_file_download",
+        "tekaly_file_picker_flutter",
+        "tekaly_firestore_explorer",
+        "tekaly_sembast_synced",
+        "tekartik_app_cv_sembast",
+        "tekartik_app_flutter_bloc",
+        "tekartik_app_flutter_common_utils",
+        "tekartik_app_flutter_fs",
+        "tekartik_app_flutter_sembast",
+        "tekartik_app_flutter_widget",
+        "tekartik_app_http",
+        "tekartik_app_navigator_flutter",
+        "tekartik_app_pick_crop_image_flutter",
+        "tekartik_app_platform",
+        "tekartik_app_prefs",
+        "tekartik_app_rx_bloc",
+        "tekartik_app_rx_utils",
+        "tekartik_app_sembast_firestore_type_adapters",
+        "tekartik_common_utils",
+        "tekartik_firebase_auth_local",
+        "tekartik_firebase_auth_sembast",
+        "tekartik_firebase_ui_auth",
+        "tekartik_firebase_ui_firestore",
+        "tkcms_admin_app",
+        "tkcms_common",
+        "tkcms_user_app"
+      ]
+    },
+    {
+      "name": "festenao_lyrics_player",
+      "version": "0.2.0",
+      "kind": "direct",
+      "source": "git",
+      "url": "https://github.com/tekaly/festenao",
+      "gitPath": "packages_flutter/festenao_lyrics_player",
+      "level": 14,
+      "dependencies": [
+        "festenao_common_flutter",
+        "festenao_lyrics",
+        "tekaly_lyrics",
+        "tekaly_lyrics_view",
+        "tekartik_common_utils"
+      ]
+    },
+    {
+      "name": "festenao_riverpod_flutter",
+      "version": "1.0.0",
+      "kind": "direct",
+      "source": "git",
+      "url": "https://github.com/tekaly/festenao",
+      "gitPath": "packages_flutter/festenao_riverpod_flutter",
+      "level": 14,
+      "dependencies": [
+        "festenao_common",
+        "festenao_riverpod",
+        "fs_shim",
+        "idb_shim",
+        "idb_sqflite",
+        "sqflite_ffi",
+        "tekartik_app_flutter_fs",
+        "tkcms_common"
+      ]
+    },
+    {
+      "name": "festenao_support",
+      "version": "1.0.0",
+      "kind": "transitive",
+      "source": "git",
+      "url": "https://github.com/tekaly/festenao",
+      "gitPath": "packages/festenao_support",
+      "level": 14,
+      "dependencies": [
+        "dev_build",
+        "festenao_common",
+        "fs_shim",
+        "sembast",
+        "tekaly_sembast_synced",
+        "tekartik_android_utils",
+        "tekartik_app_dev_menu",
+        "tekartik_app_sembast",
+        "tekartik_build_menu_flutter",
+        "tekartik_firebase_admin_sdk",
+        "tekartik_firebase_auth",
+        "tekartik_firebase_auth_sembast",
+        "tekartik_firebase_build",
+        "tekartik_firebase_build_menu_flutter",
+        "tekartik_firebase_firestore_sembast",
+        "tekartik_firebase_functions_io",
+        "tekartik_firebase_storage_sim",
+        "tekartik_prj_tktools",
+        "tkcms_common",
+        "tkcms_support"
+      ]
+    },
+    {
+      "name": "festenao_youtube_player",
+      "version": "0.1.0",
+      "kind": "direct",
+      "source": "git",
+      "url": "https://github.com/tekaly/festenao",
+      "gitPath": "packages_flutter/festenao_youtube_player",
+      "level": 14,
+      "dependencies": [
+        "festenao_common_flutter",
+        "synchronized"
+      ]
+    },
+    {
+      "name": "all_projects_main",
+      "version": "1.0.0",
+      "kind": "direct",
+      "source": "path",
+      "level": 15,
+      "dependencies": [
+        "a2ktik_asset",
+        "festenao_blur_hash",
+        "festenao_common",
+        "festenao_support",
+        "idb_shim_html_compat",
+        "idb_sqflite_common_test",
+        "idb_test",
+        "linkelio_common",
+        "sembast_dev_menu",
+        "sembast_sqflite_common_test",
+        "sembast_web_html_compat",
+        "sqflite_common_porter",
+        "sqflite_common_test",
+        "tekaly_assets",
+        "tekaly_chordpro",
+        "tekaly_file_download_web",
+        "tekaly_lyrics",
+        "tekaly_media_cache",
+        "tekaly_music_note",
+        "tekaly_playlr_audio_assets",
+        "tekaly_sdb_synced",
+        "tekaly_sdb_synced_test",
+        "tekaly_sembast_synced",
+        "tekaly_sembast_synced_rpc",
+        "tekaly_sembast_synced_test",
+        "tekartik_aliyun_fc_universal",
+        "tekartik_aliyun_oss_universal",
+        "tekartik_aliyun_tablestore_node",
+        "tekartik_aliyun_tablestore_universal",
+        "tekartik_app_archive",
+        "tekartik_app_common_prefs",
+        "tekartik_app_cv_sdb",
+        "tekartik_app_dev_menu",
+        "tekartik_app_image_web",
+        "tekartik_app_io_launcher",
+        "tekartik_app_io_platform",
+        "tekartik_app_io_prefs",
+        "tekartik_app_io_sembast",
+        "tekartik_app_io_sqflite",
+        "tekartik_app_io_zip",
+        "tekartik_app_json_schema",
+        "tekartik_app_media",
+        "tekartik_app_python",
+        "tekartik_app_secure_env",
+        "tekartik_app_sembast_firestore_type_adapters",
+        "tekartik_app_text",
+        "tekartik_app_web_build_menu",
+        "tekartik_app_web_socket",
+        "tekartik_appstore_publish",
+        "tekartik_audio_web",
+        "tekartik_aws_ses_node",
+        "tekartik_bluetooth",
+        "tekartik_bluetooth_bluez",
+        "tekartik_build_menu_flutter",
+        "tekartik_build_utils",
+        "tekartik_ci",
+        "tekartik_cmd_echo",
+        "tekartik_cmd_record",
+        "tekartik_cmd_tools",
+        "tekartik_common_assets",
+        "tekartik_core_node",
+        "tekartik_deezer_api",
+        "tekartik_firebase_admin_sdk_test",
+        "tekartik_firebase_auth_node",
+        "tekartik_firebase_auth_rest",
+        "tekartik_firebase_auth_sdb",
+        "tekartik_firebase_auth_sembast",
+        "tekartik_firebase_auth_sim",
+        "tekartik_firebase_build_menu_flutter",
+        "tekartik_firebase_emulator",
+        "tekartik_firebase_firestore_grpc_rest",
+        "tekartik_firebase_firestore_idb",
+        "tekartik_firebase_firestore_node",
+        "tekartik_firebase_firestore_rest",
+        "tekartik_firebase_firestore_sembast",
+        "tekartik_firebase_firestore_sim",
+        "tekartik_firebase_functions_admin_sdk",
+        "tekartik_firebase_functions_admin_sdk_test",
+        "tekartik_firebase_functions_call",
+        "tekartik_firebase_functions_call_http",
+        "tekartik_firebase_functions_call_rest",
+        "tekartik_firebase_functions_call_sim",
+        "tekartik_firebase_functions_io",
+        "tekartik_firebase_functions_node",
+        "tekartik_firebase_node",
+        "tekartik_firebase_rest",
+        "tekartik_firebase_storage_node",
+        "tekartik_firebase_storage_rest",
+        "tekartik_firebase_storage_sim",
+        "tekartik_firebase_tools",
+        "tekartik_firebase_tools_common",
+        "tekartik_firebase_vertex_ai",
+        "tekartik_flutter_build",
+        "tekartik_fs_node",
+        "tekartik_fs_test",
+        "tekartik_ftp_io",
+        "tekartik_gcr_build",
+        "tekartik_gdrive_api_utils",
+        "tekartik_google_auth_io",
+        "tekartik_google_auth_test",
+        "tekartik_html",
+        "tekartik_http_io",
+        "tekartik_http_node",
+        "tekartik_http_redirect",
+        "tekartik_idb_playground",
+        "tekartik_idb_provider",
+        "tekartik_mail_aws_ses",
+        "tekartik_mail_aws_ses_node",
+        "tekartik_mail_tk",
+        "tekartik_mailjet",
+        "tekartik_mediapipe_js",
+        "tekartik_midi",
+        "tekartik_midi_device_alsa_linux",
+        "tekartik_mustache_cli",
+        "tekartik_nodedev",
+        "tekartik_platform_node",
+        "tekartik_playstore_publish",
+        "tekartik_prefs_sdb",
+        "tekartik_prefs_sembast",
+        "tekartik_prefs_test",
+        "tekartik_prj_tktools",
+        "tekartik_pubtest",
+        "tekartik_rpc",
+        "tekartik_rpc_test",
+        "tekartik_stripe_api",
+        "tekartik_three_js",
+        "tekartik_tone_js",
+        "tekartik_web_socket_test",
+        "tekartik_web_splash",
+        "tekartik_yacht",
+        "tkcms_common",
+        "tkcms_ff",
+        "tkcms_support",
+        "tkcms_test"
+      ]
+    },
+    {
+      "name": "festenao_media_base_app",
+      "version": "1.0.0+1",
+      "kind": "direct",
+      "source": "git",
+      "url": "https://github.com/tekaly/festenao",
+      "gitPath": "packages_flutter/festenao_media_base_app",
+      "level": 15,
+      "dependencies": [
+        "festenao_icon",
+        "festenao_markdown",
+        "festenao_theme",
+        "festenao_youtube_player",
+        "tekartik_web_splash"
+      ]
+    },
+    {
+      "name": "a2ktik_kar",
+      "version": "0.2.3",
+      "kind": "direct",
+      "source": "git",
+      "url": "https://github.com/a2ktik/a2ktikcommonpublic",
+      "gitPath": "packages/a2ktik_kar",
+      "level": 16,
+      "dependencies": [
+        "a2ktik_asset",
+        "festenao_common_flutter",
+        "festenao_lyrics_player",
+        "festenao_media_base_app",
+        "playlr_audio_player",
+        "playlr_audio_player_blue_fire",
+        "tekartik_file_cache_flutter"
+      ]
+    }
+  ]
+}
