@@ -71,7 +71,6 @@ class Helper {
               switch (owner) {
                 case 'tekartik':
                 case 'tekartikprj':
-                case 'tekartikprv':
                 case 'alextekartik':
                 case 'tekaly':
                   addGlobal(name, gitUrl: gitUrl, gitPath: gitPath);

@@ -19,15 +19,6 @@ Future<TkPubDbPackage> addGitPackage(
 Future<void> main(List<String> args) async {
   mainMenuConsole(args, () {
     menu('once', () {
-      item('tekartik_prj_tools', () async {
-        writeln(
-          await addGitPackage(
-            'tekartik_prj_tools',
-            gitUrl: 'git@github.com:tekartikprv/tools.dart',
-            gitPath: 'packages/prj_tools',
-          ),
-        );
-      });
       item('list', () async {
         await tkPubDbAction((configDb) async {
           var packages = await configDb.getAllPackages();

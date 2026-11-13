@@ -1,16 +1,20 @@
-# all_projects_flutter_dart2
+# all_projects_flutter_main
 
-A new Flutter project.
+A dependency resolution check: it depends on the tip (default branch) of the
+tekartik Flutter packages (git dependencies) and on the latest published
+tekartik packages (hosted, with a floor), so that `flutter pub get` proves
+they still resolve together on the current Flutter SDK. It depends on its
+pure Dart twin [all_projects_main](../all_projects_main): a pure Dart package
+goes in that list, a package needing Flutter in this one.
 
-## Getting Started
+Run by `repo_support/tool/run_ci_flutter.dart` (`pubGetOnly`, Flutter stable
+and beta) and by the downgrade analyze workflow. A failing `pub get` here
+means a package, or one of its constraints, no longer resolves with the
+others: fix the package, or drop it from the list.
 
-This project is a starting point for a Flutter application.
+`lib/main.dart` is a minimal app (Flutter widgets only): the package only has
+to resolve and analyze. The `_dependency_overrides` section is off (the key
+pub reads is `dependency_overrides`); rename it to use local versions.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+`tool/write_ddeps.dart` writes the dependency tree in `doc/` (`ddeps list`,
+plain or `--tekartik`, text or `--json`).
